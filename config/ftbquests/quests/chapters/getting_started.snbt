@@ -1,0 +1,1316 @@
+{
+	id: "25AEB6AD80B479B2"
+	group: ""
+	order_index: 1
+	filename: "getting_started"
+	title: "{sb3.getting_started.title}"
+	icon: "minecraft:stone"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{sb3.getting_started.stonepebbles.title}"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.stonepebbles.subtitle}"
+			description: [
+				"{sb3.getting_started.stonepebbles.description_1}"
+				""
+				"{sb3.getting_started.stonepebbles.description_2}"
+				""
+				"{sb3.getting_started.stonepebbles.description_3}"
+			]
+			dependencies: ["2FAF298DB97FAFCF"]
+			hide: true
+			id: "11F8E85689959D9D"
+			tasks: [{
+				id: "6474A1B841B244AA"
+				type: "item"
+				title: "{sb3.getting_started.stonepebbles.task}"
+				item: "ftbstoneblock:stonepebble"
+			}]
+			rewards: [{
+				id: "5902097084E7601B"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.craftingtable.title}"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.craftingtable.subtitle}"
+			description: [
+				"{sb3.getting_started.craftingtable.description_1}"
+				""
+				"{sb3.getting_started.craftingtable.description_2}"
+			]
+			dependencies: ["11F8E85689959D9D"]
+			id: "1B84E0C3749A108B"
+			tasks: [{
+				id: "3AB8C020FC98598E"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "3F3A6C5AB4656293"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.hammer.title}"
+			icon: {
+				id: "ftbsbc:stone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 0.5d
+			subtitle: "{sb3.getting_started.hammer.subtitle}"
+			description: [
+				"{sb3.getting_started.hammer.description_1}"
+				""
+				"{sb3.getting_started.hammer.description_2}"
+			]
+			dependencies: ["1B84E0C3749A108B"]
+			id: "6B56B20D4EB7401A"
+			tasks: [{
+				id: "69F0029D82183D2A"
+				type: "item"
+				title: "{sb3.getting_started.hammer.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbsbc:hammers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "26B46DD6E7DB73C3"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.chest.title}"
+			icon: "stonechest:chest_cobblestone"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "{sb3.getting_started.chest.subtitle}"
+			description: [
+				"{sb3.getting_started.chest.description_1}"
+				""
+				"{sb3.getting_started.chest.description_2}"
+			]
+			dependencies: ["1B84E0C3749A108B"]
+			id: "284C5468D62AA81B"
+			tasks: [{
+				id: "770F025CFFD481AA"
+				type: "item"
+				title: "{sb3.getting_started.chest.task}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "stonechest"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: ":chest"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DC7C8AFCC968B1F"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.saplings.task}"
+			icon: "minecraft:oak_sapling"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.saplings.subtitle}"
+			description: ["{sb3.getting_started.saplings.description_1}"]
+			dependencies: [
+				"338DF71D637AB09A"
+				"6B56B20D4EB7401A"
+			]
+			id: "0EE7B5D2E15DDB3D"
+			tasks: [{
+				id: "66E6B721D5983304"
+				type: "item"
+				title: "{sb3.getting_started.saplings.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:oak_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:spruce_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:birch_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:jungle_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:acacia_sapling"
+								Count: 1b
+							}
+							{
+								id: "minecraft:dark_oak_sapling"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:blue_archwood_sapling"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:purple_archwood_sapling"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:green_archwood_sapling"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:red_archwood_sapling"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "73730A4D8E55B9A9"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.wood.title}"
+			icon: "minecraft:oak_log"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.wood.subtitle}"
+			description: [
+				"{sb3.getting_started.wood.description_1}"
+				""
+				"{sb3.getting_started.wood.description_2}"
+			]
+			dependencies: ["0EE7B5D2E15DDB3D"]
+			id: "26071C048C200393"
+			tasks: [{
+				id: "40D9F04FDA909531"
+				type: "item"
+				title: "{sb3.getting_started.wood.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:oak_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:spruce_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:birch_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:jungle_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:acacia_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:dark_oak_log"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "51F4AE8BB368F553"
+				type: "choice"
+				table_id: 7871102391901499352L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.millstone.title}"
+			icon: "create:millstone"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.millstone.subtitle}"
+			description: [
+				"{sb3.getting_started.millstone.description_1}"
+				""
+				"{sb3.getting_started.millstone.description_2}"
+				""
+				"{sb3.getting_started.millstone.description_3}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder ftbstoneblock:millstone_dummy_block\"}}"
+			]
+			dependencies: ["26071C048C200393"]
+			id: "5D2BC7C1FC479F36"
+			tasks: [
+				{
+					id: "6ECE3D30FCBA6A1D"
+					type: "item"
+					item: "create:millstone"
+				}
+				{
+					id: "631EDBA7994BA89F"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "281EC874D0659E82"
+					type: "item"
+					item: "create:cogwheel"
+				}
+			]
+			rewards: [{
+				id: "3B454434C04FED50"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.millgravel.title}"
+			icon: "minecraft:raw_iron"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.millgravel.subtitle}"
+			description: ["{sb3.getting_started.millgravel.description_1}"]
+			dependencies: ["5D2BC7C1FC479F36"]
+			id: "37FEF989403B06BE"
+			tasks: [{
+				id: "3DFD0C2DFF9E8E52"
+				type: "item"
+				title: "{sb3.getting_started.millgravel.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:raw_iron"
+								Count: 1b
+							}
+							{
+								id: "create:raw_zinc"
+								Count: 1b
+							}
+							{
+								id: "minecraft:coal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5150042F491DBA7B"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.lava.title}"
+			icon: "minecraft:lava_bucket"
+			x: 6.5d
+			y: -1.0d
+			subtitle: "{sb3.getting_started.lava.subtitle}"
+			description: ["{sb3.getting_started.lava.description_1}"]
+			dependencies: ["37FEF989403B06BE"]
+			id: "0FBF8A43F0F91FEE"
+			tasks: [
+				{
+					id: "3102EBE94421CF06"
+					type: "item"
+					item: {
+						id: "ftbsbc:fire_plow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5776709C257FD3C7"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [{
+				id: "0352AF560414F0EE"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.water.title}"
+			icon: "minecraft:water_bucket"
+			x: 7.5d
+			y: -1.0d
+			subtitle: "{sb3.getting_started.water.subtitle}"
+			description: ["{sb3.getting_started.water.description_1}"]
+			dependencies: ["37FEF989403B06BE"]
+			id: "5112F73BACB4FB8B"
+			tasks: [
+				{
+					id: "767375DFA0F8583F"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "78B9D9A5CE327F0D"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+			rewards: [{
+				id: "08B487C0BBB4AA16"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			subtitle: "{sb3.getting_started.mobsoul.subtitle}"
+			description: ["{sb3.getting_started.mobsoul.desc}"]
+			dependencies: ["2FAF298DB97FAFCF"]
+			hide: true
+			id: "44E216AA5D1303EF"
+			tasks: [{
+				id: "1CC5A0C1B41E8CB4"
+				type: "item"
+				item: "ftbstoneblock:mob_soul"
+			}]
+			rewards: [{
+				id: "3F6B10E4EAE94695"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			subtitle: "{sb3.getting_started.soulsand.subtitle}"
+			description: [
+				"{sb3.getting_started.soulsand.desc1}"
+				""
+				"{sb3.getting_started.soulsand.decs2}"
+			]
+			dependencies: [
+				"44E216AA5D1303EF"
+				"5112F73BACB4FB8B"
+			]
+			id: "19CF69F32819110E"
+			tasks: [{
+				id: "21ED6D54E94820DB"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [{
+				id: "58AC347B2A6B522F"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.ticon.title}"
+			icon: "tconstruct:part_builder"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "{sb3.getting_started.ticon.subtitle}"
+			description: ["{sb3.getting_started.ticon.desc}"]
+			dependencies: ["26071C048C200393"]
+			id: "1FCEEB67F5CC12A0"
+			tasks: [
+				{
+					id: "543193237BCD0EB0"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "4F9A25BD9870E8B2"
+					type: "item"
+					item: "tconstruct:tinker_station"
+				}
+			]
+			rewards: [{
+				id: "0F28A41958982436"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			subtitle: "{sb3.getting_started.cobble_gen1.subtitle}"
+			description: [
+				"{sb3.getting_started.cobble_gen1.desc}"
+				""
+				"{sb3.getting_started.cobble_gen1.desc2}"
+			]
+			dependencies: [
+				"0FBF8A43F0F91FEE"
+				"5112F73BACB4FB8B"
+			]
+			id: "19B3DAF850327CD7"
+			tasks: [{
+				id: "75367ABE5691D688"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+			rewards: [{
+				id: "4E3967E8BF4CCB7F"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 6.25d
+			y: -2.5d
+			subtitle: "{sb3.getting_started.cobble_gen2.subtitle}"
+			description: ["{sb3.getting_started.cobble_gen2.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["19B3DAF850327CD7"]
+			size: 0.5d
+			id: "380FDCA22A66B57D"
+			tasks: [{
+				id: "0926A543F15BCB4A"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+			rewards: [{
+				id: "6961726596CBE4A0"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 6.75d
+			y: -2.75d
+			subtitle: "{sb3.getting_started.cobble_gen3.subtitle}"
+			description: ["{sb3.getting_started.cobble_gen3.desc}"]
+			dependencies: ["380FDCA22A66B57D"]
+			size: 0.5d
+			id: "258E471380845300"
+			tasks: [{
+				id: "63A06FA0B1E730BC"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+			rewards: [{
+				id: "1F0084BC896C2853"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 7.25d
+			y: -2.75d
+			subtitle: "{sb3.getting_started.cobble_gen4.subtitle}"
+			description: ["{sb3.getting_started.cobble_gen4.desc}"]
+			dependencies: ["258E471380845300"]
+			size: 0.5d
+			id: "62E01EADD14D435E"
+			tasks: [{
+				id: "0E66CED999FEE13D"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+			rewards: [{
+				id: "3FC1A53A01C5D446"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: 7.75d
+			y: -2.5d
+			subtitle: "{sb3.getting_started.cobble_gen5.subtitle}"
+			description: ["{sb3.getting_started.cobble_gen5.desc}"]
+			dependencies: ["62E01EADD14D435E"]
+			size: 0.5d
+			id: "0995DBC571DA2D5A"
+			tasks: [{
+				id: "0E35347F4A9B8051"
+				type: "item"
+				item: "cobblefordays:tier_5"
+			}]
+			rewards: [{
+				id: "45EF4008B8AB64A7"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.crook.title}"
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{sb3.getting_started.crook.subtitle}"
+			description: [
+				"{sb3.getting_started.crook.description_1}"
+				""
+				"{sb3.getting_started.crook.description_2}"
+			]
+			dependencies: ["1B84E0C3749A108B"]
+			id: "338DF71D637AB09A"
+			tasks: [{
+				id: "1445EB5462DDFEF9"
+				type: "item"
+				item: {
+					id: "ftbsbc:stone_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "417F9DD0019A8A7A"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.seeds.title}"
+			icon: "minecraft:wheat_seeds"
+			x: 3.01d
+			y: -1.5d
+			subtitle: "{sb3.getting_started.seeds.subtitle}"
+			description: [
+				"{sb3.getting_started.seeds.description_1}"
+				""
+				"{sb3.getting_started.seeds.description_2}"
+			]
+			dependencies: ["338DF71D637AB09A"]
+			size: 0.75d
+			id: "7FC8BEF946208D87"
+			tasks: [{
+				id: "0AB88B3E7DAF7321"
+				type: "item"
+				title: "{sb3.getting_started.seeds.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:wheat_seeds"
+								Count: 1b
+							}
+							{
+								id: "minecraft:pumpkin_seeds"
+								Count: 1b
+							}
+							{
+								id: "minecraft:melon_seeds"
+								Count: 1b
+							}
+							{
+								id: "minecraft:beetroot_seeds"
+								Count: 1b
+							}
+							{
+								id: "minecraft:carrot"
+								Count: 1b
+							}
+							{
+								id: "minecraft:potato"
+								Count: 1b
+							}
+							{
+								id: "jags:jags"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BC21FD1DADA1F9C"
+				type: "loot"
+				table_id: 88153315207884802L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.gravel.title}"
+			x: 2.25d
+			y: 1.0d
+			subtitle: "{sb3.getting_started.gravel.subtitle}"
+			description: ["{sb3.getting_started.gravel.description_1}"]
+			hide_dependency_lines: true
+			dependencies: ["6B56B20D4EB7401A"]
+			size: 0.5d
+			id: "1B98A383801C6B95"
+			tasks: [{
+				id: "3D521B0A986E148A"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "72DAEC417F24025C"
+				type: "item"
+				item: "ftbstoneblock:1x_compressed_gravel"
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{sb3.getting_started.dirt.title}"
+			x: 2.75d
+			y: 1.25d
+			subtitle: "{sb3.getting_started.dirt.subtitle}"
+			description: ["{sb3.getting_started.dirt.description_1}"]
+			dependencies: ["1B98A383801C6B95"]
+			size: 0.5d
+			id: "55B21962BAF1588D"
+			tasks: [{
+				id: "2EB281E311716BC1"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "03543318BB94F7B4"
+				type: "item"
+				item: "ftbstoneblock:1x_compressed_dirt"
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{sb3.getting_started.sand.title}"
+			x: 3.25d
+			y: 1.25d
+			subtitle: "{sb3.getting_started.sand.subtitle}"
+			description: ["{sb3.getting_started.sand.description_1}"]
+			dependencies: ["55B21962BAF1588D"]
+			size: 0.5d
+			id: "45E5EFBE0D6DCC43"
+			tasks: [{
+				id: "050FAE149278B0D9"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "641404D1F02521CF"
+				type: "item"
+				item: "ftbstoneblock:1x_compressed_sand"
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{sb3.getting_started.dust.title}"
+			x: 3.75d
+			y: 1.0d
+			subtitle: "{sb3.getting_started.dust.subtitle}"
+			description: ["{sb3.getting_started.dust.description_1}"]
+			dependencies: ["45E5EFBE0D6DCC43"]
+			size: 0.5d
+			id: "378CDBF2ACD919C6"
+			tasks: [{
+				id: "3A1FC15E7F9FECBC"
+				type: "item"
+				item: "ftbstoneblock:dust"
+			}]
+			rewards: [{
+				id: "39D18E37FFE7508E"
+				type: "item"
+				item: "ftbstoneblock:dust"
+				count: 9
+				random_bonus: 18
+			}]
+		}
+		{
+			title: "{\"translate\":\"sb3.getting_started.encased_fan.title\",\"font\":\"ftbstoneblock:determination\"}"
+			x: 6.0d
+			y: 1.0d
+			subtitle: "{sb3.getting_started.encased_fan.subtitle}"
+			description: [
+				"{sb3.getting_started.encased_fan.desc1}"
+				""
+				"{sb3.getting_started.encased_fan.desc2}"
+				""
+				"{sb3.getting_started.encased_fan.desc3}"
+				""
+				"{\"text\":\"Click to Show Ponder\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:encased_fan\"}}"
+			]
+			dependencies: ["5D2BC7C1FC479F36"]
+			id: "1C84420BDC21A288"
+			tasks: [{
+				id: "6AA33881279D7C70"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "1D54E878DE91DB00"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.washing.title}"
+			icon: "minecraft:raw_gold"
+			x: 7.0d
+			y: 1.0d
+			subtitle: "{sb3.getting_started.washing.subtitle}"
+			description: ["{sb3.getting_started.washing.description_1}"]
+			dependencies: ["1C84420BDC21A288"]
+			id: "484A0F72323EC041"
+			tasks: [
+				{
+					id: "4D691EA2E873E3F4"
+					type: "item"
+					title: "{sb3.getting_started.washing.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:sky_slime_crystal"
+									Count: 1b
+								}
+								{
+									id: "thermal:cinnabar"
+									Count: 1b
+								}
+								{
+									id: "thermal:apatite"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:earth_slime_crystal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:flint"
+									Count: 1b
+								}
+								{
+									id: "minecraft:lapis_lazuli"
+									Count: 1b
+								}
+								{
+									id: "minecraft:amethyst_shard"
+									Count: 1b
+								}
+								{
+									id: "minecraft:emerald"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "405704F0A6AFF9E0"
+					type: "item"
+					title: "{sb3.getting_started.washing.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:fluorite_gem"
+									Count: 1b
+								}
+								{
+									id: "thermal:niter"
+									Count: 1b
+								}
+								{
+									id: "thermal:raw_nickel"
+									Count: 1b
+								}
+								{
+									id: "thermal:raw_silver"
+									Count: 1b
+								}
+								{
+									id: "thermal:sulfur"
+									Count: 1b
+								}
+								{
+									id: "minecraft:raw_gold"
+									Count: 1b
+								}
+								{
+									id: "minecraft:raw_copper"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "351D058D804A609D"
+					type: "item"
+					title: "{sb3.getting_started.washing.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:certus_quartz_dust"
+									Count: 1b
+								}
+								{
+									id: "minecraft:redstone"
+									Count: 1b
+								}
+								{
+									id: "ae2:sky_dust"
+									Count: 1b
+								}
+								{
+									id: "minecraft:bone_meal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:quartz"
+									Count: 1b
+								}
+								{
+									id: "minecraft:glowstone_dust"
+									Count: 1b
+								}
+								{
+									id: "minecraft:gold_nugget"
+									Count: 1b
+								}
+								{
+									id: "minecraft:chorus_flower"
+									Count: 1b
+								}
+								{
+									id: "minecraft:ender_pearl"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:ender_slime_crystal"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "61E4840FEB7AE463"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "{sb3.getting_started.crushing_wheel.subtitle}"
+			description: [
+				"{sb3.getting_started.crushing_wheel.desc1}"
+				""
+				"{sb3.getting_started.crushing_wheel.desc2}"
+				""
+				"{\"text\":\"Click to Show Ponder\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:crushing_wheel\"}}"
+			]
+			dependencies: ["1C84420BDC21A288"]
+			id: "1925E7562A6F5440"
+			tasks: [{
+				id: "6C3DB36EACDE51A2"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "58917E930D437D91"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.crushing.title}"
+			icon: "mekanism:raw_osmium"
+			x: 7.0d
+			y: 2.0d
+			subtitle: "{sb3.getting_started.crushing.subtitle}"
+			description: ["{sb3.getting_started.crushing.desc}"]
+			dependencies: ["1925E7562A6F5440"]
+			id: "795B325BE0789FAC"
+			tasks: [{
+				id: "3996B734636989EA"
+				type: "item"
+				title: "{sb3.getting_started.crushing.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:coal"
+								Count: 1b
+							}
+							{
+								id: "minecraft:raw_iron"
+								Count: 1b
+							}
+							{
+								id: "create:raw_zinc"
+								Count: 1b
+							}
+							{
+								id: "mekanism:raw_osmium"
+								Count: 1b
+							}
+							{
+								id: "thermal:raw_lead"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:raw_aluminum"
+								Count: 1b
+							}
+							{
+								id: "thermal:raw_tin"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C9642920D842847"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.25d
+			subtitle: "{sb3.getting_started.dripper.subtitle}"
+			description: [
+				"{sb3.getting_started.dripper.desc1}"
+				""
+				"{sb3.getting_started.dripper.desc2}"
+			]
+			dependencies: ["5112F73BACB4FB8B"]
+			size: 0.65d
+			id: "6B4900EA04A781D1"
+			tasks: [{
+				id: "23EC1CF455A41568"
+				type: "item"
+				item: "ftbdripper:dripper"
+			}]
+			rewards: [{
+				id: "5353F802E2776D55"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.melter.title}"
+			icon: "tconstruct:seared_melter"
+			x: 4.3d
+			y: -1.6250000000000002d
+			subtitle: "{sb3.getting_started.melter.subtitle}"
+			description: [
+				"{sb3.getting_started.melter.desc1}"
+				""
+				"{sb3.getting_started.melter.desc2}"
+			]
+			dependencies: ["1FCEEB67F5CC12A0"]
+			size: 0.65d
+			id: "46754FDA15B24279"
+			tasks: [
+				{
+					id: "49DA875C31587798"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "09D300CA65C3F326"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+			]
+			rewards: [
+				{
+					id: "41340303C6EB19BF"
+					type: "random"
+					table_id: 949560038769538179L
+				}
+				{
+					id: "7A0F7C4C976D6779"
+					type: "item"
+					item: "tconstruct:puny_smelting"
+				}
+			]
+		}
+		{
+			title: "{sb3.getting_started.casting.title}"
+			icon: "tconstruct:seared_table"
+			x: 5.0d
+			y: -1.9d
+			subtitle: "{sb3.getting_started.casting.subtitle}"
+			description: [
+				"{sb3.getting_started.casting.desc1}"
+				""
+				"{sb3.getting_started.casting.desc2}"
+				""
+				"{sb3.getting_started.casting.desc3}"
+				""
+				"{sb3.getting_started.casting.desc4}"
+				""
+				"{image:ftbstoneblock:textures/quest/meltery.png width:200 height:156 align:1}"
+			]
+			dependencies: ["46754FDA15B24279"]
+			size: 0.65d
+			min_width: 325
+			id: "24267A25CE27616C"
+			tasks: [
+				{
+					id: "1002F8419BD2EFAB"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "7C4AB437797DCF54"
+					type: "item"
+					title: "{sb3.getting_started.casting.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_basin"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_table"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "55B71D416DBD074F"
+					type: "item"
+					title: "{sb3.getting_started.casting.task2}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:casts"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5B5847DD808A8C79"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.getting_started.smeltery.title}"
+			icon: "tconstruct:smeltery_controller"
+			x: 5.7d
+			y: -1.6250000000000002d
+			subtitle: "{sb3.getting_started.smeltery.subtitle}"
+			description: [
+				"{sb3.getting_started.smeltery.desc1}"
+				""
+				"{sb3.getting_started.smeltery.desc2}"
+				""
+				"{sb3.getting_started.smeltery.desc3}"
+				""
+				"{sb3.getting_started.smeltery.desc4}"
+				""
+				"{sb3.getting_started.smeltery.desc8}"
+			]
+			dependencies: ["24267A25CE27616C"]
+			size: 0.65d
+			min_width: 325
+			id: "2A227E0C9AD4C3C4"
+			tasks: [
+				{
+					id: "01CB85E415F52C4B"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "516C970C1D8ADDBA"
+					type: "item"
+					title: "{sb3.getting_started.smeltery.task1}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:seared_tanks"
+						}
+					}
+				}
+				{
+					id: "57D63E2A68F05193"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "7B0C852F21EFD8B7"
+					type: "item"
+					title: "{sb3.getting_started.smeltery.task2}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "tconstruct:smeltery"
+									}
+								}
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "itemfilters:or"
+											Count: 1b
+											tag: {
+												items: [
+													{
+														id: "itemfilters:tag"
+														Count: 1b
+														tag: {
+															value: "tconstruct:seared_tanks"
+														}
+													}
+													{
+														id: "tconstruct:seared_drain"
+														Count: 1b
+													}
+													{
+														id: "tconstruct:seared_duct"
+														Count: 1b
+													}
+													{
+														id: "tconstruct:seared_chute"
+														Count: 1b
+													}
+													{
+														id: "tconstruct:smeltery_controller"
+														Count: 1b
+													}
+												]
+											}
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "04BD1DEA6689FC7D"
+					type: "random"
+					table_id: 1436476138627916968L
+				}
+				{
+					id: "2AF017D681C48FB9"
+					type: "item"
+					item: {
+						id: "tconstruct:mighty_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: ""
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.800000000000001d
+			y: 1.04d
+			subtitle: "{sb3.getting_started.nosolic.subtitle}"
+			description: ["{sb3.getting_started.nosolic.desc}"]
+			dependencies: ["484A0F72323EC041"]
+			size: 0.65d
+			id: "55FC47A5ADCC90FC"
+			tasks: [{
+				id: "76CC1FD0958044E6"
+				type: "item"
+				item: "gag:no_solicitors"
+			}]
+			rewards: [{
+				id: "04FC67FA1A27AA46"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.875d
+			subtitle: "{sb3.getting_started.andesite.subtitle}"
+			description: [
+				"{sb3.getting_started.andesite.desc1}"
+				""
+				"{\"translate\":\"sb3.getting_started.andesite.desc2\",\"underlined\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7B0E11560059A8C3\"}}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6B56B20D4EB7401A"]
+			size: 0.75d
+			id: "5336C09D643413AF"
+			tasks: [{
+				id: "2706CEDADFE0558D"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+	]
+}
