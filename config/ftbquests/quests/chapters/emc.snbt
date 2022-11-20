@@ -1,0 +1,1232 @@
+{
+	id: "09E59DB7BDBC2850"
+	group: "46116CDCA8131606"
+	order_index: 0
+	filename: "emc"
+	title: "{sb3.endgame.pe}"
+	icon: "extendedexchange:fading_matter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: 0.5d
+			subtitle: "{sb3.pe.ps.subtitle}"
+			description: ["{sb3.pe.ps.desc}"]
+			hide: true
+			id: "1A55E687FC8701B9"
+			tasks: [{
+				id: "741A79C99D1A2E7B"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C19ED785F158874"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "{sb3.pe.ec.subtitle}"
+			description: [
+				"{sb3.pe.ec.desc1}"
+				""
+				"{sb3.pe.ec.desc2}"
+			]
+			hide: true
+			id: "1289F314A59F150D"
+			tasks: [{
+				id: "0002E53386197D0E"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "253D6F39773CFBBF"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			subtitle: "{sb3.pe.ec2.subtitle}"
+			description: ["{sb3.pe.ec2.desc}"]
+			dependencies: ["1289F314A59F150D"]
+			id: "5DEE1D091F294EBD"
+			tasks: [{
+				id: "27C7196C1752C1DE"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+			rewards: [{
+				id: "1CA1EC510CE659A4"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: "projecte:collector_mk1"
+			x: -7.5d
+			y: -1.0d
+			subtitle: "{sb3.pe.col.subtitle}"
+			description: ["{sb3.pe.col.desc}"]
+			dependencies: ["1289F314A59F150D"]
+			id: "05438C997F40C545"
+			tasks: [{
+				id: "034F7408C8FD6BC4"
+				type: "item"
+				title: "{sb3.pe.col.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "projecte:collector_mk1"
+								Count: 1b
+							}
+							{
+								id: "projecte:collector_mk2"
+								Count: 1b
+							}
+							{
+								id: "projecte:collector_mk3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3ED2F33FB258C456"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: "projecte:relay_mk1"
+			x: -9.0d
+			y: -1.0d
+			subtitle: "{sb3.pe.amr.subtitle}"
+			description: [
+				"{sb3.pe.amr.desc1}"
+				""
+				"{sb3.pe.amr.desc2}"
+			]
+			dependencies: ["05438C997F40C545"]
+			id: "1AF1A75FC9511081"
+			tasks: [{
+				id: "617020B0015AF13B"
+				type: "item"
+				title: "{sb3.pe.amr.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "projecte:relay_mk1"
+								Count: 1b
+							}
+							{
+								id: "projecte:relay_mk2"
+								Count: 1b
+							}
+							{
+								id: "projecte:relay_mk3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F4F12FF63697BAD"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			title: "{sb3.pe.flower.title}"
+			icon: "extendedexchange:basic_power_flower"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "{sb3.pe.flower.subtitle}"
+			description: [
+				"{sb3.pe.flower.desc}"
+				""
+				"{sb3.pe.flower.desc2}"
+			]
+			dependencies: ["7D1D82BF8CB5806E"]
+			id: "1F3C2A42762BC1D9"
+			tasks: [{
+				id: "6D1A256C8609BCAF"
+				type: "item"
+				title: "能量盆栽"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "power_flower"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3392BBF51B5BD80F"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			subtitle: "{sb3.pe.tt.subtitle}"
+			description: [
+				"{sb3.pe.tt.desc1}"
+				""
+				"{sb3.pe.tt.desc2}"
+				""
+				"{sb3.pe.tt.desc3}"
+			]
+			dependencies: [
+				"2AF6F6F88DB9AFD8"
+				"7CC706E547110793"
+				"1289F314A59F150D"
+			]
+			id: "5C98848F5EF668D6"
+			tasks: [{
+				id: "7092075A846C4F26"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "26721A4CA59C59E4"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "{sb3.pe.tt2.subtitle}"
+			description: ["{sb3.pe.tt2.desc}"]
+			dependencies: ["5C98848F5EF668D6"]
+			id: "514325D8A5C33B7C"
+			tasks: [{
+				id: "077B016CEA8899AF"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [{
+				id: "12E166A68552BAB7"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			subtitle: "{sb3.pe.att.subtitle}"
+			description: ["{sb3.pe.att.desc}"]
+			dependencies: [
+				"514325D8A5C33B7C"
+				"5D875587DD2FECB5"
+			]
+			hide: true
+			id: "434C29155B1D3C94"
+			tasks: [{
+				id: "5D92ABF3CD389B7B"
+				type: "item"
+				item: "extendedexchange:arcane_tablet"
+			}]
+			rewards: [{
+				id: "669742F8433FFE7A"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			subtitle: "{sb3.pe.tok.subtitle}"
+			description: ["{sb3.pe.tok.desc}"]
+			dependencies: ["514325D8A5C33B7C"]
+			id: "7BF900D187AFFD68"
+			tasks: [{
+				id: "514AF2B39826AAB4"
+				type: "item"
+				item: "projecte:tome"
+			}]
+			rewards: [{
+				id: "57D5FE0210E19623"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "{sb3.pe.at.subtitle}"
+			description: ["{sb3.pe.at.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["1A55E687FC8701B9"]
+			id: "5D875587DD2FECB5"
+			tasks: [{
+				id: "05F4545CD80EE617"
+				type: "item"
+				item: "extendedexchange:alchemy_table"
+			}]
+			rewards: [{
+				id: "43B89F0084BF5646"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			subtitle: "{sb3.pe.woft.subtitle}"
+			description: [
+				"{sb3.pe.woft.desc1}"
+				""
+				"{sb3.pe.woft.desc2}"
+			]
+			dependencies: ["1A55E687FC8701B9"]
+			id: "007F82BCF34FCD3E"
+			tasks: [{
+				id: "6D378FDD6EDBA132"
+				type: "item"
+				item: {
+					id: "projecte:watch_of_flowing_time"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B28F7313424BC09"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "{sb3.pe.eml.subtitle}"
+			description: ["{sb3.pe.eml.desc}"]
+			dependencies: [
+				"1A55E687FC8701B9"
+				"5C98848F5EF668D6"
+			]
+			hide: true
+			id: "7D1D82BF8CB5806E"
+			tasks: [{
+				id: "6BA1ED482344478B"
+				type: "item"
+				item: "extendedexchange:energy_link"
+			}]
+			rewards: [{
+				id: "39EAC967E3529CAC"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			subtitle: "{sb3.pe.elink.subtitle}"
+			description: [
+				"{sb3.pe.elink.desc1}"
+				""
+				"{sb3.pe.elink.desc2}"
+			]
+			dependencies: ["7D1D82BF8CB5806E"]
+			id: "3FC4B963439A8FB9"
+			tasks: [{
+				id: "4952D831556723FF"
+				type: "item"
+				item: "extendedexchange:personal_link"
+			}]
+			rewards: [{
+				id: "17DC8770D1ABFA01"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "{sb3.pe.elink2.subtitle}"
+			description: [
+				"{sb3.pe.elink2.desc1}"
+				""
+				"{sb3.pe.elink2.desc2}"
+			]
+			dependencies: ["3FC4B963439A8FB9"]
+			id: "58A1BF9A5B3F76A5"
+			tasks: [{
+				id: "252462DA91C97A0C"
+				type: "item"
+				item: "extendedexchange:refined_link"
+			}]
+			rewards: [{
+				id: "08475FBA7AED3E7D"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			subtitle: "{sb3.pe.elink3.subtitle}"
+			description: ["{sb3.pe.elink3.desc}"]
+			dependencies: ["58A1BF9A5B3F76A5"]
+			id: "5102C0E1F62C63D4"
+			tasks: [{
+				id: "65B0BB3A17EC5E62"
+				type: "item"
+				item: "extendedexchange:compressed_refined_link"
+			}]
+			rewards: [{
+				id: "45F711469171E52C"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			title: "{sb3.pe.fuel.title}"
+			icon: "projecte:mobius_fuel"
+			x: -6.0d
+			y: 2.0d
+			subtitle: "{sb3.pe.fuel.subtitle}"
+			description: ["{sb3.pe.fuel.desc}"]
+			dependencies: ["1A55E687FC8701B9"]
+			id: "46D64AA2142C4F60"
+			tasks: [{
+				id: "75EAE287B62A50C8"
+				type: "item"
+				title: "煉金燃料"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "projecte:alchemical_coal"
+								Count: 1b
+							}
+							{
+								id: "projecte:mobius_fuel"
+								Count: 1b
+							}
+							{
+								id: "projecte:aeternalis_fuel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CB0D1738F69E872"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: "extendedexchange:basic_collector"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "{sb3.pe.col2.subtitle}"
+			description: ["{sb3.pe.col2.desc}"]
+			dependencies: ["05438C997F40C545"]
+			id: "726CFD2314723254"
+			tasks: [{
+				id: "766C026EB8B2F356"
+				type: "item"
+				title: "{sb3.pe.col2.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extendedexchange:basic_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:dark_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:red_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:magenta_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:pink_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:purple_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:violet_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:blue_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:cyan_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:green_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:lime_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:yellow_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:orange_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:white_collector"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:fading_collector"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "502283C2A5154884"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: "extendedexchange:basic_relay"
+			x: -9.0d
+			y: -2.5d
+			subtitle: "{sb3.pe.amr2.subtitle}"
+			description: ["{sb3.pe.amr2.desc}"]
+			dependencies: ["1AF1A75FC9511081"]
+			id: "35861DB3A705BC30"
+			tasks: [{
+				id: "43E4AD818E36E770"
+				type: "item"
+				title: "{sb3.pe.amr2.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extendedexchange:basic_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:dark_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:red_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:magenta_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:pink_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:purple_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:violet_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:blue_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:cyan_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:green_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:lime_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:yellow_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:orange_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:white_relay"
+								Count: 1b
+							}
+							{
+								id: "extendedexchange:fading_relay"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "46ED7A2795B21DBA"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			subtitle: "{sb3.pe.dm.subtitle}"
+			description: ["{sb3.pe.dm.desc}"]
+			dependencies: ["46D64AA2142C4F60"]
+			id: "0924EDBF5CE6B6B1"
+			tasks: [{
+				id: "732CCDF2C0137B65"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "22217958080444F2"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			subtitle: "{sb3.pe.rm.subtitle}"
+			description: ["{sb3.pe.rm.desc}"]
+			dependencies: ["0924EDBF5CE6B6B1"]
+			id: "230141EFAA73B12E"
+			tasks: [{
+				id: "53BA50A40A8A4745"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "3734CA039B7D375C"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: {
+				id: "projecte:dm_pick"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -7.5d
+			y: 3.5d
+			subtitle: "{sb3.pe.dmt.subtitle}"
+			description: [
+				"{sb3.pe.dmt.desc1}"
+				""
+				"{sb3.pe.dmt.desc2}"
+			]
+			dependencies: ["0924EDBF5CE6B6B1"]
+			id: "75F39C96B392468D"
+			tasks: [{
+				id: "4DDCF3AE2F216374"
+				type: "item"
+				title: "{sb3.pe.dmt.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_pick"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_axe"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_shovel"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_sword"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_hoe"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_shears"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:dm_hammer"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "10362CA0595F808A"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: {
+				id: "projecte:rm_shears"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -7.5d
+			y: 5.0d
+			subtitle: "{sb3.pe.rmt.subtitle}"
+			description: ["{sb3.pe.rmt.desc}"]
+			dependencies: [
+				"75F39C96B392468D"
+				"230141EFAA73B12E"
+			]
+			id: "4520B79CA2EB6BE3"
+			tasks: [{
+				id: "6E61524BAB1C93D8"
+				type: "item"
+				title: "{sb3.pe.rmt.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_pick"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_axe"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_shovel"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_sword"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_hoe"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_shears"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_hammer"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "592CB69EBBB4A746"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: {
+				id: "projecte:rm_morning_star"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -9.0d
+			y: 5.0d
+			subtitle: "{sb3.pe.rmt2.subtitle}"
+			description: ["{sb3.pe.rmt2.desc}"]
+			dependencies: ["4520B79CA2EB6BE3"]
+			id: "0061AE72064DAB75"
+			tasks: [{
+				id: "6B59C271BDD9D2A7"
+				type: "item"
+				title: "{sb3.pe.rmt2.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_katar"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:rm_morning_star"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "59D8476BA1620B35"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: "projecte:dm_chestplate"
+			x: -4.5d
+			y: 3.5d
+			subtitle: "{sb3.pe.dma.subtitle}"
+			description: ["{sb3.pe.dma.desc}"]
+			dependencies: ["0924EDBF5CE6B6B1"]
+			id: "303D13C07D70AF8D"
+			tasks: [{
+				id: "0D0A114B1394976F"
+				type: "item"
+				title: "{sb3.pe.dma.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "projecte:dm_helmet"
+								Count: 1b
+							}
+							{
+								id: "projecte:dm_chestplate"
+								Count: 1b
+							}
+							{
+								id: "projecte:dm_leggings"
+								Count: 1b
+							}
+							{
+								id: "projecte:dm_boots"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "237121855DE0EC6D"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			title: "{sb3.pe.rma.title}"
+			icon: "projecte:rm_chestplate"
+			x: -4.5d
+			y: 5.0d
+			subtitle: "{sb3.pe.rma.subtitle}"
+			description: ["{sb3.pe.rma.desc}"]
+			dependencies: [
+				"230141EFAA73B12E"
+				"303D13C07D70AF8D"
+			]
+			id: "3C61A2CF9EA03BC8"
+			tasks: [{
+				id: "37C4B76E94F330E8"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "projecte:rm_helmet"
+								Count: 1b
+							}
+							{
+								id: "projecte:rm_chestplate"
+								Count: 1b
+							}
+							{
+								id: "projecte:rm_leggings"
+								Count: 1b
+							}
+							{
+								id: "projecte:rm_boots"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4626A6030ABA431C"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			title: "{sb3.pe.gma.title}"
+			icon: "projecte:gem_chestplate"
+			x: -3.0d
+			y: 5.0d
+			subtitle: "{sb3.pe.gma.subtitle}"
+			description: ["{sb3.pe.gma.desc}"]
+			dependencies: ["3C61A2CF9EA03BC8"]
+			id: "18C90CA35C9A712B"
+			tasks: [{
+				id: "55738B2AED483F7A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "projecte:gem_helmet"
+								Count: 1b
+							}
+							{
+								id: "projecte:gem_chestplate"
+								Count: 1b
+							}
+							{
+								id: "projecte:gem_leggings"
+								Count: 1b
+							}
+							{
+								id: "projecte:gem_boots"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EAC5C16DF3379CB"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			title: "{sb3.pe.rings.title}"
+			icon: {
+				id: "projecte:archangel_smite"
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -9.0d
+			y: 3.5d
+			subtitle: "{sb3.pe.rings.subtitle}"
+			description: ["{sb3.pe.rings.desc}"]
+			dependencies: ["0924EDBF5CE6B6B1"]
+			id: "2649DF1A7E2CCFB9"
+			tasks: [{
+				id: "2F2801C698A0508A"
+				type: "item"
+				title: "{sb3.pe.rings.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:black_hole_band"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:archangel_smite"
+								Count: 1b
+								tag: {
+									StoredEMC: 0L
+								}
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:harvest_goddess_band"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:ignition_ring"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:zero_ring"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:swiftwolf_rending_gale"
+								Count: 1b
+								tag: {
+									UnprocessedEMC: 0.999999463558197d
+									StoredEMC: 41L
+									Mode: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:void_ring"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:arcana_ring"
+								Count: 1b
+								tag: {
+									Mode: 0b
+								}
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:body_stone"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:soul_stone"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:mind_stone"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:life_stone"
+								Count: 1b
+								tag: { }
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:evertide_amulet"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:volcanite_amulet"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									Parent: { }
+								}
+								id: "projecte:gem_of_eternal_density"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "381B121D327F9686"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+		{
+			icon: {
+				id: "projecte:klein_star_drei"
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			x: -7.5d
+			y: 2.0d
+			subtitle: "{sb3.pe.klein.subtitle}"
+			description: ["{sb3.pe.klein.desc}"]
+			dependencies: ["46D64AA2142C4F60"]
+			id: "18718D083204AADB"
+			tasks: [{
+				id: "3A938E361D5B4B5B"
+				type: "item"
+				title: "{sb3.pe.klein.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "klein"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "magnum_star"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F1FB21476FBAA63"
+				type: "random"
+				table_id: 4952586429247945343L
+			}]
+		}
+	]
+}

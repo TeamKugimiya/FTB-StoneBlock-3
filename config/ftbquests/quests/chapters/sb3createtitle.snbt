@@ -1,0 +1,358 @@
+{
+	id: "790A3366E44F96AA"
+	group: "412E52F3AAC9D76D"
+	order_index: 0
+	filename: "sb3createtitle"
+	title: "{sb3.create.title}"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -4.5d
+			subtitle: "{sb3.create.mp.subtitle}"
+			description: [
+				"{sb3.create.mp.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_press\"}}"
+			]
+			hide: true
+			id: "080BE16FD548E454"
+			tasks: [{
+				id: "1FC8B1D9AAD74A67"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "7444D32FE9965D71"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			subtitle: "{sb3.create.mix.subtitle}"
+			description: [
+				"{sb3.create.mix.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_mixer\"}}"
+			]
+			hide: true
+			id: "3F3F83DE0C10A6A7"
+			tasks: [{
+				id: "5D98C193E9ECF49E"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "7B713D0EA5166B59"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			icon: "create:track_station"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "{sb3.create.ts.subtitle}"
+			description: [
+				"{sb3.create.ts.desc1}"
+				""
+				"{sb3.create.ts.desc2}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:track_station\"}}"
+			]
+			hide: true
+			id: "350B9FC11291FD35"
+			tasks: [
+				{
+					id: "69E34FAB4624A6CF"
+					type: "item"
+					item: "create:track_station"
+				}
+				{
+					id: "0881E574D3892AA1"
+					type: "item"
+					item: "create:track_signal"
+				}
+				{
+					id: "22D8655E97324E04"
+					type: "item"
+					item: "create:track_observer"
+				}
+			]
+			rewards: [{
+				id: "028FD8CA8792A9ED"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "{sb3.create.eg.subtitle}"
+			description: ["{sb3.create.eg.desc}"]
+			hide: true
+			id: "46E0FED036104B94"
+			tasks: [{
+				id: "35F00F2C982EE93E"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "7FD43C0F7128505C"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			subtitle: "{sb3.create.mc.subtitle}"
+			description: [
+				"{sb3.create.mc.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_crafter\"}}"
+			]
+			hide: true
+			id: "67A3E71DA6A8B7C0"
+			tasks: [{
+				id: "22AA21EE1CAA4465"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "1653EF3055176A48"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			subtitle: "{sb3.create.se.subtitle}"
+			description: [
+				"{sb3.create.se.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:steam_engine\"}}"
+			]
+			hide: true
+			id: "2ADD182292E9E0E1"
+			tasks: [{
+				id: "024CC5069FCA8184"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "1E5FB35305D2A985"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "{sb3.create.ma.subtitle}"
+			description: [
+				"{sb3.create.ma.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_arm\"}}"
+			]
+			hide: true
+			id: "059162BAC52F8983"
+			tasks: [{
+				id: "138D454399AC575F"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "5998357F68E96CDE"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			subtitle: "{sb3.create.ww.subtitle}"
+			description: [
+				"{sb3.create.ww.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:water_wheel\"}}"
+			]
+			hide: true
+			id: "27FFB355351E54D1"
+			tasks: [{
+				id: "0B802E1F13F7B7AC"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "379C0839EFAC26A5"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "{sb3.create.wrench.subtitle}"
+			description: ["{sb3.create.wrench.desc}"]
+			hide: true
+			id: "4ACEC3974A632EFD"
+			tasks: [{
+				id: "5E9DC89BDF6CD71F"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "299203A1B915F696"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "{sb3.create.mh.subtitle}"
+			description: [
+				"{sb3.create.mh.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_harvester\"}}"
+			]
+			hide: true
+			id: "492D94E279F7C512"
+			tasks: [{
+				id: "0499D04823A6A4BC"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "1B49F13F2788E7EE"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			icon: "create:blaze_burner"
+			x: 0.0d
+			y: -3.5d
+			subtitle: "{sb3.create.bb.subtitle}"
+			description: [
+				"{sb3.create.bb.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:blaze_burner\"}}"
+			]
+			dependencies: ["3F3F83DE0C10A6A7"]
+			id: "4BC48E2CF23C178F"
+			tasks: [
+				{
+					id: "5FE2755769256BA6"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+				{
+					id: "557ABEE1BF2B2D47"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+			]
+			rewards: [{
+				id: "587D2AF7391EFFF8"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			subtitle: "{sb3.create.em.subtitle}"
+			description: [
+				"{sb3.create.em.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder createaddition:electric_motor\"}}"
+			]
+			hide: true
+			id: "68DDC54FA09769AF"
+			tasks: [{
+				id: "1CC6D625E17ADF00"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "7377C43EE98245CC"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			subtitle: "{sb3.create.alt.subtitle}"
+			description: [
+				"{sb3.create.alt.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder createaddition:alternator\"}}"
+			]
+			hide: true
+			id: "6E950039FFD6DBB0"
+			tasks: [{
+				id: "4D19DE8B66FC3EA7"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "64C46CD9E2022F45"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "{sb3.create.mb.subtitle}"
+			description: [
+				"{sb3.create.mb.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:belt_connector\"}}"
+			]
+			hide: true
+			id: "446705A2875A140B"
+			tasks: [{
+				id: "4595C45F16B3B513"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "392B3EEB81CC2DCC"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "{sb3.create.rl.subtitle}"
+			description: [
+				"{sb3.create.rl.desc}"
+				""
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:redstone_link\"}}"
+			]
+			hide: true
+			id: "658922B537BF49F7"
+			tasks: [{
+				id: "378DF91AB4C60065"
+				type: "item"
+				item: "create:redstone_link"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0CB8489810A6063E"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+	]
+}

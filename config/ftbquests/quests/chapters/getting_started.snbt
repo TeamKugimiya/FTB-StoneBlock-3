@@ -769,7 +769,7 @@
 				""
 				"{sb3.getting_started.encased_fan.desc3}"
 				""
-				"{\"text\":\"Click to Show Ponder\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:encased_fan\"}}"
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:encased_fan\"}}"
 			]
 			dependencies: ["5D2BC7C1FC479F36"]
 			id: "1C84420BDC21A288"
@@ -949,7 +949,7 @@
 				""
 				"{sb3.getting_started.crushing_wheel.desc2}"
 				""
-				"{\"text\":\"Click to Show Ponder\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:crushing_wheel\"}}"
+				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:crushing_wheel\"}}"
 			]
 			dependencies: ["1C84420BDC21A288"]
 			id: "1925E7562A6F5440"

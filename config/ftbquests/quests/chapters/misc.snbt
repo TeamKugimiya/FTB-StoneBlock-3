@@ -1,0 +1,849 @@
+{
+	id: "22F7A082C75AE62A"
+	group: ""
+	order_index: 3
+	filename: "misc"
+	title: "{sb3.misc.title}"
+	icon: "minecraft:lava_bucket"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -7.0d
+			subtitle: "{sb3.misc.torch.subtitle}"
+			description: ["{sb3.misc.torch.desc}"]
+			hide: true
+			id: "5ADEA03CEBD71902"
+			tasks: [{
+				id: "1ED51836F1C6EE9F"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [{
+				id: "3F46C2B8BFF0010E"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			subtitle: "{sb3.misc.dread.subtitle}"
+			description: ["{sb3.misc.dread.desc}"]
+			hide: true
+			id: "2AF87A55477F05A2"
+			tasks: [{
+				id: "744C6585860BB000"
+				type: "item"
+				item: "torchmaster:dreadlamp"
+			}]
+			rewards: [{
+				id: "0A2710B9417E6845"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			subtitle: "{sb3.misc.feral.subtitle}"
+			description: ["{sb3.misc.feral.desc}"]
+			hide: true
+			id: "017BB2CB0424F998"
+			tasks: [{
+				id: "1ADBEA1550B00801"
+				type: "item"
+				item: "torchmaster:feral_flare_lantern"
+			}]
+			rewards: [{
+				id: "58CBAC3B65DFB3D5"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: {
+				id: "constructionwand:diamond_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: -6.5d
+			subtitle: "{sb3.misc.cw.subtitle}"
+			description: ["{sb3.misc.cw.desc}"]
+			hide: true
+			id: "1B47022DE8498690"
+			tasks: [{
+				id: "519596B313F17729"
+				type: "item"
+				title: "{sb3.misc.cw.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "constructionwand:stone_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:iron_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:diamond_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+									Damage: 0
+								}
+							}
+							{
+								id: "constructionwand:infinity_wand"
+								Count: 1b
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C31DB8C95BB2EB6"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+					energy: 500000.0d
+				}
+			}
+			x: -8.0d
+			y: -4.0d
+			subtitle: "{sb3.misc.bg.subtitle}"
+			description: ["{sb3.misc.bg.desc}"]
+			hide: true
+			id: "327C4BC62AB5BB69"
+			tasks: [{
+				id: "5460A523D8BA1C14"
+				type: "item"
+				title: "{sb3.misc.bg.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "buildinggadgets:gadget_building"
+								Count: 1b
+								tag: {
+									state: {
+										serializer: "buildinggadgets:dummy_serializer"
+										state: {
+											Name: "minecraft:air"
+										}
+										data: { }
+									}
+									energy: 500000.0d
+								}
+							}
+							{
+								id: "buildinggadgets:gadget_exchanging"
+								Count: 1b
+								tag: {
+									state: {
+										serializer: "buildinggadgets:dummy_serializer"
+										state: {
+											Name: "minecraft:air"
+										}
+										data: { }
+									}
+									energy: 500000.0d
+								}
+							}
+							{
+								id: "buildinggadgets:gadget_copy_paste"
+								Count: 1b
+								tag: {
+									mode: 0b
+									template_id: [I;
+										524212307
+										1705395326
+										-1555880907
+										-345054811
+									]
+									energy: 500000.0d
+								}
+							}
+							{
+								id: "buildinggadgets:gadget_destruction"
+								Count: 1b
+								tag: {
+									overlay: 1b
+									fuzzy: 1b
+									energy: 1000000.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1EC6A3EB4AF6EA6F"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: {
+				id: "mininggadgets:mininggadget_fancy"
+				Count: 1b
+				tag: {
+					energy: 1000000.0d
+				}
+			}
+			x: -8.0d
+			y: -3.0d
+			subtitle: "{sb3.misc.mg.subtitle}"
+			description: [
+				"{sb3.misc.mg.desc1}"
+				""
+				"{sb3.misc.mg.desc2}"
+			]
+			hide: true
+			min_width: 240
+			id: "5586997B10A4729B"
+			tasks: [{
+				id: "7549C9979FEB0C1E"
+				type: "item"
+				title: "{sb3.misc.mg.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mininggadgets:mininggadget_simple"
+								Count: 1b
+								tag: {
+									energy: 1000000.0d
+								}
+							}
+							{
+								id: "mininggadgets:mininggadget_fancy"
+								Count: 1b
+								tag: {
+									energy: 1000000.0d
+								}
+							}
+							{
+								id: "mininggadgets:mininggadget"
+								Count: 1b
+								tag: {
+									energy: 1000000.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4805B3FD05B39223"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.misc.mgu.title}"
+			icon: "mininggadgets:upgrade_fortune_3"
+			x: -7.0d
+			y: -3.0d
+			subtitle: "{sb3.misc.mgu.subtitle}"
+			description: ["{sb3.misc.mgu.desc}"]
+			dependencies: ["5586997B10A4729B"]
+			id: "2E81AEF24E5635E8"
+			tasks: [
+				{
+					id: "446FCEACB61EA359"
+					type: "item"
+					item: "mininggadgets:modificationtable"
+					consume_items: false
+				}
+				{
+					id: "73C15DCECA91003B"
+					type: "item"
+					title: "{sb3.misc.mgu.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "gadgets:upgrade"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2BF42D7A3E580474"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			subtitle: "{sb3.misc.cs.subtitle}"
+			description: ["{sb3.misc.cs.desc}"]
+			hide: true
+			id: "75107C8493301066"
+			tasks: [{
+				id: "66BACCA2B7325021"
+				type: "item"
+				item: {
+					id: "charginggadgets:charging_station"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4C22EF53EB1321EB"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: "pipez:basic_upgrade"
+			x: -2.5d
+			y: -2.5d
+			subtitle: "{sb3.misc.pzu.subtitle}"
+			description: ["{sb3.misc.pzu.desc}"]
+			dependencies: ["25855E77338C6D33"]
+			id: "508061F3F6C77F5E"
+			tasks: [{
+				id: "7CB5858F6D8C9B18"
+				type: "item"
+				title: "{sb3.misc.pzu.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pipez:basic_upgrade"
+								Count: 1b
+							}
+							{
+								id: "pipez:improved_upgrade"
+								Count: 1b
+							}
+							{
+								id: "pipez:advanced_upgrade"
+								Count: 1b
+							}
+							{
+								id: "pipez:ultimate_upgrade"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "64BD00620EFD185C"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.misc.pp.title}"
+			x: -2.5d
+			y: -6.0d
+			subtitle: "{sb3.misc.pp.subtitle}"
+			description: ["{sb3.misc.pp.desc}"]
+			hide: true
+			id: "50BE3520161C4729"
+			tasks: [{
+				id: "39A87D038B3862E2"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+			rewards: [{
+				id: "5CBAA6827EE1384B"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			subtitle: "{sb3.misc.ppt.subtitle}"
+			description: ["{sb3.misc.ppt.desc}"]
+			dependencies: ["50BE3520161C4729"]
+			id: "26A72529B8D528E0"
+			tasks: [{
+				id: "35682D30E48F0D19"
+				type: "item"
+				title: "{sb3.misc.ppt.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "prettypipes:item_terminal"
+								Count: 1b
+							}
+							{
+								id: "prettypipes:crafting_terminal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2E4105684E8B2DCE"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			title: "{sb3.misc.compact.task}"
+			icon: "compactmachines:personal_shrinking_device"
+			x: -5.0d
+			y: -2.0d
+			subtitle: "{sb3.misc.compact.subtitle}"
+			description: [
+				"{sb3.misc.compact.desc1}"
+				""
+				"{sb3.misc.compact.desc2}"
+			]
+			hide: true
+			id: "1063A24489BB7E2E"
+			tasks: [
+				{
+					id: "6691FC95C99D1B04"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+				{
+					id: "3F4933BFC0159B58"
+					type: "item"
+					title: "{sb3.misc.compact.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "compactmachines:machine_tiny"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_small"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_normal"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_large"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_giant"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_maximum"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "092F579D0FF1BBFD"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: {
+				id: "entangled:block"
+				Count: 1b
+				tag: { }
+			}
+			x: -5.5d
+			y: -3.0d
+			subtitle: "{sb3.misc.ent.subtitle}"
+			description: [
+				"{sb3.misc.ent.desc1}"
+				""
+				"{sb3.misc.ent.desc2}"
+			]
+			hide: true
+			id: "71415BF6AE6EA774"
+			tasks: [
+				{
+					id: "06B6A715C6BD232D"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "795B1E38EF2D2337"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "59CFA4BBEEFC570B"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			subtitle: "{sb3.misc.tess.subtitle}"
+			description: ["{sb3.misc.tess.desc}"]
+			hide: true
+			id: "3E1099FF28F25D31"
+			tasks: [{
+				id: "4AB570A9252619B8"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+			rewards: [{
+				id: "56672C900F464F54"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: "trashcans:item_trash_can"
+			x: -4.5d
+			y: -8.0d
+			subtitle: "{sb3.misc.trash.subtitle}"
+			description: ["{sb3.misc.trash.desc}"]
+			hide: true
+			id: "1DCF26306E81D7C5"
+			tasks: [{
+				id: "4B612B565DBE30F0"
+				type: "item"
+				title: "{sb3.misc.trash.title}"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "trashcans"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EAD36FD852DB0A0"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: "pipez:fluid_pipe"
+			x: -2.5d
+			y: -3.5d
+			subtitle: "{sb3.misc.pz.subtitle}"
+			description: ["{sb3.misc.pz.desc}"]
+			hide: true
+			id: "25855E77338C6D33"
+			tasks: [
+				{
+					id: "2FFCC8CC5AA67C5A"
+					type: "item"
+					title: "{sb3.misc.pz.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "pipez:item_pipe"
+									Count: 1b
+								}
+								{
+									id: "pipez:fluid_pipe"
+									Count: 1b
+								}
+								{
+									id: "pipez:energy_pipe"
+									Count: 1b
+								}
+								{
+									id: "pipez:gas_pipe"
+									Count: 1b
+								}
+								{
+									id: "pipez:universal_pipe"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2E88813E392EBC35"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [{
+				id: "4B2B14140C3A9EC3"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			subtitle: "{sb3.misc.fp.subtitle}"
+			description: ["{sb3.misc.fp.desc}"]
+			dependencies: ["50BE3520161C4729"]
+			id: "397EFE63BFF643D5"
+			tasks: [{
+				id: "1EFEAB72B900D3BE"
+				type: "item"
+				item: "ppfluids:fluid_pipe"
+			}]
+			rewards: [{
+				id: "6E83F20D712F07DA"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: "prettypipes:high_extraction_module"
+			x: -3.0d
+			y: -5.0d
+			subtitle: "{sb3.misc.ppm.subtitle}"
+			description: ["{sb3.misc.ppm.desc}"]
+			dependencies: ["50BE3520161C4729"]
+			id: "7394E31705DEFDEE"
+			tasks: [{
+				id: "2009FC7AE5BB931A"
+				type: "item"
+				title: "{sb3.misc.ppm.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "pretty.*module"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57A88BF2561BC9C9"
+				type: "random"
+				table_id: 949560038769538179L
+			}]
+		}
+		{
+			icon: "ironfurnaces:iron_furnace"
+			x: -5.5d
+			y: -8.0d
+			subtitle: "{sb3.misc.if.subtitle}"
+			description: ["{sb3.misc.if.desc}"]
+			hide: true
+			id: "0B9DD4C2DBE3866A"
+			tasks: [{
+				id: "3D823258CAB39558"
+				type: "item"
+				title: "{sb3.misc.if.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:copper_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:iron_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:silver_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:gold_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:diamond_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:emerald_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:crystal_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:obsidian_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:netherite_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "61C6256B1C3B7A07"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -9.0d
+			subtitle: "{sb3.misc.temp.subtitle}"
+			description: [
+				"{sb3.misc.temp.desc1}"
+				""
+				"{sb3.misc.temp.desc2}"
+				""
+				"{sb3.misc.temp.desc3}"
+			]
+			hide: true
+			id: "23B4241D333DD132"
+			tasks: [{
+				id: "294D0AD06A5719FA"
+				type: "item"
+				item: "tempad:tempad"
+			}]
+			rewards: [{
+				id: "04323ED4D9105C3E"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			title: "{sb3.misc.pouch.title}"
+			x: -5.5d
+			y: -5.5d
+			subtitle: "{sb3.misc.pouch.subtitle}"
+			description: ["{sb3.misc.pouch.desc}"]
+			hide: true
+			id: "2561714400927831"
+			tasks: [{
+				id: "3932FE669BCAC1E7"
+				type: "item"
+				item: {
+					id: "gag:time_sand_pouch"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "15BE08A0AAE496C0"
+				type: "random"
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			title: "{sb3.misc.hearthstone.title}"
+			x: -4.5d
+			y: -5.5d
+			subtitle: "{sb3.misc.hearthstone.subtitle}"
+			description: [
+				"{sb3.misc.hearthstone.desc1}"
+				""
+				"{sb3.misc.hearthstone.desc2}"
+			]
+			hide: true
+			min_width: 240
+			id: "4B8B94355B2C6741"
+			tasks: [{
+				id: "67F2DA61A1230EE8"
+				type: "item"
+				item: {
+					id: "gag:hearthstone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B6B2E847CD01189"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1436476138627916968L
+			}]
+		}
+		{
+			title: "{sb3.misc.obelisk.title}"
+			x: -5.0d
+			y: -4.5d
+			subtitle: "{sb3.misc.obelisk.subtitle}"
+			description: [
+				"{sb3.misc.obelisk.desc1}"
+				""
+				"{sb3.misc.obelisk.desc2}"
+			]
+			hide: true
+			id: "09716D856403E10E"
+			tasks: [{
+				id: "5068B00A0169176A"
+				type: "item"
+				item: {
+					id: "experienceobelisk:experience_obelisk"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4411874A7804F388"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}
