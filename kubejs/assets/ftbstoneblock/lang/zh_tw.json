@@ -5,8 +5,8 @@
   "enchantment.level.14": "XIV",
   "enchantment.level.15": "XV",
   "enchantment.level.25": "XXV",
-  "sdrp.sbd.in": "位於石頭世界",
-  "sdrp.sbd": "石頭世界",
+  "sdrp.sbd.in": "In StoneBlock Dimension",
+  "sdrp.sbd": "StoneBlock Dimension",
   "ftbquests.task.ftbquests.checkmark": "點擊此處！",
 
   "item.ftbstoneblock.stonepebble": "石頭碎塊",
@@ -103,7 +103,7 @@
 
   "sb3.welcome.title": "歡迎",
 
-  "sb3.welcome.welcome.title": "歡迎來到 &5FTB 石頭世界 3&r！",
+  "sb3.welcome.welcome.title": "歡迎來到 &5FTB 只有石頭的世界 3&r！",
   "sb3.welcome.welcome.subtitle": "模組包介紹與資訊",
   "sb3.welcome.welcome.reward": "更多任務章節！",
   "sb3.welcome.welcome.description_1": "本模組包為&b完全的地下世界&r，不存在任何地表。",
@@ -116,8 +116,8 @@
   "sb3.welcome.servers.desc1": "世界（伺服器）重生點會是個大廳區域。每位玩家一開始會在這裡出生，但你不會在此處&o久留&r。",
   "sb3.welcome.servers.desc2": "要&6建立屬於你的維度&r，請穿越大廳正中心的傳送門。你可以在這選單中選擇你喜歡出生點類型。創建維度時，&eFTB 隊伍&r會跟著一起建立。",
   "sb3.welcome.servers.desc3": "加入其他玩家的隊伍時，你將會被傳送到隊伍成員所在的維度中！",
-  "sb3.welcome.servers.desc4": "加入進一個隊伍後，你可以使用指令 &6/ftbstoneblock home&r，來傳送到所在維度的出生點。",
-  "sb3.welcome.servers.desc5": "使用指令 &6/ftbstoneblock lobby&r 傳送至大廳。",
+  "sb3.welcome.servers.desc4": "加入進一個隊伍後，你可以使用指令 &6/ftbstoneblock home&r，傳送到該維度的出生點。",
+  "sb3.welcome.servers.desc5": "使用指令 &6/ftbstoneblock lobby&r 可傳送回大廳。",
 
   "sb3.welcome.events.title": "隨機事件",
   "sb3.welcome.events.subtitle": "有時候，事情就發生了",
@@ -129,14 +129,14 @@
 
   "sb3.getting_started.stonepebbles.title": "岩石與石頭！",
   "sb3.getting_started.stonepebbles.subtitle": "空手打石頭",
-  "sb3.getting_started.stonepebbles.task": "取得小卵石",
-  "sb3.getting_started.stonepebbles.reward": "小卵石",
+  "sb3.getting_started.stonepebbles.task": "取得石頭碎塊",
+  "sb3.getting_started.stonepebbles.reward": "石頭碎塊",
   "sb3.getting_started.stonepebbles.description_1": "獨自一人待在什麼都沒有只有石頭的洞穴中，有什麼比打石頭更能消磨時間的呢？",
-  "sb3.getting_started.stonepebbles.description_2": "用拳頭打石頭會掉落&b小卵石&r，可&6合成鵝卵石&r.",
+  "sb3.getting_started.stonepebbles.description_2": "用拳頭打石頭會掉落&b石頭碎塊&r，可用來&6合成鵝卵石&r。",
   "sb3.getting_started.stonepebbles.description_3": "無論是什麼原因，你是可以吃它的。",
 
   "sb3.getting_started.craftingtable.title": "工作台",
-  "sb3.getting_started.craftingtable.subtitle": "做個工作臺",
+  "sb3.getting_started.craftingtable.subtitle": "做個工作台",
   "sb3.getting_started.craftingtable.description_1": "沒有木頭，用石頭加減用！",
   "sb3.getting_started.craftingtable.description_2": "四個鵝卵石可以製作&b工作台&r。",
 
@@ -149,8 +149,8 @@
   "sb3.getting_started.chest.title": "儲物箱",
   "sb3.getting_started.chest.subtitle": "做個石製儲物箱",
   "sb3.getting_started.chest.task": "石製儲物箱",
-  "sb3.getting_started.chest.description_1": "&eStone Chest&r模組增加了&b石製儲物箱&r。相當的潮。",
-  "sb3.getting_started.chest.description_2": "全部石製儲物箱的功能跟普通的儲物箱一模一樣。",
+  "sb3.getting_started.chest.description_1": "&e《Stone Chest》&r為遊戲帶來了&b石製儲物箱&r。 相當的潮。",
+  "sb3.getting_started.chest.description_2": "全部類型的石製儲物箱，功能都跟普通的儲物箱一模一樣。",
 
   "sb3.getting_started.saplings.title": "樹苗",
   "sb3.getting_started.saplings.subtitle": "取得樹苗",
@@ -169,12 +169,12 @@
 
   "sb3.getting_started.melter.title": "熔化爐",
   "sb3.getting_started.melter.subtitle": "製作熔化爐",
-  "sb3.getting_started.melter.desc1": "&b熔化爐&r是個多方塊結構，用來&6將金屬熔化成流體&r.",
+  "sb3.getting_started.melter.desc1": "&b熔化爐&r是個多方塊結構，用來&6將金屬熔化成流體&r。",
   "sb3.getting_started.melter.desc2": "先放置&b焦黑加熱爐&r，放入固體燃料，然後把&b焦黑熔化爐&r放在它的上方。",
 
   "sb3.getting_started.casting.title": "鑄造",
   "sb3.getting_started.casting.subtitle": "鑄造些東西",
-  "sb3.getting_started.casting.desc1": "要將熔化的金屬轉換回物品，需要使用&b焦黑流嘴&r和&b鑄造臺／鑄造盆&r.",
+  "sb3.getting_started.casting.desc1": "要將熔化的金屬轉換回物品，需要使用&b焦黑流嘴&r和&b鑄造臺／鑄造盆&r。",
   "sb3.getting_started.casting.desc2": "要選擇鑄造出的物品形式（錠、鎬子頭端等），需要使用&b鑄模&r。沙子鑄模&c使用後會銷毀&r，而黃金鑄模是可以重複使用的。",
   "sb3.getting_started.casting.desc3": "要製作沙子鑄模，將空白沙子鑄模放在鑄造臺上，然後拿著你想要製作的部件，對它右鍵。",
   "sb3.getting_started.casting.desc4": "流嘴可以對它右鍵或用紅石訊號啟動。基本上就像管道，將後方方塊的流體移動至滑嘴下方的方塊。若你想要可以用真的管道替換它。",
@@ -183,7 +183,7 @@
 
   "sb3.getting_started.smeltery.title": "冶煉爐",
   "sb3.getting_started.smeltery.subtitle": "製作冶煉爐",
-  "sb3.getting_started.smeltery.desc1": "&b冶煉爐&r是個多方塊結構，用來&6熔融金屬&r和&6將熔融金屬製成合金&r.",
+  "sb3.getting_started.smeltery.desc1": "&b冶煉爐&r是個多方塊結構，用來&6熔融金屬&r和&6將熔融金屬製成合金&r。",
   "sb3.getting_started.smeltery.desc2": "比起熔化爐，它的結構有更高的自由度。查看&6高級冶煉&r這本書，會指導你如何建造。",
   "sb3.getting_started.smeltery.desc3": "&6有些熔融金屬混合後，會變成合金&r。只有當有燃料時才會發生，所以一個沒有燃料的巨型冶煉爐，可以當作一個安全的儲罐，儲存熔融的金屬。",
   "sb3.getting_started.smeltery.desc4": "用越多的焦黑方塊建造的冶煉爐，會消耗更多的燃料，但也能儲存更多的物品和流體。",
@@ -193,45 +193,45 @@
 
   "sb3.getting_started.crook.title": "Wololo",
   "sb3.getting_started.crook.subtitle": "製作曲柄杖",
-  "sb3.getting_started.crook.description_1": "用&b曲柄杖&r破壞某些方塊會掉落特殊物品像是&6樹苗和種子&r.",
+  "sb3.getting_started.crook.description_1": "用&b曲柄杖&r破壞某些方塊會掉落特殊物品像是&6樹苗和種子&r。",
   "sb3.getting_started.crook.description_2": "可以在&eREI&r查看石鎚的用途，確認會掉落的方塊為何。",
 
   "sb3.getting_started.seeds.title": "種子？",
   "sb3.getting_started.seeds.subtitle": "獲得種子",
   "sb3.getting_started.seeds.task": "種子",
-  "sb3.getting_started.seeds.description_1": "用&b曲柄杖&r破壞泥土有機率掉落&b這些種子中的任一種&r.",
+  "sb3.getting_started.seeds.description_1": "用&b曲柄杖&r破壞泥土有機率掉落&b這些種子中的任一種&r。",
   "sb3.getting_started.seeds.description_2": "可以在&eREI&r查看這些種子獲得的機率。",
 
   "sb3.getting_started.gravel.title": "礫石",
   "sb3.getting_started.gravel.subtitle": "獲得礫石",
-  "sb3.getting_started.gravel.description_1": "&6用鎚破壞石頭&r取得&b礫石&r.",
+  "sb3.getting_started.gravel.description_1": "&6用鎚破壞石頭&r取得&b礫石&r。",
 
   "sb3.getting_started.dirt.title": "泥土",
   "sb3.getting_started.dirt.subtitle": "獲得泥土",
-  "sb3.getting_started.dirt.description_1": "&6用鎚破壞礫石&r取得&b泥土&r.",
+  "sb3.getting_started.dirt.description_1": "&6用鎚破壞礫石&r取得&b泥土&r。",
 
   "sb3.getting_started.sand.title": "沙",
   "sb3.getting_started.sand.subtitle": "獲得沙",
-  "sb3.getting_started.sand.description_1": "&6用鎚破壞泥土&r取得&b沙&r.",
+  "sb3.getting_started.sand.description_1": "&6用鎚破壞泥土&r取得&b沙&r。",
 
   "sb3.getting_started.dust.title": "塵土",
   "sb3.getting_started.dust.subtitle": "獲得塵土",
-  "sb3.getting_started.dust.description_1": "&6用鎚破壞沙&r取得&b塵土&r.",
+  "sb3.getting_started.dust.description_1": "&6用鎚破壞沙&r取得&b塵土&r。",
 
   "sb3.getting_started.millstone.title": "篩礦？從沒聽過",
   "sb3.getting_started.millstone.subtitle": "製作石磨裝置",
-  "sb3.getting_started.millstone.description_1": "使用&b石磨&r可以取得基礎資源像是鐵。之後才能取得更高級的資源。",
+  "sb3.getting_started.millstone.description_1": "使用&b石磨&r可以取得基礎資源，像是鐵。 之後才能取得更高級的資源。",
   "sb3.getting_started.millstone.description_2": "和所有&e動力機械&r的機器一樣，石磨需要動能。",
-  "sb3.getting_started.millstone.description_3": "同樣的，游標移置任何動力機械的物品上，按住 &6[w]&r ，會有動畫解釋它的運作方式，包含如何驅動它。",
+  "sb3.getting_started.millstone.description_3": "同樣的，游標移置任何動力機械的物品上， 按住&6[w]&r會有動畫解釋它的運作方式，包含如何驅動它。",
 
   "sb3.getting_started.millgravel.title": "資源",
   "sb3.getting_started.millgravel.subtitle": "磨些礫石",
   "sb3.getting_started.millgravel.task": "磨出產物",
-  "sb3.getting_started.millgravel.description_1": "&6磨礫石&r有機率產出&b鐵&r、&b鋅&r和&b煤炭&r.",
+  "sb3.getting_started.millgravel.description_1": "&6磨礫石&r有機率產出&b鐵&r、&b鋅&r和&b煤炭&r。",
 
-  "sb3.getting_started.lava.title": "岩漿",
-  "sb3.getting_started.lava.subtitle": "取得岩漿",
-  "sb3.getting_started.lava.description_1": "拿著&b起火棒&r對石頭右鍵一段時間可以產出&b岩漿&r。",
+  "sb3.getting_started.lava.title": "熔岩",
+  "sb3.getting_started.lava.subtitle": "取得熔岩",
+  "sb3.getting_started.lava.description_1": "拿著&b起火棒&r對石頭右鍵一段時間可以產出&b熔岩&r。",
 
   "sb3.getting_started.water.title": "水",
   "sb3.getting_started.water.subtitle": "取得水",
@@ -239,7 +239,7 @@
 
   "sb3.getting_started.dripper.title": "太潮了",
   "sb3.getting_started.dripper.subtitle": "製作滴液架",
-  "sb3.getting_started.dripper.desc1": "&b滴液架&r將流體滴落至下方的方塊上，將它轉換成別的方塊。",
+  "sb3.getting_started.dripper.desc1": "&b滴液架&r會將盛裝的流體，滴落在下方的方塊上，並將它轉換成別的方塊。",
   "sb3.getting_started.dripper.desc2": "&6用REI查看它能轉換那些方塊。",
 
   "sb3.getting_started.cobble_gen1.subtitle": "製作鵝卵石製造機 T1",
@@ -268,8 +268,8 @@
   "sb3.getting_started.encased_fan.title": "Wosh u hand",
   "sb3.getting_started.encased_fan.subtitle": "製作鼓風機",
   "sb3.getting_started.encased_fan.desc1": "&b鼓風機&r消耗動能產生氣流。",
-  "sb3.getting_started.encased_fan.desc2": "若氣流通過特定方塊（像是水和岩漿），這個氣流可以當成一種物品製作的機制。",
-  "sb3.getting_started.encased_fan.desc3": "具體來說，水會&6洗滌物品&r，製作成其他東西。岩漿會&6熔煉物品&r，就像在高爐中的熔煉。",
+  "sb3.getting_started.encased_fan.desc2": "若氣流通過特定方塊（像是水和熔岩），這個氣流可以當成一種物品製作的機制。",
+  "sb3.getting_started.encased_fan.desc3": "具體來說，水會&6洗滌物品&r，製作成其他東西。熔岩會&6熔煉物品&r，就像在高爐中的熔煉。",
 
   "sb3.getting_started.washing.title": "洗滌",
   "sb3.getting_started.washing.subtitle": "洗出一些資源",
@@ -282,7 +282,7 @@
   "sb3.getting_started.nosolic.desc": "&b「謝絕推銷」告示&r能防止流浪商人在附近生成。",
 
   "sb3.getting_started.crushing_wheel.subtitle": "製作粉碎輪",
-  "sb3.getting_started.crushing_wheel.desc1": "當兩個&b粉碎輪&r相互旋轉時，會&6粉碎任何通過的東西&r.",
+  "sb3.getting_started.crushing_wheel.desc1": "當兩個&b粉碎輪&r相互旋轉時，會&6粉碎任何通過的東西&r。",
   "sb3.getting_started.crushing_wheel.desc2": "雖然這可用來處理礦物或類似的，但同時也是許多物品的取得方式。",
 
   "sb3.getting_started.crushing.title": "粉碎",
@@ -301,7 +301,7 @@
   "sb3.exploration.layers.task_1": "看著石頭",
   "sb3.exploration.layers.task_2": "看著安山岩",
   "sb3.exploration.layers.task_3": "看著深板岩",
-  "sb3.exploration.layers.desc1": "主世界地圖的分布以 Y 軸分割成 5 片。",
+  "sb3.exploration.layers.desc1": "主世界的地圖分布以 Y 軸分割成 5 片。",
   "sb3.exploration.layers.desc2": "中間層是由&b石頭&r構成，以 Y0 向上向下分布共 &655 格高&r。",
   "sb3.exploration.layers.desc3": "在它之上和之下，是 &620 格高&r的&b安山岩&r層。",
   "sb3.exploration.layers.desc4": "在&o它&r之上和之下，是 &653 格高&r的&b深板岩&r層。",
@@ -325,7 +325,7 @@
   "sb3.exploration.end.title": "終界",
   "sb3.exploration.end.subtitle": "抵達環形終界區",
   "sb3.exploration.end.desc1": "大約距離&6出生點 1,600 格&r。",
-  "sb3.exploration.end.desc2": "繼續向外探索，環形終界區&6終止於距離出生點 2,200 格&r。之後是無限的石頭，但有獨特的地牢點綴著。",
+  "sb3.exploration.end.desc2": "繼續向外探索， 環形終界區&6將終止於距離出生點的 2,200 格處&r。 之後便只有無限的石頭，但有獨特的地牢點綴著。",
 
   "sb3.exploration.end_city.title": "終界城",
   "sb3.exploration.end_city.subtitle": "參觀終界城",
@@ -337,14 +337,14 @@
   "sb3.exploration.boss_dungeon.desc2": "當中會找到&6召喚祭壇&r，用來召喚本模組包的 Boss。",
 
   "sb3.exploration.mother_silverfish.subtitle": "召喚並擊敗蠹魚母后",
-  "sb3.exploration.mother_silverfish.desc1": "&b蠹魚母后&r在環形終界區外的 Boss 地牢中召喚而生。在召喚祭壇中召喚並擊敗它！",
-  "sb3.exploration.mother_silverfish.desc2": "當心，蠹魚母后有著許多特殊攻擊，且會召喚&6多種類型的蠹魚士兵&r.",
-  "sb3.exploration.mother_silverfish.desc3": "可能會召喚的有&6嗜血&r, &6劇毒&r和&6盜賊&r蠹魚。最後一個相當危險，要更加小心！",
+  "sb3.exploration.mother_silverfish.desc1": "&b蠹魚母后&r需在環形終界區外的 Boss 地牢中召喚而生。在召喚祭壇中召喚並擊敗它！",
+  "sb3.exploration.mother_silverfish.desc2": "當心，蠹魚母后有著許多特殊攻擊，且會召喚&6多種類型的蠹魚士兵&r。",
+  "sb3.exploration.mother_silverfish.desc3": "可能會召喚的有&6嗜血&r、&6劇毒&r和&6盜賊&r蠹魚。 最後一個相當危險，必須要格外小心！",
 
   "sb3.exploration.silverfish_farm.title":"蠹魚母后農場",
-  "sb3.exploration.silverfish_farm.desc1":"將一些模組串聯使用，你可以簡單的從蠹魚母后身上&6農出無限的蠹魚之心&r。",
-  "sb3.exploration.silverfish_farm.desc2":"&b德格米護符&r消耗魔源，&6不須擊殺它們即可取得生物的掉落物&r。 ",
-  "sb3.exploration.silverfish_farm.desc3":"魔源可以用&6火山魔源通道&r簡單生產，用&6煤炭雞&r產煤炭（ 或任何其他的方法）。",
+  "sb3.exploration.silverfish_farm.desc1":"將一些模組串聯使用，你可以簡單的從蠹魚母后身上&6農出無限個蠹魚之心&r。",
+  "sb3.exploration.silverfish_farm.desc2":"用&b德格米護符&r召喚出來的德格米，會消耗魔源生產附近生物的掉落物，&6透過這種方法就能在不擊殺它們的情況下，取得生物的戰利品&r。",
+  "sb3.exploration.silverfish_farm.desc3":"魔源可以用&6火山魔源通道&r簡單生產，並用&6煤炭雞&r產煤炭（或任何其他的方法）。",
   "sb3.exploration.silverfish_farm.desc4":"要讓蠹魚母后保持不動，可&6在召喚祭壇的正下方&r放置&b靜滯室&r，最好搭配距離夠大的&6範圍升級&r使用。",
   "sb3.exploration.silverfish_farm.desc5":"剛剛生產的煤炭同時也能讓發電機發電，給靜滯室供電。確保做些柵欄&6防止德格米進入靜滯室的工作範圍中&r！",
   "sb3.exploration.silverfish_farm.desc6":"最後，放個&b超級火把&r避免蠹魚士兵生成。",
@@ -368,7 +368,7 @@
   "sb3.resources.mob_farming.spawner.description_1": "&b實體生成器&r會生成實體。淺顯易懂。",
   "sb3.resources.mob_farming.spawner.description_2": "在上方欄位中放入生怪蛋。要取得生怪蛋，餵雞吃下你想要的怪物種類的&b基因改造雞飼料&r。",
   "sb3.resources.mob_farming.spawner.description_3": "生成器需要&6經驗軟糖&r當燃料，放入下方的欄位中。",
-  "sb3.resources.mob_farming.spawner.description_4": "右側的按鈕調整怪物生成的位置。最下方的欄位可放入&6升級&r.",
+  "sb3.resources.mob_farming.spawner.description_4": "右側的按鈕調整怪物生成的位置。最下方的欄位可放入&6升級&r。",
 
   "sb3.resources.mob_farming.masher.title": "搗碎怪物",
   "sb3.resources.mob_farming.masher.subtitle": "取得生物粉碎機",
@@ -398,7 +398,7 @@
 
   "sb3.resources.mob_farming.rotton_egg.title": "沒味道的",
   "sb3.resources.mob_farming.rotton_egg.subtitle": "取得腐敗雞蛋",
-  "sb3.resources.mob_farming.rotton_egg.description": "在泥土或草地上使用&b腐敗雞蛋&r，獲得一片&6恐懼之土&r.",
+  "sb3.resources.mob_farming.rotton_egg.description": "在泥土或草地上使用&b腐敗雞蛋&r，獲得一片&6恐懼之土&r。",
 
   "sb3.resources.mob_farming.dirt_1.title": "和平主義者",
   "sb3.resources.mob_farming.dirt_1.subtitle": "觀察祈福之土",
@@ -414,8 +414,8 @@
 
   "sb3.resources.mob_farming.xp.title": "給我你的經驗",
   "sb3.resources.mob_farming.xp.subtitle": "贊助 100 等",
-  "sb3.resources.mob_farming.xp.description_1": "我經驗全乾了，給我 100 等，我會給你一些獎勵。",
-  "sb3.resources.mob_farming.xp.description_2": "靠著你的生怪場，我確定你有些庫存的！",
+  "sb3.resources.mob_farming.xp.description_1": "我經驗全乾了，若你願意分我 100 等， 我將會給你一些獎勵。",
+  "sb3.resources.mob_farming.xp.description_2": "靠著你的刷怪塔，我確定你有些庫存的！",
 
   "sb3.resources.passive.title": "被動資源獲取",
 
@@ -451,10 +451,10 @@
   "sb3.tech.industrial_forgoing.title": "工業先鋒",
 
   "sb3.if.fe.subtitle": "製作樹液提取器",
-  "sb3.if.fe.desc": "當&b樹液提取器&r對著原木時，會產生&6乳膠&r.",
+  "sb3.if.fe.desc": "當&b樹液提取器&r對著原木時，會產生&6乳膠&r。",
 
   "sb3.if.lpu.subtitle": "製作乳膠加工機",
-  "sb3.if.lpu.desc": "&b乳膠加工機&r消耗電力和水將乳膠轉換成&6乾橡膠粒&r.",
+  "sb3.if.lpu.desc": "&b乳膠加工機&r消耗電力和水將乳膠轉換成&6乾橡膠粒&r。",
 
   "sb3.if.mc.subtitle": "製作生物屠宰裝置",
   "sb3.if.mc.desc1": "&b生物屠宰裝置&r能擊殺生物，蒐集它們的掉落物。蒐集的經驗為精華液。",
@@ -477,7 +477,7 @@
 
   "sb3.if.myc.title": "菌絲發電機",
   "sb3.if.myc.subtitle": "製作任一種菌絲發電機",
-  "sb3.if.myc.desc1": "&6當所有其他的菌絲發電機同時運作時&r，&b菌絲網路反應爐&r能發出巨量的電力。.",
+  "sb3.if.myc.desc1": "&6當所有其他的菌絲發電機同時運作時&r，&b菌絲網路反應爐&r能發出巨量的電力。",
   "sb3.if.myc.desc2": "每一種&b菌絲發電機&r使用不同的燃料發電，像是 TNT 或龍之吐息。",
 
   "sb3.if.wb.subtitle": "製作凋零生成器",
@@ -493,10 +493,10 @@
   "sb3.if.oa.desc": "這些&b升級&r以不同的方式加速機器的運作。",
 
   "sb3.if.it.subtitle": "製作物品傳輸器",
-  "sb3.if.it.desc": "&b物品傳輸器&r在距離 1 格方塊的容器間，快速的傳輸物品。",
+  "sb3.if.it.desc": "&b物品傳輸器&r可在距離 1 格方塊的容器間， 快速地傳輸物品。",
 
   "sb3.if.ft.subtitle": "製作流體傳輸器",
-  "sb3.if.ft.desc": "&b流體傳輸器&r在距離 1 格方塊的儲罐間，快速的傳輸流體。",
+  "sb3.if.ft.desc": "&b流體傳輸器&可在距離 1 格方塊的儲罐間， 快速地傳輸流體。",
 
   "sb3.if.wt.subtitle": "製作世界傳輸器",
   "sb3.if.wt.desc": "&b世界傳輸器&r可將物品以實體的形式，將物品快速的從容器中放到世界上。",
@@ -608,48 +608,48 @@
 
   "sb3.tech.immersive_eng.title": "沉浸工程",
 
-  "sb3.ie.eh.subtitle": "製作 Engineer's Hammer",
-  "sb3.ie.eh.desc": "&bEngineer's Hammer&r在這個模組中是必備的，用來建造各種多方塊結構。",
+  "sb3.ie.eh.subtitle": "製作工程師鎚子",
+  "sb3.ie.eh.desc": "&b工程師鎚子&r在這個模組中是必備的，用來建造各種多方塊結構。",
 
-  "sb3.ie.ak.title": "Alloy Kiln",
-  "sb3.ie.ak.subtitle": "製作 Alloy Kiln",
-  "sb3.ie.ak.desc": "&bAlloy Kiln&r將金屬組合成合金。",
+  "sb3.ie.ak.title": "合金窯",
+  "sb3.ie.ak.subtitle": "製作合金窯",
+  "sb3.ie.ak.desc": "&b合金窯&r能將金屬組合成合金。",
 
-  "sb3.ie.co.title": "Coke Oven",
-  "sb3.ie.co.subtitle": "製作 Coke Oven",
-  "sb3.ie.co.desc": "&bCoke Oven&r 將煤炭轉換成焦炭和雜酚油。",
+  "sb3.ie.co.title": "焦爐",
+  "sb3.ie.co.subtitle": "製作焦爐",
+  "sb3.ie.co.desc": "&b焦爐&r能將煤炭轉換成焦炭和雜酚油。",
 
-  "sb3.ie.bo.title": "Crude Blast Furnace",
-  "sb3.ie.bo.subtitle": "製作 Crude Blast Furnace",
-  "sb3.ie.bo.desc": "&bCrude Blast Furnace&r用來煉鋼。",
+  "sb3.ie.bo.title": "高爐",
+  "sb3.ie.bo.subtitle": "製作高爐",
+  "sb3.ie.bo.desc": "&b高爐&r能用來煉鋼。",
 
-  "sb3.ie.ibf.title": "Improved Blast Furnace",
-  "sb3.ie.ibf.subtitle": "製作 Improved Blast Funace",
-  "sb3.ie.ibf.desc": "&bImproved Blast Furnace&r能用&bBlast Furnace Preheaters&r加速運作。",
+  "sb3.ie.ibf.title": "強化高爐",
+  "sb3.ie.ibf.subtitle": "製作強化高爐",
+  "sb3.ie.ibf.desc": "&b強化高爐&r能用&b高爐鼓風機&r加速運作。",
 
-  "sb3.ie.mp.title": "Metal Press",
-  "sb3.ie.mp.subtitle": "製作 Metal Press",
-  "sb3.ie.mp.desc": "&bMetal Press&r將金屬塑型造成各種物品。",
+  "sb3.ie.mp.title": "金屬沖壓機",
+  "sb3.ie.mp.subtitle": "製作金屬沖壓機",
+  "sb3.ie.mp.desc": "&b金屬沖壓機&r能將金屬塑型造成各種物品。",
 
-  "sb3.ie.c.title": "Crusher",
-  "sb3.ie.c.subtitle": "製作 Crusher",
-  "sb3.ie.c.desc": "&bCrusher&r將從上方進入的物品或生物粉碎。",
+  "sb3.ie.c.title": "粉碎機",
+  "sb3.ie.c.subtitle": "製作粉碎機",
+  "sb3.ie.c.desc": "&b粉碎機&r能將從上方進入的物品或生物粉碎。",
 
-  "sb3.ie.gc.subtitle": "製作 Garden Cloche",
-  "sb3.ie.gc.desc": "&bGarden Cloche&r能將內部的作物快速催熟。",
+  "sb3.ie.gc.subtitle": "製作玻璃園藝溫室罩",
+  "sb3.ie.gc.desc": "&b玻璃園藝溫室罩&r能將內部的作物快速催熟。",
 
   "sb3.tech.mekanism.title": "通用機械",
 
   "sb3.mek.vapor.title": "水蒸氣",
   "sb3.mek.vapor.subtitle": "製作迴旋式氣液轉換機",
   "sb3.mek.vapor.desc1": "&6釙&r需要核廢料，這表示你需要打造&6核分裂反應爐&r。",
-  "sb3.mek.vapor.desc2": "核分裂反應爐運作需要&6易裂變燃料&r，這是漫長且複雜的製作過程。",
+  "sb3.mek.vapor.desc2": "核分裂反應爐運作需要&6核分裂燃料&r，這是漫長且複雜的製作過程。",
   "sb3.mek.vapor.desc3": "第一步是從&b迴旋式氣液轉換機&r製作&6水蒸氣&r。",
 
   "sb3.mek.oxygen.title": "氧氣",
   "sb3.mek.oxygen.subtitle": "製作電解分離器",
   "sb3.mek.oxygen.desc1": "&b電解分離器&r將一個化學品轉換成其他的兩種。這裡用來將水轉換成氫氣和&6氧氣&r。",
-  "sb3.mek.oxygen.desc2": "氫氣可以倒掉，因為易裂變燃料不需要它。",
+  "sb3.mek.oxygen.desc2": "氫氣可以倒掉，因為核分裂燃料不需要它。",
 
   "sb3.mek.sdo.title": "二氧化硫",
   "sb3.mek.sdo.subtitle": "製作化學氧化機",
@@ -665,10 +665,10 @@
 
   "sb3.mek.hfa.title": "氫氟酸",
   "sb3.mek.hfa.subtitle": "製作化學溶解室",
-  "sb3.mek.hfa.desc": "&b化學溶解室&r用硫酸溶解物品成新的化學品。這裡用來將氟石溶解成&6氫氟酸&r.",
+  "sb3.mek.hfa.desc": "&b化學溶解室&r用硫酸溶解物品成新的化學品。這裡用來將氟石溶解成&6氫氟酸&r。",
 
   "sb3.mek.yc.subtitle": "取得黃餅鈾",
-  "sb3.mek.yc.desc": "&b黃餅鈾&r在易裂變燃料中是個關鍵的成分。",
+  "sb3.mek.yc.desc": "&b黃餅鈾&r在核分裂燃料中是個關鍵的成分。",
 
   "sb3.mek.uo.title": "氧化鈾",
   "sb3.mek.uo.subtitle": "取得氧化鈾",
@@ -676,16 +676,16 @@
 
   "sb3.mek.uhf.title": "六氟化鈾",
   "sb3.mek.uhf.subtitle": "取得六氟化鈾",
-  "sb3.mek.uhf.desc": "&b六氟化鈾&r是易裂變燃料最主要的成分。",
+  "sb3.mek.uhf.desc": "&b六氟化鈾&r是核分裂燃料最主要的成分。",
 
-  "sb3.mek.ff.title": "易裂變燃料",
+  "sb3.mek.ff.title": "核分裂燃料",
   "sb3.mek.ff.subtitle": "製作同位素離心機",
-  "sb3.mek.ff.desc": "&b同位素離心機&r將化學品轉換成另一種。這裡用來將六氟化鈾轉換成&6易裂變燃料&r。",
+  "sb3.mek.ff.desc": "&b同位素離心機&r將化學品轉換成另一種。這裡用來將六氟化鈾轉換成&6核分裂燃料&r。",
 
   "sb3.mek.fission.title": "核分裂反應爐",
   "sb3.mek.fission.subtitle": "打造核分裂反應爐",
-  "sb3.mek.fission.desc1": "&b核分裂反應爐&r是個大型的多方塊結構，會產生大量的熱，,這能用來發出極大量的電。",
-  "sb3.mek.fission.desc2": "然而更重要的是，會產生&6&o核廢料&r.",
+  "sb3.mek.fission.desc1": "&b核分裂反應爐&r是個大型的多方塊結構，會產生大量的熱，這能用來發出極大量的電。",
+  "sb3.mek.fission.desc2": "然而更重要的是，會產生&6&o核廢料&r。",
   "sb3.mek.fission.desc3": "坦白說，核分裂反應爐要在這說明實在是太複雜。幸運的是，這裡有個非常棒的網頁說明：",
 
   "sb3.mek.nw.title": "核廢料",
@@ -881,9 +881,9 @@
 
   "sb3.storage.title": "儲存系統",
 
-  "sb3.storage.drawers.title": "Functional Storage",
+  "sb3.storage.drawers.title": "功能性儲存",
   "sb3.storage.drawers.subtitle": "製作抽屜",
-  "sb3.storage.drawers.desc1": "&eFunctional Storage&r基本上類似&eStorage Drawers&r，但有些變化。",
+  "sb3.storage.drawers.desc1": "&e功能性儲存&r基本上類似&e儲物抽屜&r，但有些變化。",
   "sb3.storage.drawers.desc2": "基礎的仍然相同。&b抽屜&r能儲存相同的大量物品。&b壓縮抽屜&r能顯示它們的方塊、錠和粒的形式。",
   "sb3.storage.drawers.task1": "抽屜",
   "sb3.storage.drawers.task2": "壓縮抽屜",
@@ -893,14 +893,14 @@
   "sb3.storage.storagecontroller.desc2": "要連接控制器和抽屜，使用&b連接工具&r。",
 
   "sb3.storage.armory.subtitle": "製作軍械庫",
-  "sb3.storage.armory.desc1": "&b軍械庫&r能儲存&6至多 4096 個不能堆疊的物品&r，任意組合。",
+  "sb3.storage.armory.desc1": "&b軍械庫&r能儲存&6至多 4096 個不能堆疊的物品&r。",
   "sb3.storage.armory.desc2": "&c無法打開&r，它沒有介面。只能自動化輸入輸出。",
 
   "sb3.storage.fcups.title": "升級",
   "sb3.storage.fcups.subtitle": "製作任意的抽屜升級",
   "sb3.storage.fcups.desc1": "&b升級&r能以不同的方式升級抽屜。",
   "sb3.storage.fcups.desc2": "分為兩種類型，放入不同的欄位中。&6儲存&r升級增加抽屜的儲存容量，而&6功能&r升級改變抽屜的運作。",
-  "sb3.storage.fcups.desc3": "注意若你已熟悉&eStorage Drawers&r，你會發現&eFunctional Storage&r的儲存升級能&6以乘法&r堆疊，意思是只要兩個銅製升級會將容量增加至 &664 倍&r！",
+  "sb3.storage.fcups.desc3": "注意若你已熟悉&e儲物抽屜&r模組，你會發現&e功能性儲存&r的儲存升級能&6以乘法&r堆疊，意思是只要兩個銅製升級會將容量增加至 &664 倍&r！",
 
   "sb3.storage.bhu.title": "黑洞單元",
   "sb3.storage.bhu.subtitle": "製作黑洞單元",
@@ -913,11 +913,11 @@
   "sb3.storage.bht.desc2": "每個等級比起前一個等級以指數級提升儲量。",
 
   "sb3.storage.bhc.subtitle": "製作黑洞控制器",
-  "sb3.storage.bhc.desc1": "&b黑洞控制器&r能儲存 16 個黑洞單元或儲罐，並會&6整合它們的存放的東西&r。",
+  "sb3.storage.bhc.desc1": "&b黑洞控制器&r能儲存 16 個黑洞單元或儲罐，並會&6整合它們存放的東西&r。",
   "sb3.storage.bhc.desc2": "也就是說，控制器可會當成它的每個單元或儲罐所儲存的東西，整合成一個容器。",
 
   "sb3.rs.c.subtitle": "製作控制器",
-  "sb3.rs.c.desc": "&b控制器&r是&eRefined Storage&r網路的核心。",
+  "sb3.rs.c.desc": "&b控制器&r是&e《精緻儲存》&r網路的核心。",
 
   "sb3.rs.dd.subtitle": "製作硬碟驅動器",
   "sb3.rs.dd.desc": "&b硬碟驅動器&r能儲存硬碟，硬碟能儲存物品或流體。",
@@ -956,13 +956,13 @@
 
   "sb3.ae2.p.title": "壓印模板",
   "sb3.ae2.p.subtitle": "製作壓印模板",
-  "sb3.ae2.p.desc": "&b壓印模板&r用來製作各種&6電路板&r.",
+  "sb3.ae2.p.desc": "&b壓印模板&r用來製作各種&6電路板&r。",
 
   "sb3.ae2.c.subtitle": "製作控制器",
   "sb3.ae2.c.desc": "&b控制器&r是&eAE2&r網路的核心，為其他設備提供頻道。",
 
   "sb3.ae2.d.subtitle": "製作一個 ME 驅動器",
-  "sb3.ae2.d.desc": "&bME 驅動器&r能存放&6儲存元件&r.",
+  "sb3.ae2.d.desc": "&bME 驅動器&r能存放&6儲存元件&r。",
 
   "sb3.ae2.ic.title": "物品儲存元件",
   "sb3.ae2.ic.subtitle": "製作物品儲存元件",
@@ -977,7 +977,7 @@
 
   "sb3.ae2.st.subtitle": "製作 ME 安全終端機",
   "sb3.ae2.st.desc1": "&bME 安全終端機&r讓你能選擇其他玩家與你的 ME 系統的互動方式。",
-  "sb3.ae2.st.desc2": "同時也是將&6無線終端機&r綁訂至網路的地方。",
+  "sb3.ae2.st.desc2": "同時也是將&6無線終端機&r綁定至網路的地方。",
 
   "sb3.ae2.wt.subtitle": "製作無線終端機",
   "sb3.ae2.wt.desc": "&b無線終端機&r讓你無線存取網路。",
@@ -989,21 +989,21 @@
   "sb3.ae2.wct.desc": "&b無線合成終端機&r有 3x3 的合成介面。",
 
   "sb3.ae2.pet.subtitle": "製作 ME 樣板編碼終端機",
-  "sb3.ae2.pet.desc": "&bME 樣板編碼終端機&r能編寫&6樣板&r，這是自動合成的必需品。",
+  "sb3.ae2.pet.desc": "&bME 樣板編碼終端機&r能將配方編寫至&6樣板&r， 這是自動合成的必需品。",
 
   "sb3.ae2.pat.subtitle": "製作 ME 樣板存取終端機",
-  "sb3.ae2.pat.desc": "&bME 樣板存取終端機&r讓你存取所有網路中的樣板供應器。",
+  "sb3.ae2.pat.desc": "&bME 樣板存取終端機&r能讓你存取網路中 全部的樣板供應器。",
 
   "sb3.ae2.pp.subtitle": "製作 ME 樣板供應器",
-  "sb3.ae2.pp.desc": "&bME 樣板供應器&r是自動合成請求時，材料送至的地方。",
+  "sb3.ae2.pp.desc": "&bME 樣板供應器&r是自動合成請求時， 材料送往的地方。",
 
   "sb3.ae2.cs.title": "打造合成 CPU",
   "sb3.ae2.cs.task": "合成儲存器",
   "sb3.ae2.cs.subtitle": "打造合成 CPU",
-  "sb3.ae2.cs.desc": "當&b合成儲存器&r和&b協同處理合成器&r緊貼著放在一起時，構成&b合成 CPU&r，這是發出自動合成請求時的必需品。",
+  "sb3.ae2.cs.desc": "要搭建合成 CPU，你必須將&b合成儲存器&r 和&b協同處理合成器&r緊貼著放在一起，這是發出自動合成請求時的必需品。",
 
   "sb3.ae2.ma.subtitle": "製作分子組裝機",
-  "sb3.ae2.ma.desc": "當&b分子組裝機&r連接上 ME 樣板供應器時，會自動合成一般的配方。",
+  "sb3.ae2.ma.desc": "當&b分子組裝機&r連接上 ME 樣板供應器時， 會自動合成一般的配方。",
 
   "sb3.storage.modular.subtitle": "製作模塊化儲存器",
   "sb3.storage.modular.task": "儲存模組",
@@ -1039,7 +1039,7 @@
   "sb3.create.wrench.desc": "&b板手&r能調整機器。",
 
   "sb3.create.bb.subtitle": "製作烈焰使者動力爐",
-  "sb3.create.bb.desc": "&b烈焰使者動力爐&r在一些&6機械攪拌器&r的製作時是必須的。它能使用任何熔爐的燃料驅動，&b烈焰蛋糕&r是火力最強的。",
+  "sb3.create.bb.desc": "&b烈焰使者動力爐&r在一些&6機械攪拌器&r的製作時是必須的。它能使用任何熔爐的燃料驅動，&b烈焰蛋糕&r提供的火力是最強的。",
 
   "sb3.create.ma.subtitle": "製作機械臂",
   "sb3.create.ma.desc": "&b機械臂&r比輸送帶能更精確的移動物品。",
@@ -1092,7 +1092,7 @@
 
   "sb3.misc.mg.title": "挖掘小幫手",
   "sb3.misc.mg.subtitle": "製作挖掘小幫手",
-  "sb3.misc.mg.desc1": "&b挖掘小幫手&r發出雷射光破壞方塊，需要消耗電力。",
+  "sb3.misc.mg.desc1": "&b挖掘小幫手&r發出的雷射光可以破壞方塊，需要消耗電力。",
   "sb3.misc.mg.desc2": "三種造型的功能都是相同的，只有視覺建模不同而已。",
 
   "sb3.misc.mgu.title": "挖掘小幫手升級",
@@ -1106,7 +1106,7 @@
 
   "sb3.misc.temp.subtitle": "製作時間控制器",
   "sb3.misc.temp.desc1": "&b時間控制器&r的功能是&6從一個地方傳送至另一個地方&r。",
-  "sb3.misc.temp.desc2": "打開介面並選擇 \"執行程式\"。新增一個地點，你就能從任何地方傳送到此處。",
+  "sb3.misc.temp.desc2": "打開介面並選擇「執行程式」。新增一個地點，你就能從任何地方傳送到此處。",
   "sb3.misc.temp.desc3": "傳送完全免費，但有三分鐘的冷卻時間。",
 
   "sb3.misc.pouch.title": "時間錦囊",
@@ -1120,12 +1120,12 @@
 
   "sb3.misc.obelisk.title": "EnderIO，誰有意見？",
   "sb3.misc.obelisk.subtitle": "製作經驗方尖碑",
-  "sb3.misc.obelisk.desc1": "&b經驗方尖碑&r是個&a經驗除罐&r，在這邊你能快速的儲存並精確的取出你需要的經驗等級。",
-  "sb3.misc.obelisk.desc2": "它也能設為自動收集附近的經驗球的模式，且能設為接收紅石訊號時運作的模式！",
+  "sb3.misc.obelisk.desc1": "&b經驗方尖碑&r是個&a經驗儲罐&r，在這邊你能快速的儲存並精確的取出你需要的經驗等級。",
+  "sb3.misc.obelisk.desc2": "它也能用來自動收集附近的經驗球，且能使用紅石訊號控制！",
 
   "sb3.misc.trash.title": "垃圾桶",
   "sb3.misc.trash.subtitle": "製作垃圾桶",
-  "sb3.misc.trash.desc": "&b垃圾桶&r銷毀所有輸入的東西。",
+  "sb3.misc.trash.desc": "&b垃圾桶&r可銷毀所有輸入的東西。",
 
   "sb3.misc.cw.title": "建築之杖",
   "sb3.misc.cw.subtitle": "製作建築之杖",
@@ -1151,7 +1151,7 @@
   "sb3.misc.compact.desc2": "每個等級比前一個等級有更大的空間。可以使用&6通道&r輸入或輸出物品、流體和能量。",
   "sb3.misc.compact.task": "壓縮空間機械",
 
-  "sb3.misc.pp.title": "Pretty Pipes",
+  "sb3.misc.pp.title": "漂亮管道",
   "sb3.misc.pp.subtitle": "製作物品管道",
   "sb3.misc.pp.desc": "&b物品管道&r能傳輸物品。需要&6模組&r才能運作。",
 
@@ -1179,115 +1179,115 @@
   "sb3.endgame.pe": "等價交換",
 
   "sb3.pe.ec.subtitle": "製作能量聚集器",
-  "sb3.pe.ec.desc1": "&b能量聚集器&r將物品轉換成 EMC，然後把 EMC 轉換成其他物品。",
+  "sb3.pe.ec.desc1": "&b能量聚集器&r會將物品轉換成 EMC，然後把 EMC 轉換成其他物品。",
   "sb3.pe.ec.desc2": "在左上方欄位中放入你想要的物品，然後在儲存空間中放入要銷毀轉成 EMC 的物品。",
 
-  "sb3.pe.ec2.subtitle": "Make an Energy Condenser MK2",
-  "sb3.pe.ec2.desc": "The &bEnergy Condenser MK2&r has separate inventories for input and output.",
+  "sb3.pe.ec2.subtitle": "製作能量聚集器 MK2",
+  "sb3.pe.ec2.desc": "&b能量聚集器 MK2&r 將原本的物品欄分為輸入與輸出。",
 
-  "sb3.pe.tt.subtitle": "Make a Transmutation Table",
-  "sb3.pe.tt.desc1": "The &bTransmutation Table&r can deconstruct items, learning them and turning them into EMC (stored in the player).",
-  "sb3.pe.tt.desc2": "Learned items can be created on the right, using up EMC.",
-  "sb3.pe.tt.desc3": "EMC-using items can be charged in the slots on the left.",
+  "sb3.pe.tt.subtitle": "製作轉換桌",
+  "sb3.pe.tt.desc1": "在&b轉換台&r中將物品解構時，能夠習得該物品的轉換知識，並產生與物品相同價值的 EMC。",
+  "sb3.pe.tt.desc2": "習得的物品會出現在畫面右側，點擊他們會消耗 EMC 創造出該物品。",
+  "sb3.pe.tt.desc3": "若要為需要 EMC 的物品充能， 只需將它們放置在畫面左側的欄位上。",
 
-  "sb3.pe.tt2.subtitle": "Make a Transmutation Tablet",
-  "sb3.pe.tt2.desc": "The &bTransmutation Tablet&r is a portable Transmutation Table.",
+  "sb3.pe.tt2.subtitle": "製作轉換台",
+  "sb3.pe.tt2.desc": "&b轉換台&r是轉換桌的攜帶式版本。",
 
-  "sb3.pe.att.subtitle": "Make an Arcane Transmutation Tablet",
-  "sb3.pe.att.desc": "The &bArcane Transmutation Tablet&r is an upgraded Transmutation Tablet, with a better GUI and some nicer features.",
+  "sb3.pe.att.subtitle": "製作奧術轉換台",
+  "sb3.pe.att.desc": "&b奧術轉換台&r是轉換台的進階版本， 擁有更好看的介面以及更豐富的功能。",
 
-  "sb3.pe.at.subtitle": "Make an Alchemy Table",
-  "sb3.pe.at.desc": "The &bAlchemy Table&r can convert items to other items using EMC, provided by Energy Collectors.",
+  "sb3.pe.at.subtitle": "製作煉金桌",
+  "sb3.pe.at.desc": "&b煉金桌&r使用 EMC 將物品轉換成其他事物， 需要能量收集器為其供能。",
 
-  "sb3.pe.col.title": "Energy Collectors",
-  "sb3.pe.col.subtitle": "Make an Energy Collector",
-  "sb3.pe.col.desc": "&bEnergy Collectors&r &6passively generate EMC&r, sending it out to adjacent blocks like the Energy Condenser.",
+  "sb3.pe.col.title": "能量收集器",
+  "sb3.pe.col.subtitle": "製作能量收集器",
+  "sb3.pe.col.desc": "&b能量收集器&r能夠&6被動生產 EMC&r， 並供給至相鄰的方塊，像是能量聚集器。",
 
-  "sb3.pe.col2.title": "Energy Collectors+",
-  "sb3.pe.col2.subtitle": "Make a higher tier Energy Collectors",
-  "sb3.pe.col2.desc": "&bEnergy Collectors&r from the addon &eExtendedeXchange&r reach much higher tiers, producing exponentially more EMC per second.",
+  "sb3.pe.col2.title": "能量收集器+",
+  "sb3.pe.col2.subtitle": "製作更高等級的能量收集器",
+  "sb3.pe.col2.desc": "來自擴充模組的&b能量收集器&r，能夠升級到更高的等級，每秒可產生更多的 EMC。",
 
-  "sb3.pe.amr.title": "Anti-Matter Relays",
-  "sb3.pe.amr.subtitle": "Make an Anti-Matter Relay",
-  "sb3.pe.amr.desc1": "&bAnti-Matter Relays&r transfer EMC from adjacent Energy Collectors to adjacent Energy Condensers. This way, you can use 18 Collectors instead of 6.",
-  "sb3.pe.amr.desc2": "You can also charge EMC-holding items here.",
+  "sb3.pe.amr.title": "反物質轉繼器",
+  "sb3.pe.amr.subtitle": "製作反物質轉繼器",
+  "sb3.pe.amr.desc1": "&b反物質轉繼器&r會將來自能量收集器的 EMC， 傳輸到相鄰的能量聚集器。透過這種方式，你一台聚集器所能使用的能量收集器，會從 6 台增加到 18 台。",
+  "sb3.pe.amr.desc2": "你也能在轉繼器介面中為使用 EMC 的物品充能。",
 
-  "sb3.pe.amr2.title": "Anti-Matter Relays+",
-  "sb3.pe.amr2.subtitle": "Make a higher tier Anti-Matter Relay",
-  "sb3.pe.amr2.desc": "&bAnti-Matter Relays&r from the addon &eExtendedeXchange&r reach much higher tiers, moving exponentially more EMC per second. They &ccannot charge items&r however.",
+  "sb3.pe.amr2.title": "反物質轉繼器+",
+  "sb3.pe.amr2.subtitle": "製作更高等級的反物質轉繼器",
+  "sb3.pe.amr2.desc": "來自擴充模組的&b反物質轉繼器&r，能夠升級到更高的等級，每秒能移動的 EMC 也將指數性的成長。 然而遺憾的是，它們&c並不能夠為物品充能&r。",
 
-  "sb3.pe.tok.subtitle": "Make a Tome of Knowledge",
-  "sb3.pe.tok.desc": "The &bTome of Knowledge&r will &6teach all items&r when put through the Transmutation Tablet.",
+  "sb3.pe.tok.subtitle": "製作知識寶典",
+  "sb3.pe.tok.desc": "將&b知識寶典&r放入轉換台中解構，你將會立即&6習得所有物品的轉換知識&r。",
 
-  "sb3.pe.eml.subtitle": "Make the Energy EMC Link",
-  "sb3.pe.eml.desc": "The &bEnergy EMC Link&r will take EMC (from Collectors and Relays etc) and insert it into the owner's personal EMC.",
+  "sb3.pe.eml.subtitle": "製作能量 EMC 介面",
+  "sb3.pe.eml.desc": "&b能量 EMC 介面&r會從收集器或轉繼器取出 EMC， 並將 EMC 存入所有者的個人 EMC 網路中。",
 
-  "sb3.pe.ps.subtitle": "Make a Philosopher's Stone",
-  "sb3.pe.ps.desc": "The &bPhilosopher's Stone&r allows you to convert through equivalent items and blocks, by crafting or by right-clicking.",
+  "sb3.pe.ps.subtitle": "製作賢者之石",
+  "sb3.pe.ps.desc": "&b賢者之石&r能讓你透過合成或點擊右鍵，轉換相等價值的物品與方塊。",
 
-  "sb3.pe.woft.subtitle": "Make a Watch of Flowing Time",
-  "sb3.pe.woft.desc1": "The &bWatch of Flowing Time&r will speed up machines nearby you, at the cost of EMC.",
-  "sb3.pe.woft.desc2": "Enable with the \"Change Mode\" keybind, which is unbound by default.",
+  "sb3.pe.woft.subtitle": "製作時間洪流懷錶",
+  "sb3.pe.woft.desc1": "透過消耗 EMC， &b時間洪流懷錶&r能加快你附近機器的運作速度。",
+  "sb3.pe.woft.desc2": "使用「充能模式」快捷鍵來啟用懷錶功能，該鍵預設為未綁定。",
 
-  "sb3.pe.fuel.title": "Morbius Fuel",
-  "sb3.pe.fuel.subtitle": "Make an alchemical Fuel",
-  "sb3.pe.fuel.desc": "&bAlchemical Fuels&r smelt more items than normal Coal, and are used in certain recipes.",
+  "sb3.pe.fuel.title": "煉金燃料",
+  "sb3.pe.fuel.subtitle": "製作煉金燃料",
+  "sb3.pe.fuel.desc": "&b煉金燃料&r能比普通煤炭熔煉更多物品，並被使用在某些配方中。",
 
-  "sb3.pe.klein.title": "Klein Stars",
-  "sb3.pe.klein.subtitle": "Make a Klein Stars",
-  "sb3.pe.klein.desc": "&bKlein Stars&r (as well as &bMagnum Stars&r) store EMC in your inventory.",
+  "sb3.pe.klein.title": "卡萊恩能量之星",
+  "sb3.pe.klein.subtitle": "製作卡萊恩能量之星",
+  "sb3.pe.klein.desc": "&b卡萊恩能量之星&r（以及&b馬格蘭之星&r）能夠儲存 EMC，易於隨身攜帶。",
 
-  "sb3.pe.dm.subtitle": "Make Dark Matter",
-  "sb3.pe.dm.desc": "&bDark Matter&r is used in several crafting recipes.",
+  "sb3.pe.dm.subtitle": "製作暗物質",
+  "sb3.pe.dm.desc": "&b暗物質&r被使用在數個合成配方中。",
 
-  "sb3.pe.rm.subtitle": "Make Red Matter",
-  "sb3.pe.rm.desc": "&bRed Matter&r is used in several crafting recipes.",
+  "sb3.pe.rm.subtitle": "製作紅物質",
+  "sb3.pe.rm.desc": "&b紅物質&r被使用在數個合成配方中。",
 
-  "sb3.pe.dmt.title": "Dark Matter Tools",
-  "sb3.pe.dmt.subtitle": "Make a Dark Matter tool",
-  "sb3.pe.dmt.desc1": "&bDark Matter tools&r are unbreakable, and have special abilities.",
-  "sb3.pe.dmt.desc2": "Their power can be increased using the &6\"Charge\"&r key, and the modes can be changed with the &6\"Change Mode\"&r key.",
+  "sb3.pe.dmt.title": "暗物質工具",
+  "sb3.pe.dmt.subtitle": "製作暗物質工具",
+  "sb3.pe.dmt.desc1": "&b暗物質工具&r不會損壞，且擁有特殊的能力。",
+  "sb3.pe.dmt.desc2": "使用&6「充能」&r快捷鍵可以提升物品能量等級； 使用&6「變更模式」&r快捷鍵可以改變物品模式。",
 
-  "sb3.pe.rings.title": "Rings of Power",
-  "sb3.pe.rings.subtitle": "Make an alchemical ring",
-  "sb3.pe.rings.desc": "These &balchemical rings&r perform a variety of functions when worn or right-clicked.",
-  "sb3.pe.rings.task": "Alchemical rings",
+  "sb3.pe.rings.title": "能量戒指",
+  "sb3.pe.rings.subtitle": "製作煉金術戒指",
+  "sb3.pe.rings.desc": "這些&b煉金術戒指&r在配戴或點擊右鍵時，能夠發揮各式各樣的功能。",
+  "sb3.pe.rings.task": "煉金術戒指",
 
-  "sb3.pe.dma.title": "Dark Matter Armor",
-  "sb3.pe.dma.subtitle": "Make Dark Matter armor",
-  "sb3.pe.dma.desc": "&bDark Matter armor&r is unbreakable and VERY resistant to damage.",
+  "sb3.pe.dma.title": "暗物質盔甲",
+  "sb3.pe.dma.subtitle": "製作暗物質盔甲",
+  "sb3.pe.dma.desc": "&b暗物質盔甲&r不會損壞，並具有非常高的傷害抗性。",
 
-  "sb3.pe.rma.title": "Red Matter Armor",
-  "sb3.pe.rma.subtitle": "Make Red Matter armor",
-  "sb3.pe.rma.desc": "&bRed Matter armor&r is unbreakable and EVEN MORE resistant to damage.",
+  "sb3.pe.rma.title": "紅物質盔甲",
+  "sb3.pe.rma.subtitle": "製作紅物質盔甲",
+  "sb3.pe.rma.desc": "&b紅物質盔甲&r不會損壞，並具有比暗物質裝備更高的傷害抗性。",
 
-  "sb3.pe.gma.title": "Gem Armor",
-  "sb3.pe.gma.subtitle": "Make Gem armor",
-  "sb3.pe.gma.desc": "&bGem armor&r is unbreakable, grants you the ability to fly, and VERY VERY resistant to damage.",
+  "sb3.pe.gma.title": "寶石盔甲",
+  "sb3.pe.gma.subtitle": "製作寶石盔甲",
+  "sb3.pe.gma.desc": "&b寶石盔甲&r不會損壞，並賦予你飛行的能力。具有比紅物質裝備更高更高的傷害抗性。",
 
-  "sb3.pe.rmt.title": "Red Matter Tools",
-  "sb3.pe.rmt.subtitle": "Make a Red Matter tool",
-  "sb3.pe.rmt.desc": "&bRed Matter tools&r are direct upgrades to their Dark Matter versions.",
+  "sb3.pe.rmt.title": "紅物質工具",
+  "sb3.pe.rmt.subtitle": "製作紅物質工具",
+  "sb3.pe.rmt.desc": "&b紅物質工具&r可由暗物質版本直接升級。",
 
-  "sb3.pe.rmt2.title": "Upgraded Red Matter Tools",
-  "sb3.pe.rmt2.subtitle": "Make a upgraded Red Matter tool",
-  "sb3.pe.rmt2.desc": "The &bRed Morning Star&r is a combination of the Red Matter tools, and the &bRed Katar&r is a combination of the weapons.",
+  "sb3.pe.rmt2.title": "紅物質升級工具",
+  "sb3.pe.rmt2.subtitle": "製作紅物質升級工具",
+  "sb3.pe.rmt2.desc": "&b紅物質釘頭槌&r是由各式紅物質工具組成的複合工具，至於&b紅物質拳刃&r則是由各式紅物質武器組成的複合武器。",
 
-  "sb3.pe.flower.title": "Flower Power",
-  "sb3.pe.flower.subtitle": "Make any tier power flower",
-  "sb3.pe.flower.desc": "The power flower can generate EMC automatically without any input requirement. With 16 tiers available your EMC needs should easily be satisfied",
-  "sb3.pe.flower.desc2": "Try saying power flower, flower power 10 times fast!",
+  "sb3.pe.flower.title": "能量盆栽",
+  "sb3.pe.flower.subtitle": "製作任意等級的能量盆栽",
+  "sb3.pe.flower.desc": "能量盆栽能夠被動生產 EMC。總共分為 16 種等級，你的 EMC 需求應該很容易得到滿足。",
+  "sb3.pe.flower.desc2": "嘗試快速復誦「power flower，flower power」10 遍！",
 
-  "sb3.pe.elink.subtitle": "Make a Personal EMC Link",
-  "sb3.pe.elink.desc1": "The &bPersonal EMC Link&r works like an Energy Condenser, but uses your personal EMC.",
-  "sb3.pe.elink.desc2": "Items can be piped in and out.",
+  "sb3.pe.elink.subtitle": "製作個人 EMC 介面",
+  "sb3.pe.elink.desc1": "&b個人 EMC 介面&r與能量聚集器相似， 但使用的是你個人的 EMC 網路。",
+  "sb3.pe.elink.desc2": "可使用管道傳入和傳出物品。",
 
-  "sb3.pe.elink2.subtitle": "Make a Refined EMC Link",
-  "sb3.pe.elink2.desc1": "The &bRefined EMC Link&r constantly keeps 9 items stocked, using your personal EMC.",
-  "sb3.pe.elink2.desc2": "Teach it an item by inserting it, and it will keep the item stocked.",
+  "sb3.pe.elink2.subtitle": "製作精緻 EMC 介面",
+  "sb3.pe.elink2.desc1": "&b精緻 EMC 介面&r會使用你個人的 EMC 網路， 持續創造並庫存 9 種物品。",
+  "sb3.pe.elink2.desc2": "放入欲學習的物品，介面將持續地庫存那些物品。",
 
-  "sb3.pe.elink3.subtitle": "Make a Compressed Refined EMC Link",
-  "sb3.pe.elink3.desc": "Just like the Refined EMC Link, however with &6546r Output slots.",
+  "sb3.pe.elink3.subtitle": "製作壓縮精緻 EMC 介面",
+  "sb3.pe.elink3.desc": "與精緻 EMC 介面功能相似，但擁有 &654&r 格輸出欄位。",
 
   "sb3.endgame.avaritia_armor.title": "終極裝備",
 
