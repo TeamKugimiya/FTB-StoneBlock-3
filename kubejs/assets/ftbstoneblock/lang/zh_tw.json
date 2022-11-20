@@ -9,6 +9,73 @@
   "sdrp.sbd": "石頭世界",
   "ftbquests.task.ftbquests.checkmark": "點擊此處！",
 
+  "item.ftbstoneblock.stonepebble": "石頭碎塊",
+  "item.ftbstoneblock.mob_soul": "生物靈魂",
+  "item.ftbstoneblock.press_rod_die": "桿衝壓模具",
+  "item.ftbstoneblock.ritual_starter": "儀式啟動石",
+  "item.ftbstoneblock.cold_silverfish_shard": "酷寒蠹魚碎片",
+  "item.ftbstoneblock.warm_silverfish_shard": "溫暖蠹魚碎片",
+  "item.ftbstoneblock.silverfish_heart": "蠹魚之心",
+  "item.ftbstoneblock.incomplete_watch": "未完成的懷表",
+  "item.ftbstoneblock.incomplete_raw_basic_processor": "未完成的基礎處理器",
+  "item.ftbstoneblock.incomplete_raw_improved_processor": "未完成進階處理器",
+  "item.ftbstoneblock.incomplete_raw_advanced_processor": "未完成高級處理器",
+  "item.ftbstoneblock.incomplete_printed_logic_processor": "未完成的邏輯印刷電路板",
+  "item.ftbstoneblock.incomplete_printed_calculation_processor": "未完成的計算印刷電路板",
+  "item.ftbstoneblock.incomplete_printed_engineering_processor": "未完成的工程印刷電路板",
+  "item.ftbstoneblock.millstone_dummy_block": "石磨樣本方塊",
+  "item.avaritia.addon_singularity": "升級：處理 Tier 2 奇點",
+  "item.avaritia.balloon_singularity": "氣球奇點",
+  "item.avaritia.corrupted_ingot_singularity": "腐化金屬錠奇點",
+  "item.avaritia.enderium_block_singularity": "終界合金方塊奇點",
+  "item.avaritia.filter_pet_singularity": "生物篩選器（寵物）奇點",
+  "item.avaritia.infused_enderpearl_singularity": "蘊魔終界珍珠奇點",
+  "item.avaritia.manasteel_ingot_singularity": "魔力鋼錠奇點",
+  "item.avaritia.mob_soul_singularity": "生物靈魂奇點",
+  "item.avaritia.nether_star_singularity": "地獄之星奇點",
+  "item.avaritia.flux_block_singularity": "通量方塊奇點",
+  "item.avaritia.crystal_nitro_singularity": "地獄之星電晶奇點",
+  "item.avaritia.overclocker_node_singularity": "節點超頻奇點",
+  "item.avaritia.palette_singularity": "調色板與畫筆奇點",
+  "item.avaritia.pellet_polonium_singularity": "釙球奇點",
+  "item.avaritia.pig_iron_ingot_singularity": "豬鐵錠奇點",
+  "item.avaritia.etherealslate_singularity": "幽冥石板奇點",
+  "item.avaritia.magenta_matter_singularity": "洋紅色物質奇點",
+  "item.avaritia.source_gem_singularity": "魔源寶石奇點",
+  "item.avaritia.track_singularity": "火車軌道奇點",
+  "item.avaritia.uraninite_singularity": "晶質鈾燃料奇點",
+  "item.avaritia.wall_singularity": "壓縮空間機械牆壁奇點",
+  "item.avaritia.emerald_cluster_singularity": "綠寶石晶簇奇點",
+  "item.avaritia.xp_jelly_baby_singularity": "經驗軟糖奇點",
+  "block.ftbstoneblock.dust": "塵土",
+  "block.ftbstoneblock.crushed_netherrack": "地獄石碎塊",
+  "block.ftbstoneblock.crushed_endstone": "終界石碎塊",
+  "block.ftbstoneblock.crushed_deepslate": "深板岩碎塊",
+  "block.ftbstoneblock.1x_compressed_stone": "壓縮石頭",
+  "block.ftbstoneblock.2x_compressed_stone": "二重壓縮石頭",
+  "block.ftbstoneblock.3x_compressed_stone": "三重壓縮石頭",
+  "block.ftbstoneblock.1x_compressed_cobblestone": "壓縮鵝卵石",
+  "block.ftbstoneblock.2x_compressed_cobblestone": "二重壓縮鵝卵石",
+  "block.ftbstoneblock.3x_compressed_cobblestone": "三重壓縮鵝卵石",
+  "block.ftbstoneblock.1x_compressed_gravel": "壓縮礫石",
+  "block.ftbstoneblock.2x_compressed_gravel": "二重壓縮礫石",
+  "block.ftbstoneblock.3x_compressed_gravel": "三重壓縮礫石",
+  "block.ftbstoneblock.1x_compressed_dirt": "壓縮泥土",
+  "block.ftbstoneblock.2x_compressed_dirt": "二重壓縮泥土",
+  "block.ftbstoneblock.3x_compressed_dirt": "三重壓縮泥土",
+  "block.ftbstoneblock.1x_compressed_sand": "壓縮沙",
+  "block.ftbstoneblock.2x_compressed_sand": "二重壓縮沙",
+  "block.ftbstoneblock.3x_compressed_sand": "三重壓縮沙",
+  "block.ftbstoneblock.1x_compressed_deepslate": "壓縮深板岩",
+  "block.ftbstoneblock.2x_compressed_deepslate": "二重壓縮深板岩",
+  "block.ftbstoneblock.3x_compressed_deepslate": "三重壓縮深板岩",
+  "block.ftbstoneblock.1x_compressed_netherrack": "壓縮地獄石",
+  "block.ftbstoneblock.2x_compressed_netherrack": "二重壓縮地獄石",
+  "block.ftbstoneblock.3x_compressed_netherrack": "三重壓縮地獄石",
+  "block.ftbstoneblock.1x_compressed_endstone": "壓縮終界石",
+  "block.ftbstoneblock.2x_compressed_endstone": "二重壓縮終界石",
+  "block.ftbstoneblock.3x_compressed_endstone": "三重壓縮終界石",
+
   "entity.chickens.bronze_chicken": "青銅雞",
   "entity.chickens.lead_chicken": "鉛雞",
   "entity.chickens.lumium_chicken": "流明雞",
@@ -434,7 +501,7 @@
   "sb3.if.wt.subtitle": "製作世界傳輸器",
   "sb3.if.wt.desc": "&b世界傳輸器&r可將物品以實體的形式，將物品快速的從容器中放到世界上。",
 
-  "sb3.tech.rftools.title": "RF Tools",
+  "sb3.tech.rftools.title": "RF 工具",
 
   "sb3.rft.builder.subtitle": "製作建造機",
   "sb3.rft.builder.desc": "&b建造機&r從正上方的容器中，取出方塊放置出來，放置的範圍由放入機器裡的&b塑型卡片&r設定。",
@@ -455,7 +522,7 @@
   "sb3.rft.spawner.desc1": "&b生物生成器&r生成的生物由內部的&b注射器&r設定，注射器由攻擊生物來填滿。",
   "sb3.rft.spawner.desc2": "全部的生物需要 3 種物品：泥土／礫石／沙，植物和一種該生物的特定物品。這些物品由連接起來的&b物質投影機&r提供。",
 
-  "sb3.tech.powah.title": "Powah!",
+  "sb3.tech.powah.title": "波瓦科技！",
 
   "sb3.powah.thermo.title": "熱力發電機",
   "sb3.powah.thermo.subtitle": "製作熱力發電機",
@@ -498,7 +565,7 @@
   "sb3.powah.gate.subtitle": "製作終界門",
   "sb3.powah.gate.desc": "&b終界門&r允許由終界單元網路中提取電力。",
 
-  "sb3.tech.thermal.title": "Thermal Series",
+  "sb3.tech.thermal.title": "熱力系列",
 
   "sb3.thermal.mc.subtitle": "製作熔岩爐",
   "sb3.thermal.mc.desc": "&b熔岩爐&r將物品熔融成流體。",
@@ -539,7 +606,7 @@
   "sb3.thermal.ie.subtitle": "製作造石機",
   "sb3.thermal.ie.desc": "&b造石機&r能合併水和岩漿產出各種不同的方塊，像是石頭或深板岩。",
 
-  "sb3.tech.immersive_eng.title": "Immersive Engineering",
+  "sb3.tech.immersive_eng.title": "沉浸工程",
 
   "sb3.ie.eh.subtitle": "製作 Engineer's Hammer",
   "sb3.ie.eh.desc": "&bEngineer's Hammer&r在這個模組中是必備的，用來建造各種多方塊結構。",
@@ -571,7 +638,7 @@
   "sb3.ie.gc.subtitle": "製作 Garden Cloche",
   "sb3.ie.gc.desc": "&bGarden Cloche&r能將內部的作物快速催熟。",
 
-  "sb3.tech.mekanism.title": "Mekanism",
+  "sb3.tech.mekanism.title": "通用機械",
 
   "sb3.mek.vapor.title": "水蒸氣",
   "sb3.mek.vapor.subtitle": "製作迴旋式氣液轉換機",
@@ -631,7 +698,7 @@
 
   "sb3.magic.title": "魔法",
 
-  "sb3.magic.ars_nouveau.title": "Ars Nouveau",
+  "sb3.magic.ars_nouveau.title": "新生魔藝",
 
   "sb3.ars.nsb.subtitle": "Make a Novice Spell Book",
   "sb3.ars.nsb.desc1": "The &bNovice Spell Book&r allows you to make spells using Tier 1 Glyphs that you've learned.",
@@ -680,7 +747,7 @@
   "sb3.ars.robe.subtitle": "Make some magic armor",
   "sb3.ars.robe.desc": "&bRobes&r increase your mana capacity, each tier more than the last.",
 
-  "sb3.magic.botania.title": "Botania",
+  "sb3.magic.botania.title": "植物魔法",
 
   "sb3.botania.ff.subtitle": "Make Floral Fertilizer",
   "sb3.botania.ff.desc": "&bFloral Fertilizer&r grows Mystical Flowers when used.",
@@ -735,7 +802,7 @@
   "sb3.botania.dof.subtitle": "Get the Dice of Fate",
   "sb3.botania.dof.desc": "The &bDice of Fate&r (dropped by the second Guardian of Gaia) will give you a random Relic, which are unique and powerful items.",
 
-  "sb3.magic.blood_magic.title": "Blood Magic",
+  "sb3.magic.blood_magic.title": "血魔法",
 
   "sb3.bm.ba.subtitle": "Make a Blood Altar",
   "sb3.bm.ba.desc1": "The &bBlood Altar&r stores LP (blood, basically), and uses it to craft items.",
@@ -957,7 +1024,7 @@
 
   "sb3.armour.title": "終極裝備",
 
-  "sb3.create.title": "Create",
+  "sb3.create.title": "動力機械",
 
   "sb3.create.ww.subtitle": "製作水車",
   "sb3.create.ww.desc": "&b水車&r generate rotational energy when spun with a water current.",
@@ -1109,7 +1176,7 @@
 
   "sb3.endgame.title": "Endgame",
 
-  "sb3.endgame.pe": "ProjectE",
+  "sb3.endgame.pe": "等價交換",
 
   "sb3.pe.ec.subtitle": "Make an Energy Condenser",
   "sb3.pe.ec.desc1": "The &bEnergy Condenser&r converts items into EMC, and then EMC into another item.",
