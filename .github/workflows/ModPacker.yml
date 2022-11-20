@@ -39,7 +39,7 @@ jobs:
           path: "*.zip"
 
   ModPack-Release:
-    needs: [ ModPack, ModsResourcePack ]
+    needs: [ ModPack ]
     if: "${{ github.event.inputs.tag != '開發版' }}"
     name: 發布模組包
     runs-on: ubuntu-latest
