@@ -1,0 +1,73 @@
+name: ModPacker
+
+on:
+  workflow_dispatch:
+    inputs:
+      modpack_version:
+        description: "模組包版本"
+        required: false
+        default: "v1.0"
+      tag:
+        description: "發布版本，例如 v1.0（如果為空，將只會生成開發版）"
+        required: false
+        default: "開發版"
+
+permissions:
+  contents: write
+
+jobs:
+  ModPack:
+    name: 製作模組包補丁
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 查看專案
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 執行製作補丁的腳本
+        id: script
+        env: 
+          VERSION: ${{ github.event.inputs.tag }}
+        run: bash .github/scripts/ModPacker.sh
+
+      - name: 上傳模組包補丁壓縮檔
+        uses: actions/upload-artifact@v3
+        with:
+          name: 模組包補丁壓縮檔
+          path: "*.zip"
+
+  ModPack-Release:
+    needs: [ ModPack, ModsResourcePack ]
+    if: "${{ github.event.inputs.tag != '開發版' }}"
+    name: 發布模組包
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 下載所有壓縮檔
+        uses: actions/download-artifact@v3
+
+      - name: 移動檔案到主工作資料夾
+        run: |
+          mv 模組包補丁壓縮檔/*.zip .
+
+      - name: 創建發布
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ${{ steps.script.outputs.modpack_name }} 中文化翻譯 ${{ github.event.inputs.tag }}
+          tag_name: ${{ github.event.inputs.tag }}
+          prerelease: true
+          files: "*.zip"
+          body: |
+            ## ${{ steps.script.outputs.modpack_name }} 模組包版本 ${{ github.event.inputs.modpack_version }}
+
+            ## 下載安裝
+            請下載下方的 ``${{ steps.script.outputs.modpack_name }}-Patches.zip`` 與 ``${{ steps.script.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip``
+
+            ## 模組包中文化補丁
+            使用 7-Zip 等軟體開啟 ``${{ steps.script.outputs.modpack_name }}-Patches.zip`` 壓縮檔，並將壓縮檔中的內容，解壓縮到模組包的 ``.minecraft`` 資料夾
+
+            ## 模組中文化補充
+            由於仍有部分模組翻譯尚未完成，故建議搭配[簡轉繁資源包](https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/tag/latest)使用
+
