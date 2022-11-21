@@ -3,7 +3,7 @@ onEvent('rei.information', (event) => {
 		'空手破壞石頭來取得石頭石塊。',
 	])
 	event.addItem('ftbstoneblock:mob_soul', 'Souls', [
-		'生物死亡時 80% 機率掉落。',
+		'生物死亡時 20% 機率掉落。',
 	])
 	event.addItem('ftbstoneblock:ritual_starter', 'Rituals', [
 		'可在終界城結構中找到。',
@@ -24,7 +24,7 @@ onEvent('rei.information', (event) => {
 		[
 			'蠹魚母后死亡時掉落',
 			' ',
-			'必須在終界之環外的 Boss 房中召喚'
+			'需要在終界之環外的 Boss 地牢中召喚'
 		]
 	)
 
@@ -45,7 +45,7 @@ onEvent('rei.information', (event) => {
 	)
 
 	event.addItem(
-		'mob_grinding_utils:gm_chicken_feed_cursed',
+		'mob_grinding_utils:rotten_egg',
 		'GM Chicken Feed Cursed',
 		[
 			'將受詛咒的基改雞飼料餵食雞後獲得'
