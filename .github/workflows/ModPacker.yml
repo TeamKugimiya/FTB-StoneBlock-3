@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 jobs:
-  ModPackSetup:
+  ModPack-Setup:
     runs-on: ubuntu-latest
 
     outputs:
@@ -58,7 +58,7 @@ jobs:
           name: 模組包補丁壓縮檔
           path: "*.zip"
 
-  ModsResourcePack:
+  Mods-ResourcePack:
     name: 製作模組資源包
     if: "${{ needs.ModPackSetup.outputs.mods_gen != 'false' }}"
     runs-on: ubuntu-latest
@@ -106,7 +106,7 @@ jobs:
           path: "*.zip"
 
   ModPack-Release:
-    needs: [ ModPack, ModsResourcePack ]
+    needs: [ ModPack-Path, Mods-ResourcePack ]
     if: "${{ github.event.inputs.tag != '開發版' }}"
     name: 發布模組包
     runs-on: ubuntu-latest
