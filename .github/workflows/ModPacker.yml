@@ -115,7 +115,7 @@ jobs:
           path: "*.zip"
 
   ModPack-Release:
-    needs: [ ModPack-Path, Mods-ResourcePack ]
+    needs: [ ModPack-Setup, ModPack-Path, Mods-ResourcePack ]
     if: "${{ github.event.inputs.tag != '開發版' }}"
     name: 發布模組包
     runs-on: ubuntu-latest
@@ -128,10 +128,10 @@ jobs:
         run: |
           mv 模組包補丁壓縮檔/*.zip .
 
-      # - name: 移動檔案到主工作資料夾 (資源包)
-      #   if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-      #   run: |
-      #     mv 模組中文化資源包/*.zip .
+      - name: 移動檔案到主工作資料夾 (資源包)
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
+        run: |
+          mv 模組中文化資源包/*.zip .
 
       - name: 創建發布
         uses: softprops/action-gh-release@v1
