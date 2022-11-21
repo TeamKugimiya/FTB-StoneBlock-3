@@ -11,12 +11,33 @@ on:
         description: "發布版本，例如 v1.0（如果為空，將只會生成開發版）"
         required: false
         default: "開發版"
+      per_release:
+        description: "預先發布版"
+        required: false
+        type: boolean
 
 permissions:
   contents: write
 
 jobs:
-  ModPack:
+  ModPackSetup:
+    runs-on: ubuntu-latest
+
+    outputs:
+      modpack_name: ${{ steps.script_env.outputs.modpack_name }}
+      mods_gen: ${{ steps.script_env.outputs.mods_gen }}
+
+    steps:
+      - name: 查看專案
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: 設置環境
+        id: script_env
+        run: bash .github/scripts/ModPacker.sh 1
+
+  ModPack-Path:
     name: 製作模組包補丁
     runs-on: ubuntu-latest
 
@@ -27,10 +48,9 @@ jobs:
           fetch-depth: 0
 
       - name: 執行製作補丁的腳本
-        id: script
         env: 
           VERSION: ${{ github.event.inputs.tag }}
-        run: bash .github/scripts/ModPacker.sh
+        run: bash .github/scripts/ModPacker.sh 2
 
       - name: 上傳模組包補丁壓縮檔
         uses: actions/upload-artifact@v3
@@ -38,8 +58,55 @@ jobs:
           name: 模組包補丁壓縮檔
           path: "*.zip"
 
+  ModsResourcePack:
+    name: 製作模組資源包
+    if: "${{ needs.ModPackSetup.outputs.mods_gen != 'false' }}"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 查看專案
+        uses: actions/checkout@v3
+        with:
+          ref: resoucepack
+          fetch-depth: 0
+      
+      - name: 自動更新版本
+        run: |
+          sed -i 's/$VERSION/'${{ github.event.inputs.tag }}'/1' pack.mcmeta
+
+      - name: 製作模組中文化資源包
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          force_include_files: |
+            LICENSE
+          never_store_squash_times: true
+          path: ./
+
+      - name: 下載壓縮檔
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: 刪除 Artifact
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            Optimized pack
+
+      - name: 重新命名壓縮檔
+        run: |
+          mv ./pack.zip ${{ needs.ModPackSetup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip
+
+      - name: 上傳模組中文化資源包
+        uses: actions/upload-artifact@v3
+        with:
+          name: 模組中文化資源包
+          path: "*.zip"
+
   ModPack-Release:
-    needs: [ ModPack ]
+    needs: [ ModPack, ModsResourcePack ]
     if: "${{ github.event.inputs.tag != '開發版' }}"
     name: 發布模組包
     runs-on: ubuntu-latest
@@ -48,26 +115,33 @@ jobs:
       - name: 下載所有壓縮檔
         uses: actions/download-artifact@v3
 
-      - name: 移動檔案到主工作資料夾
+      - name: 移動檔案到主工作資料夾 (補丁)
         run: |
           mv 模組包補丁壓縮檔/*.zip .
+
+      - name: 移動檔案到主工作資料夾 (資源包)
+        if: "${{ needs.ModPackSetup.outputs.mods_gen != 'false' }}"
+        run: |
+          mv 模組中文化資源包/*.zip .
 
       - name: 創建發布
         uses: softprops/action-gh-release@v1
         with:
-          name: ${{ steps.script.outputs.modpack_name }} 中文化翻譯 ${{ github.event.inputs.tag }}
+          name: ${{ needs.ModPackSetup.outputs.modpack_name }} 中文化翻譯 ${{ github.event.inputs.tag }}
           tag_name: ${{ github.event.inputs.tag }}
-          prerelease: true
+          prerelease: ${{ github.event.inputs.per_release }}
           files: "*.zip"
           body: |
-            ## ${{ steps.script.outputs.modpack_name }} 模組包版本 ${{ github.event.inputs.modpack_version }}
+            ## ${{ needs.ModPackSetup.outputs.modpack_name }} 模組包版本 ${{ github.event.inputs.modpack_version }}
 
             ## 下載安裝
-            請下載下方的 ``${{ steps.script.outputs.modpack_name }}-Patches.zip`` 與 ``${{ steps.script.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip``
+            請下載下方的 ``${{ needs.ModPackSetup.outputs.modpack_name }}-Patches.zip`` 與 ``${{ needs.ModPackSetup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip``
 
             ## 模組包中文化補丁
-            使用 7-Zip 等軟體開啟 ``${{ steps.script.outputs.modpack_name }}-Patches.zip`` 壓縮檔，並將壓縮檔中的內容，解壓縮到模組包的 ``.minecraft`` 資料夾
+            使用 7-Zip 等軟體開啟 ``${{ needs.ModPackSetup.outputs.modpack_name }}-Patches.zip`` 壓縮檔，並將壓縮檔中的內容，解壓縮到模組包的 ``.minecraft`` 資料夾
+
+            ## 模組中文化資源包
+            將 ``${{ needs.ModPackSetup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip`` 放入模組包的 ``resourcepacks`` 資料夾，並在遊戲中選取並載入
 
             ## 模組中文化補充
             由於仍有部分模組翻譯尚未完成，故建議搭配[簡轉繁資源包](https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/tag/latest)使用
-
