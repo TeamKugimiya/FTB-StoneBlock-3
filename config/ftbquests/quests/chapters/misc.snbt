@@ -392,7 +392,6 @@
 			description: ["{sb3.misc.pp.desc}"]
 			dependencies: ["37FEF989403B06BE"]
 			hide: true
-			description: ["{sb3.misc.ppm.desc}"]
 			id: "50BE3520161C4729"
 			tasks: [{
 				id: "39A87D038B3862E2"
