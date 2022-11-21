@@ -530,11 +530,11 @@
 
   "sb3.powah.magmator.title": "熔岩發電機",
   "sb3.powah.magmator.subtitle": "製作熔岩發電機",
-  "sb3.powah.magmator.desc": "&b熔岩發電機&r用岩漿發電。",
+  "sb3.powah.magmator.desc": "&b熔岩發電機&r用熔岩發電。",
 
   "sb3.powah.reactor.title": "反應爐",
   "sb3.powah.reactor.subtitle": "製作反應爐",
-  "sb3.powah.reactor.desc": "&b反應爐&r用精質鈾燃料發電。必須放置成 3x4x3 的結構",
+  "sb3.powah.reactor.desc": "&b反應爐&r用晶質鈾燃料發電。必須放置成 3x4x3 的結構",
 
   "sb3.powah.cell.title": "能量單元",
   "sb3.powah.cell.subtitle": "製作能量單元",
@@ -805,11 +805,11 @@
   "sb3.magic.blood_magic.title": "血魔法",
 
   "sb3.bm.ba.subtitle": "製作血祭壇",
-  "sb3.bm.ba.desc1": "&b血祭壇&r儲存 LP （基本上就是血），並用來製作物品。",
+  "sb3.bm.ba.desc1": "&b血祭壇&r儲存 LP（基本上就是血）， 並用來製作物品。",
   "sb3.bm.ba.desc2": "現在，使用&b犧牲匕首&r用你的血填入它。",
 
   "sb3.bm.wbo.subtitle": "製作微弱血寶珠",
-  "sb3.bm.wbo.desc1": "&b血寶珠&r給你一個保存 LP 的空間，稱為&6靈魂網路&r，這是用來啟動儀式和印記。",
+  "sb3.bm.wbo.desc1": "&b血寶珠&r給你一個保存 LP 的空間， 稱為&6靈魂網路&r，這是用來啟動儀式和印記。",
   "sb3.bm.wbo.desc2": "&b虛弱血寶珠&r是第一個且最小的，能儲存 &65,000 LP&r。右鍵綁定和填入血。也可以在血祭壇中填入血。",
 
   "sb3.bm.abo.subtitle": "製作學徒血寶珠",
@@ -846,7 +846,7 @@
 
   "sb3.bm.bat.title": "血祭壇等級",
   "sb3.bm.bat.subtitle": "打造 2 階血祭壇",
-  "sb3.bm.bat.desc1": "&6血祭壇&r有 5 階的等級可提升，每個等級必須在周圍放置特定的方塊。",
+  "sb3.bm.bat.desc1": "&6血祭壇&r有 5 階的等級可提升， 每個等級必須在周圍放置特定的方塊。",
   "sb3.bm.bat.desc2": "第二階需要在它周圍低一格的位置放置 8 個&b符文&r。隨著祭壇升級，放置的符文數量倍增。符文能提供祭壇不同的功能。",
   "sb3.bm.bat.desc3": "特定的物品製作需要高階的祭壇等級。用&6血染之書&r查看所有等級的祭壇的建構指南。",
   "sb3.bm.bat.task": " 8 個符文",
@@ -862,11 +862,11 @@
 
   "sb3.bm.sig.title": "印記",
   "sb3.bm.sig.subtitle": "製作任一種印記",
-  "sb3.bm.sig.desc": "&b印記&r消耗靈魂網路中的 LP 執行各種功能，像是放置光源或催生作物。",
+  "sb3.bm.sig.desc": "&b印記&r消耗靈魂網路中的 LP 執行各種功能， 像是放置光源或催生作物。",
 
   "sb3.bm.ritual.title": "儀式",
   "sb3.bm.ritual.subtitle": "製作儀式所需材料",
-  "sb3.bm.ritual.desc1": "&b儀式&r消耗靈魂網路中的 LP 進行各種工作。從&6生產礦物&r，&6催生作物&r和&6傷害怪物為血祭壇供應 LP&r，相當多元。",
+  "sb3.bm.ritual.desc1": "&b儀式&r消耗靈魂網路中的 LP 進行各種工作。 從&6生產礦物&r，&6催生作物&r和&6傷害怪物為血祭壇供應 LP&r，相當多元。",
   "sb3.bm.ritual.desc2": "儀式正中間會需要&b主儀式石&r，周圍需要放置一些&b儀式石&r，儀式石用&b銘文工具&r上色，最後使用&b活化水晶&r啟動儀式。",
   "sb3.bm.ritual.desc3": "強烈推薦使用&6儀式占卜杖&r自動建造儀式所需的多方塊結構。",
   "sb3.bm.ritual.task": "銘文工具",
@@ -1316,7 +1316,7 @@
   "sb3.endgame.avaritia_armor.axe.description": "",
 
   "sb3.endgame.avaritia_armor.shovel.title": "終極裝備之鏟",
-  "sb3.endgame.avaritia_armor.shovel.subtitle": "大陸挖掘者",
+  "sb3.endgame.avaritia_armor.shovel.subtitle": "軟土深掘",
   "sb3.endgame.avaritia_armor.shovel.description": "",
 
   "sb3.endgame.avaritia_armor.bow.title": "終極裝備之弓",

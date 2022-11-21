@@ -1,0 +1,21 @@
+{
+	version: 13
+	title: "FTB 只有石頭的世界 3"
+	icon: "minecraft:stone"
+	default_reward_team: false
+	default_consume_items: false
+	default_autoclaim_rewards: "disabled"
+	default_quest_shape: "hexagon"
+	default_quest_disable_jei: true
+	emergency_items_cooldown: 300
+	drop_loot_crates: true
+	loot_crate_no_drop: {
+		passive: 10000
+		monster: 14000
+		boss: 800
+	}
+	disable_gui: false
+	grid_scale: 0.5d
+	pause_game: false
+	lock_message: ""
+}

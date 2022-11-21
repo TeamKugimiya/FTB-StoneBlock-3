@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "63F67B5070A95ADA", title: "{sb3.resources.title}" }
+		{ id: "412E52F3AAC9D76D", title: "{sb3.tech.title}" }
+		{ id: "3B6903F05BA0D6F8", title: "{sb3.magic.title}" }
+		{ id: "46116CDCA8131606", title: "遊戲後期" }
+	]
+}
