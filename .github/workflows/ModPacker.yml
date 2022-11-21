@@ -62,22 +62,24 @@ jobs:
 
   Mods-ResourcePack:
     name: 製作模組資源包
-    if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
     runs-on: ubuntu-latest
     needs: [ ModPack-Setup ]
 
     steps:
       - name: 查看專案
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         uses: actions/checkout@v3
         with:
           ref: resoucepack
           fetch-depth: 0
       
       - name: 自動更新版本
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         run: |
           sed -i 's/$VERSION/'${{ github.event.inputs.tag }}'/1' pack.mcmeta
 
       - name: 製作模組中文化資源包
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         uses: ComunidadAylas/PackSquash-action@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -87,22 +89,26 @@ jobs:
           path: ./
 
       - name: 下載壓縮檔
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         uses: actions/download-artifact@v2
         with:
           name: Optimized pack
           path: ./
 
       - name: 刪除 Artifact
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         uses: geekyeggo/delete-artifact@v1
         with:
           name: |
             Optimized pack
 
       - name: 重新命名壓縮檔
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         run: |
           mv ./pack.zip ${{ needs.ModPack-Setup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip
 
       - name: 上傳模組中文化資源包
+        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
         uses: actions/upload-artifact@v3
         with:
           name: 模組中文化資源包
