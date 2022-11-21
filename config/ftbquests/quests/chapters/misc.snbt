@@ -670,6 +670,7 @@
 			x: -3.0d
 			y: -5.0d
 			subtitle: "{sb3.misc.ppm.subtitle}"
+			description: ["{sb3.misc.ppm.desc}"]
 			dependencies: ["50BE3520161C4729"]
 			id: "7394E31705DEFDEE"
 			tasks: [{
