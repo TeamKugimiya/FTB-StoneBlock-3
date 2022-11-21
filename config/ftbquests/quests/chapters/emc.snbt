@@ -13,6 +13,7 @@
 			y: 0.5d
 			subtitle: "{sb3.pe.ps.subtitle}"
 			description: ["{sb3.pe.ps.desc}"]
+			dependencies: ["484A0F72323EC041"]
 			hide: true
 			id: "1A55E687FC8701B9"
 			tasks: [{
@@ -42,6 +43,7 @@
 				""
 				"{sb3.pe.ec.desc2}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "1289F314A59F150D"
 			tasks: [{

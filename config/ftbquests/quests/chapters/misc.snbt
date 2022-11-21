@@ -1,7 +1,7 @@
 {
 	id: "22F7A082C75AE62A"
 	group: ""
-	order_index: 3
+	order_index: 4
 	filename: "misc"
 	title: "{sb3.misc.title}"
 	icon: "minecraft:lava_bucket"
@@ -13,6 +13,7 @@
 			y: -7.0d
 			subtitle: "{sb3.misc.torch.subtitle}"
 			description: ["{sb3.misc.torch.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "5ADEA03CEBD71902"
 			tasks: [{
@@ -31,6 +32,7 @@
 			y: -6.0d
 			subtitle: "{sb3.misc.dread.subtitle}"
 			description: ["{sb3.misc.dread.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "2AF87A55477F05A2"
 			tasks: [{
@@ -49,6 +51,7 @@
 			y: -6.0d
 			subtitle: "{sb3.misc.feral.subtitle}"
 			description: ["{sb3.misc.feral.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "017BB2CB0424F998"
 			tasks: [{
@@ -75,6 +78,7 @@
 			y: -6.5d
 			subtitle: "{sb3.misc.cw.subtitle}"
 			description: ["{sb3.misc.cw.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "1B47022DE8498690"
 			tasks: [{
@@ -146,6 +150,7 @@
 			y: -4.0d
 			subtitle: "{sb3.misc.bg.subtitle}"
 			description: ["{sb3.misc.bg.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "327C4BC62AB5BB69"
 			tasks: [{
@@ -234,6 +239,7 @@
 				""
 				"{sb3.misc.mg.desc2}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			min_width: 240
 			id: "5586997B10A4729B"
@@ -317,6 +323,7 @@
 			y: -4.0d
 			subtitle: "{sb3.misc.cs.subtitle}"
 			description: ["{sb3.misc.cs.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "75107C8493301066"
 			tasks: [{
@@ -383,7 +390,9 @@
 			y: -6.0d
 			subtitle: "{sb3.misc.pp.subtitle}"
 			description: ["{sb3.misc.pp.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
+			description: ["{sb3.misc.ppm.desc}"]
 			id: "50BE3520161C4729"
 			tasks: [{
 				id: "39A87D038B3862E2"
@@ -441,6 +450,7 @@
 				""
 				"{sb3.misc.compact.desc2}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "1063A24489BB7E2E"
 			tasks: [
@@ -507,6 +517,7 @@
 				""
 				"{sb3.misc.ent.desc2}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "71415BF6AE6EA774"
 			tasks: [
@@ -540,6 +551,7 @@
 			y: -3.0d
 			subtitle: "{sb3.misc.tess.subtitle}"
 			description: ["{sb3.misc.tess.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "3E1099FF28F25D31"
 			tasks: [{
@@ -559,6 +571,7 @@
 			y: -8.0d
 			subtitle: "{sb3.misc.trash.subtitle}"
 			description: ["{sb3.misc.trash.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "1DCF26306E81D7C5"
 			tasks: [{
@@ -585,6 +598,7 @@
 			y: -3.5d
 			subtitle: "{sb3.misc.pz.subtitle}"
 			description: ["{sb3.misc.pz.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "25855E77338C6D33"
 			tasks: [
@@ -656,7 +670,6 @@
 			x: -3.0d
 			y: -5.0d
 			subtitle: "{sb3.misc.ppm.subtitle}"
-			description: ["{sb3.misc.ppm.desc}"]
 			dependencies: ["50BE3520161C4729"]
 			id: "7394E31705DEFDEE"
 			tasks: [{
@@ -683,6 +696,7 @@
 			y: -8.0d
 			subtitle: "{sb3.misc.if.subtitle}"
 			description: ["{sb3.misc.if.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "0B9DD4C2DBE3866A"
 			tasks: [{
@@ -751,6 +765,7 @@
 				""
 				"{sb3.misc.temp.desc3}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "23B4241D333DD132"
 			tasks: [{
@@ -770,6 +785,7 @@
 			y: -5.5d
 			subtitle: "{sb3.misc.pouch.subtitle}"
 			description: ["{sb3.misc.pouch.desc}"]
+			dependencies: ["484A0F72323EC041"]
 			hide: true
 			id: "2561714400927831"
 			tasks: [{
@@ -797,6 +813,7 @@
 				""
 				"{sb3.misc.hearthstone.desc2}"
 			]
+			dependencies: ["484A0F72323EC041"]
 			hide: true
 			min_width: 240
 			id: "4B8B94355B2C6741"
@@ -828,6 +845,7 @@
 				""
 				"{sb3.misc.obelisk.desc2}"
 			]
+			dependencies: ["484A0F72323EC041"]
 			hide: true
 			id: "09716D856403E10E"
 			tasks: [{

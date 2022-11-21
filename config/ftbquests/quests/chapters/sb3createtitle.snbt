@@ -17,6 +17,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_press\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "080BE16FD548E454"
 			tasks: [{
@@ -39,6 +40,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_mixer\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "3F3F83DE0C10A6A7"
 			tasks: [{
@@ -64,6 +66,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:track_station\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "350B9FC11291FD35"
 			tasks: [
@@ -94,6 +97,7 @@
 			y: -0.5d
 			subtitle: "{sb3.create.eg.subtitle}"
 			description: ["{sb3.create.eg.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "46E0FED036104B94"
 			tasks: [{
@@ -116,6 +120,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_crafter\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "67A3E71DA6A8B7C0"
 			tasks: [{
@@ -138,6 +143,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:steam_engine\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "2ADD182292E9E0E1"
 			tasks: [{
@@ -160,6 +166,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_arm\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "059162BAC52F8983"
 			tasks: [{
@@ -182,6 +189,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:water_wheel\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "27FFB355351E54D1"
 			tasks: [{
@@ -200,6 +208,7 @@
 			y: -3.5d
 			subtitle: "{sb3.create.wrench.subtitle}"
 			description: ["{sb3.create.wrench.desc}"]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "4ACEC3974A632EFD"
 			tasks: [{
@@ -222,6 +231,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:mechanical_harvester\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "492D94E279F7C512"
 			tasks: [{
@@ -274,6 +284,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder createaddition:electric_motor\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "68DDC54FA09769AF"
 			tasks: [{
@@ -296,6 +307,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder createaddition:alternator\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "6E950039FFD6DBB0"
 			tasks: [{
@@ -318,6 +330,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:belt_connector\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "446705A2875A140B"
 			tasks: [{
@@ -340,6 +353,7 @@
 				""
 				"{\"text\":\"點擊此處開啟教學動畫\", \"color\":\"yellow\", \"underlined\": true, \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/create ponder create:redstone_link\"}}"
 			]
+			dependencies: ["37FEF989403B06BE"]
 			hide: true
 			id: "658922B537BF49F7"
 			tasks: [{
