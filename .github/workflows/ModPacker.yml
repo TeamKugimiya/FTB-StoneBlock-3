@@ -121,6 +121,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: 查看專案
+        uses: actions/checkout@v3
+
       - name: 下載所有壓縮檔
         uses: actions/download-artifact@v3
 
@@ -140,17 +143,4 @@ jobs:
           tag_name: ${{ github.event.inputs.tag }}
           prerelease: ${{ github.event.inputs.per_release }}
           files: "*.zip"
-          body: |
-            ## ${{ needs.ModPack-Setup.outputs.modpack_name }} 模組包版本 ${{ github.event.inputs.modpack_version }}
-
-            ## 下載安裝
-            請下載下方的 ``${{ needs.ModPack-Setup.outputs.modpack_name }}-Patches.zip`` 與 ``${{ needs.ModPack-Setup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip``
-
-            ## 模組包中文化補丁
-            使用 7-Zip 等軟體開啟 ``${{ needs.ModPack-Setup.outputs.modpack_name }}-Patches.zip`` 壓縮檔，並將壓縮檔中的內容，解壓縮到模組包的 ``.minecraft`` 資料夾
-
-            ## 模組中文化資源包
-            將 ``${{ needs.ModPack-Setup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip`` 放入模組包的 ``resourcepacks`` 資料夾，並在遊戲中選取並載入
-
-            ## 模組中文化補充
-            由於仍有部分模組翻譯尚未完成，故建議搭配[簡轉繁資源包](https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/tag/latest)使用
+          body_path: ".github/configs/release_body.md"
