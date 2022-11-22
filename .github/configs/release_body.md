@@ -1,12 +1,12 @@
-# ${{ needs.ModPack-Setup.outputs.modpack_name }} 模組包版本 ${{ github.event.inputs.modpack_version }}
+# $ModPack_Name_VAR 模組包版本 $ModPack_Version_VAR
 
 ## 下載安裝
 
-請下載下方的 ``${{ needs.ModPack-Setup.outputs.modpack_name }}-Patches.zip``
+請下載下方的 ``$ModPack_Name_VAR-Patches.zip``
 
 ## 模組包中文化補丁
 
-使用 7-Zip 等軟體開啟 ``${{ needs.ModPack-Setup.outputs.modpack_name }}-Patches.zip`` 壓縮檔，並將壓縮檔中的內容，解壓縮到模組包的 ``.minecraft`` 資料夾
+使用 7-Zip 等軟體開啟 ``$ModPack_Name_VAR-Patches.zip`` 壓縮檔，並將壓縮檔中的內容，解壓縮到模組包的 ``.minecraft`` 資料夾
 
 ## 模組中文化資源包
 

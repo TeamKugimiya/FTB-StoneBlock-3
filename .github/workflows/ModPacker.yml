@@ -124,6 +124,11 @@ jobs:
       - name: 查看專案
         uses: actions/checkout@v3
 
+      - name: 變數替換
+        run: |
+          sed -i 's/$ModPack_Name_VAR/${{ needs.ModPack-Setup.outputs.modpack_name }}/g' .github/configs/release_body.md
+          sed -i 's/$ModPack_Version_VAR/${{ github.event.inputs.modpack_version }}/g' .github/configs/release_body.md
+
       - name: 下載所有壓縮檔
         uses: actions/download-artifact@v3
 
