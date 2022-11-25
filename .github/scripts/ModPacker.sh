@@ -17,7 +17,7 @@ ModsResourcePack_Generate=false
 
 ## 要建立進模組包漢化補丁中的陣列
 
-ConfigPath=(config kubejs LICENSE)
+ConfigPath=(config kubejs resourcepacks LICENSE)
 
 ### 函數區 ###
 
