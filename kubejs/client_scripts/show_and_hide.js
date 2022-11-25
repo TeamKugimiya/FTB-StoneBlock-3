@@ -314,6 +314,9 @@ onEvent("rei.hide.items", (event) => {
     "ftbstoneblock:incomplete_printed_logic_processor",
     "ftbstoneblock:incomplete_printed_calculation_processor",
     "ftbstoneblock:incomplete_printed_engineering_processor",
+    "tcintegrations:bronze_block",
+    "tcintegrations:bronze_ingot",
+    "tcintegrations:bronze_nugget",
   ];
 
   // hides items without disabling their recipes from showing in REI

@@ -76,6 +76,18 @@
   "block.ftbstoneblock.2x_compressed_endstone": "二重壓縮終界石",
   "block.ftbstoneblock.3x_compressed_endstone": "三重壓縮終界石",
 
+  "sb3.tips.1": "獎勵蜜蜂是你的好朋友。別殺了牠們，在牠消失前收集掉落的獎勵！",
+  "sb3.tips.2": "連鎖挖礦的功能需要手上有工具才能使用，且對石頭不管用。",
+  "sb3.tips.3": "紙箱可以用來將生怪磚打包帶走！",
+  "sb3.tips.4": "大部分的作物需要亮度大於 8 才能成長；有些需要更高的亮度。",
+  "sb3.tips.5": "滑鼠游標移至動力機械模組的物品上，按住「w」鍵開啟思索動畫，會顯示關於該物品的大量資訊。",
+  "sb3.tips.6": "大部分問題，在任務書中的某個地方可能會有答案！",
+  "sb3.tips.7": "按下 Y 可以幫你找到附近箱子的相同物品。",
+  "sb3.tips.8": "機會方塊是邪惡的。盡量遠離你家再打開吧，當然只要你敢的話...",
+  "sb3.tips.9": "被動生物必須在草地上才能自然生成，亮度要夠高，附近沒有已存在的被動生物，且玩家必須在 24 格之外。",
+  "sb3.tips.10": "使用曲柄杖破壞泥土、沙和樹葉會掉落其他的物品。",
+  "sb3.tips.11": "對草地灑骨粉後，破壞草會掉落工業大麻種子。",
+
   "entity.chickens.bronze_chicken": "青銅雞",
   "entity.chickens.lead_chicken": "鉛雞",
   "entity.chickens.lumium_chicken": "流明雞",
@@ -347,8 +359,7 @@
   "sb3.exploration.silverfish_farm.desc3":"魔源可以用&6火山魔源通道&r簡單生產，並用&6煤炭雞&r產煤炭（或任何其他的方法）。",
   "sb3.exploration.silverfish_farm.desc4":"要讓蠹魚母后保持不動，可&6在召喚祭壇的正下方&r放置&b靜滯室&r，最好搭配距離夠大的&6範圍升級&r使用。",
   "sb3.exploration.silverfish_farm.desc5":"剛剛生產的煤炭同時也能讓發電機發電，給靜滯室供電。確保做些柵欄&6防止德格米進入靜滯室的工作範圍中&r！",
-  "sb3.exploration.silverfish_farm.desc6":"最後，放個&b超級火把&r避免蠹魚士兵生成。",
-
+  
   "sb3.exploration.train.title": "一趟穿越世界的旅行！",
   "sb3.exploration.train.subtitle": "嘟嘟～頃搶頃搶～",
   "sb3.exploration.train.desc1": "搭乘一趟火車穿越全部 5 個生態域！",
@@ -1072,7 +1083,7 @@
   "sb3.create.mh.subtitle": "製作機械收割機",
   "sb3.create.mh.desc": "移動裝置的一種，&b機械收割機&r能收割並重新種植作物。",
 
-  "sb3.misc.title": "雜項",
+  "sb3.misc.title": "生活小物",
 
   "sb3.misc.torch.subtitle": "製作超級火把",
   "sb3.misc.torch.desc": "&b超級火把&r能在範圍內防止怪物生成。",
