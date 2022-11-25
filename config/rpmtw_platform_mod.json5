@@ -1,0 +1,41 @@
+{
+	"base": {
+		"rpmtwAuthToken": null
+	},
+	"translate": {
+		"machineTranslation": false,
+		"autoMachineTranslation": false,
+		"unlocalized": true,
+		"loadTranslateResourcePack": false
+	},
+	"universeChat": {
+		"enable": true,
+		"enableReceiveMessage": true,
+		"enableButton": true,
+		"eula": false,
+		"nickname": null,
+		"accountType": "MINECRAFT",
+		"blockUsers": []
+	},
+	"keyBindings": {
+		"machineTranslation": {
+			"keyCode": "key.keyboard.unknown",
+			"modifier": 0
+		},
+		"config": {
+			"keyCode": "key.keyboard.r",
+			"modifier": 2
+		},
+		"reloadTranslatePack": {
+			"keyCode": "key.keyboard.unknown",
+			"modifier": 0
+		},
+		"openCrowdinPage": {
+			"keyCode": "key.keyboard.unknown",
+			"modifier": 0
+		}
+	},
+	"advanced": {
+		"sendExceptionToSentry": true
+	}
+}
