@@ -1,0 +1,21 @@
+
+["Button Position"]
+	#Pixels away from the bottom left of the GUI in the x axis
+	#Range: > 0
+	X = 26
+	#Pixels away from the bottom left of the GUI in the y axis
+	#Range: > 0
+	Y = 1
+	NAME = "\u6df1\u8272\u6a21\u5f0f"
+
+["Main Menu Button"]
+	#Enabled
+	SHOW = true
+	#Pixels away from the bottom left of the GUI in the x axis
+	#Range: > 0
+	X = 4
+	#Pixels away from the bottom left of the GUI in the y axis
+	#Range: > 0
+	Y = 40
+	NAME = "\u6df1\u8272\u6a21\u5f0f"
+
