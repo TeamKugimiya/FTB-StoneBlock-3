@@ -1,0 +1,210 @@
+{
+	id: "642DE365EDB5C30A"
+	order_index: 4
+	title: "稀有"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "buddingcrystals:budding_redstone" }
+		{ item: "buddingcrystals:budding_lapis_lazuli" }
+		{ item: "minecraft:saddle" }
+		{ item: "tconstruct:earth_slime_dirt" }
+		{ item: "tconstruct:sky_slime_dirt" }
+		{ item: "tconstruct:ender_slime_dirt" }
+		{ item: "tconstruct:ichor_slime_dirt" }
+		{ item: "tconstruct:earth_slime_sapling" }
+		{ item: "tconstruct:sky_slime_sapling" }
+		{ item: "tconstruct:ender_slime_sapling" }
+		{
+			item: {
+				id: "ae2:fluix_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:refined_obsidian_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "functionalstorage:redstone_upgrade"
+				Count: 1b
+				tag: {
+					Slot: 0
+				}
+			}
+		}
+		{ item: "functionalstorage:gold_upgrade" }
+		{
+			item: {
+				id: "functionalstorage:pusher_upgrade"
+				Count: 1b
+				tag: {
+					Direction: "DOWN"
+				}
+			}
+		}
+		{ item: "ae2:silicon", count: 6 }
+		{ item: "minecraft:lava_bucket" }
+		{
+			item: {
+				id: "constructionwand:diamond_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+		}
+		{ item: "chancecubes:compact_giant_chance_cube" }
+		{ item: "mob_grinding_utils:ender_inhibitor_on" }
+		{ item: "minecraft:golden_horse_armor" }
+		{ item: "darkutils:vector_plate_fast", count: 4 }
+		{ item: "minecraft:oxeye_daisy" }
+		{ item: "botania:pure_daisy" }
+		{ item: "botania:mana_pool" }
+		{ item: "supplementaries:flint_block" }
+		{
+			item: {
+				id: "create:filter"
+				Count: 1b
+				tag: {
+					Items: { }
+				}
+			}
+		}
+		{ item: "trashcans:item_trash_can" }
+		{ item: "botania:overgrowth_seed" }
+		{ item: "minecraft:blue_ice", count: 2 }
+		{ item: "minecraft:dispenser", count: 2 }
+		{ item: "minecraft:dropper", count: 2 }
+		{ item: "thermal:slime_grenade" }
+		{ item: "thermal:redstone_grenade" }
+		{ item: "minecraft:tube_coral" }
+		{ item: "minecraft:brain_coral" }
+		{ item: "minecraft:bubble_coral" }
+		{ item: "minecraft:horn_coral" }
+		{ item: "thermal:glowstone_grenade" }
+		{ item: "thermal:ender_grenade" }
+		{ item: "thermal:earth_grenade" }
+		{
+			item: {
+				id: "ars_nouveau:apprentice_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:apprentice_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:apprentice_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:apprentice_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ars_nouveau:arcane_pedestal" }
+		{ item: "ars_nouveau:enchanting_apparatus", count: 2 }
+		{ item: "ars_nouveau:potion_melder" }
+		{ item: "ars_nouveau:potion_jar" }
+		{ item: "pipez:improved_upgrade", count: 4 }
+		{ item: "ftbstoneblock:3x_compressed_stone", count: 2 }
+		{ item: "ftbstoneblock:3x_compressed_gravel", count: 2 }
+		{ item: "ftbstoneblock:3x_compressed_cobblestone", count: 2 }
+		{ item: "thermal:upgrade_augment_1" }
+		{
+			item: {
+				id: "create:super_glue"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:quartz", count: 4 }
+		{ item: "minecraft:lapis_lazuli", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 75
+			monster: 150
+		}
+		color: 38143
+		item_name: "稀有戰利品箱"
+		string_id: "rare"
+	}
+}

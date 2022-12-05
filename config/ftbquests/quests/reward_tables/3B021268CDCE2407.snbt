@@ -1,0 +1,102 @@
+{
+	id: "3B021268CDCE2407"
+	order_index: 5
+	title: "史詩"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:conduit" }
+		{ item: "minecraft:bubble_coral_fan" }
+		{ item: "minecraft:fire_coral_fan" }
+		{ item: "minecraft:horn_coral_fan" }
+		{ item: "minecraft:brain_coral_fan" }
+		{
+			item: {
+				id: "ars_nouveau:dominion_wand"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "chiselsandbits:chisel_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:diamond_horse_armor" }
+		{ item: "minecraft:ender_eye", count: 2 }
+		{ item: "supercircuitmaker:pulsar" }
+		{ item: "thermal:enderium_glass", count: 4 }
+		{ item: "create:pulse_extender" }
+		{ item: "minecraft:golden_apple", count: 2 }
+		{ item: "minecraft:chorus_flower", count: 3 }
+		{ item: "tconstruct:cobalt_ingot", count: 2 }
+		{ item: "tconstruct:pig_iron_ingot", count: 4 }
+		{ item: "rftoolsbase:dimensionalshard", count: 6 }
+		{ item: "minecraft:ghast_tear", count: 3 }
+		{ item: "darkutils:vector_plate_extreme", count: 4 }
+		{ item: "botania:hopperhock" }
+		{ item: "minecraft:wither_skeleton_skull" }
+		{ item: "botania:endoflame" }
+		{ item: "botania:manasteel_block" }
+		{ item: "ars_nouveau:source_gem_block" }
+		{ item: "simplemagnets:advanced_demagnetization_coil" }
+		{ item: "itemcollectors:basic_collector" }
+		{ item: "mob_grinding_utils:wither_muffler" }
+		{ item: "mekanism:upgrade_muffling" }
+		{ item: "functionalstorage:diamond_upgrade" }
+		{ item: "pipez:advanced_upgrade", count: 4 }
+		{ item: "thermal:upgrade_augment_2" }
+		{ item: "minecraft:amethyst_shard", count: 4 }
+		{ item: "ars_nouveau:experience_gem", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 10
+			passive: 1
+			monster: 45
+		}
+		color: 8388863
+		item_name: "史詩戰利品箱"
+		string_id: "epic"
+	}
+}

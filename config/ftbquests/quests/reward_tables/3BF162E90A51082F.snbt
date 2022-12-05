@@ -1,0 +1,77 @@
+{
+	id: "3BF162E90A51082F"
+	order_index: 6
+	title: "傳說"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:nuke_grenade" }
+		{ item: "thermal:phyto_grenade" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "itemcollectors:advanced_collector" }
+		{ item: "darkutils:vector_plate_ultra", count: 4 }
+		{ item: "projecte:dark_matter" }
+		{
+			item: {
+				id: "bloodmagic:sacrificialdagger"
+				Count: 1b
+				tag: {
+					sacrifice: 0b
+				}
+			}
+		}
+		{ item: "mcwdoors:metal_reinforced_door", count: 2 }
+		{ item: "cobblefordays:tier_5" }
+		{
+			item: {
+				id: "projecte:repair_talisman"
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}
+		{ item: "functionalstorage:netherite_upgrade" }
+		{ item: "pipez:ultimate_upgrade", count: 4 }
+		{ item: "mekanism:upgrade_speed", count: 4 }
+		{
+			item: {
+				id: "projecte:klein_star_ein"
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "projecte:klein_star_vier"
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+		}
+		{ item: "thermal:upgrade_augment_3" }
+		{ item: "minecraft:netherite_scrap", count: 2 }
+		{ item: "immersiveengineering:jerrycan" }
+		{ item: "buddingcrystals:budding_emerald" }
+		{ item: "buddingcrystals:budding_redstone" }
+		{ item: "travel_anchors:travel_anchor" }
+		{ item: "snad:snad", count: 2 }
+		{ item: "trashcans:ultimate_trash_can" }
+		{ item: "farmersdelight:shepherds_pie", count: 4 }
+		{ item: "mob_grinding_utils:delightful_dirt", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 100
+			passive: 1
+			monster: 5
+		}
+		color: 16761159
+		item_name: "傳說戰利品箱"
+		glow: 1b
+		string_id: "legendary"
+	}
+}

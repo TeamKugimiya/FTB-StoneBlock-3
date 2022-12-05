@@ -1,0 +1,245 @@
+{
+	id: "171C5F1994FAC00C"
+	order_index: 3
+	title: "罕見"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:end_stone", count: 16 }
+		{ item: "minecraft:prismarine", count: 8 }
+		{ item: "minecraft:prismarine_bricks", count: 8 }
+		{ item: "minecraft:dark_prismarine", count: 4 }
+		{ item: "minecraft:soul_sand", count: 5 }
+		{ item: "minecraft:obsidian", count: 4 }
+		{ item: "minecraft:iron_ingot", count: 5 }
+		{ item: "minecraft:copper_ingot", count: 4 }
+		{ item: "minecraft:gold_ingot", count: 5 }
+		{ item: "minecraft:redstone", count: 6 }
+		{ item: "minecraft:glowstone_dust", count: 6 }
+		{ item: "minecraft:brick", count: 6 }
+		{ item: "minecraft:nether_brick", count: 6 }
+		{ item: "minecraft:quartz", count: 7 }
+		{ item: "minecraft:string", count: 4 }
+		{ item: "minecraft:feather", count: 6 }
+		{ item: "minecraft:ender_pearl", count: 3 }
+		{ item: "minecraft:blaze_rod", count: 4 }
+		{ item: "minecraft:golden_horse_armor" }
+		{ item: "minecraft:bucket" }
+		{ item: "minecraft:water_bucket" }
+		{ item: "thermal:explosive_grenade" }
+		{ item: "minecraft:nether_wart", count: 4 }
+		{ item: "supercircuitmaker:tiny_redstone", count: 6 }
+		{ item: "ae2:silicon", count: 4 }
+		{ item: "botania:fertilizer", count: 5 }
+		{ item: "chancecubes:chance_cube", count: 4 }
+		{
+			item: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:sky_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:slime_boots"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:durability": 546.0f
+						"tconstruct:armor": 0.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:bouncy"
+							level: 1s
+						}
+						{
+							name: "tconstruct:leaping"
+							level: 1s
+						}
+						{
+							name: "tconstruct:overslime_friend"
+							level: 1s
+						}
+					]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:overslime_friend": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 5
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:travelers_boots"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:durability": 130.0f
+						"tconstruct:armor": 1.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [ ]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 3
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "chiselsandbits:bit_bag"
+				Count: 1b
+				tag: {
+					Inventory: { }
+				}
+			}
+		}
+		{ item: "thermal:wrench" }
+		{ item: "chickens:henhouse" }
+		{ item: "chickens:roost" }
+		{ item: "chickens:catcher" }
+		{ item: "functionalstorage:copper_upgrade" }
+		{
+			item: {
+				id: "constructionwand:iron_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "thermal:fire_grenade" }
+		{ item: "thermal:ice_grenade" }
+		{ item: "thermal:lightning_grenade" }
+		{
+			item: {
+				id: "ars_nouveau:novice_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:novice_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:novice_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "ars_nouveau:novice_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ars_nouveau:archwood_chest", count: 4 }
+		{ item: "darkutils:vector_plate", count: 4 }
+		{ item: "pipez:basic_upgrade", count: 4 }
+		{
+			item: {
+				id: "torchbowmod:torchbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ftbstoneblock:2x_compressed_stone", count: 2 }
+		{ item: "ftbstoneblock:2x_compressed_gravel", count: 2 }
+		{ item: "ftbstoneblock:2x_compressed_cobblestone", count: 2 }
+		{ item: "torchbowmod:multitorch" }
+		{ item: "botania:phantom_ink", count: 4 }
+		{
+			item: {
+				id: "botania:mana_gun"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "immersiveengineering:jerrycan" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 150
+			monster: 300
+		}
+		color: 3648105
+		item_name: "罕見戰利品箱"
+		string_id: "uncommon"
+	}
+}

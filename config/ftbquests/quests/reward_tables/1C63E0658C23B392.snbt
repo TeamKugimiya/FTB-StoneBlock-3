@@ -1,0 +1,52 @@
+{
+	id: "1C63E0658C23B392"
+	order_index: 7
+	title: "黏土"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:clay"
+				Count: 1b
+				tag: {
+					RepairCost: 31
+					Enchantments: [
+						{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 2s
+							id: "minecraft:knockback"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:looting"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:sweeping"
+						}
+						{
+							lvl: 3s
+							id: "create:potato_recovery"
+						}
+					]
+				}
+			}
+		}
+		{ item: "minecraft:clay", count: 4, weight: 600 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 75
+			passive: 30
+			monster: 100
+		}
+		color: 11184810
+		item_name: "黏土戰利品箱"
+		glow: 1b
+		string_id: "clay"
+	}
+}

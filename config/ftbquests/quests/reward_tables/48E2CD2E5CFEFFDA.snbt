@@ -1,0 +1,82 @@
+{
+	id: "48E2CD2E5CFEFFDA"
+	order_index: 2
+	title: "普通"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:chain", count: 4 }
+		{ item: "minecraft:soul_torch", count: 4 }
+		{ item: "minecraft:sponge", count: 4 }
+		{ item: "minecraft:sea_pickle", count: 4 }
+		{ item: "minecraft:turtle_egg", count: 2 }
+		{ item: "minecraft:scute", count: 2 }
+		{ item: "minecraft:kelp", count: 6 }
+		{ item: "minecraft:egg", count: 6 }
+		{ item: "minecraft:book" }
+		{ item: "minecraft:slime_ball", count: 6 }
+		{ item: "minecraft:apple", count: 4 }
+		{ item: "minecraft:cod", count: 9 }
+		{ item: "minecraft:glow_ink_sac", count: 2 }
+		{ item: "minecraft:ink_sac", count: 3 }
+		{ item: "minecraft:lapis_lazuli", count: 8 }
+		{ item: "minecraft:beef", count: 3 }
+		{ item: "minecraft:chicken", count: 4 }
+		{ item: "minecraft:potato", count: 3 }
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:prismarine_shard", count: 5 }
+		{ item: "minecraft:rabbit_stew", count: 5 }
+		{ item: "minecraft:iron_horse_armor" }
+		{ item: "minecraft:sugar", count: 4 }
+		{ item: "minecraft:bone", count: 3 }
+		{ item: "minecraft:black_dye", count: 2 }
+		{ item: "minecraft:name_tag" }
+		{ item: "minecraft:music_disc_ward" }
+		{ item: "minecraft:music_disc_wait" }
+		{ item: "minecraft:music_disc_otherside" }
+		{ item: "minecraft:music_disc_pigstep" }
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_stal" }
+		{ item: "minecraft:music_disc_strad" }
+		{ item: "botania:mana_bottle" }
+		{ item: "rftoolsutility:timer" }
+		{ item: "farmersdelight:shepherds_pie", count: 4 }
+		{ item: "farmersdelight:roast_chicken", count: 4 }
+		{ item: "chancecubes:chance_cube" }
+		{
+			item: {
+				id: "constructionwand:stone_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ftbstoneblock:1x_compressed_stone", count: 2 }
+		{ item: "ftbstoneblock:1x_compressed_gravel", count: 2 }
+		{ item: "ftbstoneblock:1x_compressed_cobblestone", count: 2 }
+		{ item: "industrialforegoing:fertilizer", count: 8 }
+		{ item: "supercircuitmaker:tiny_redstone", count: 4 }
+		{ item: "farmersdelight:cooked_salmon_slice", count: 4 }
+		{ item: "minecraft:pink_candle", count: 2 }
+		{ item: "minecraft:blue_candle", count: 3 }
+		{ item: "industrialforegoing:straw" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 250
+			monster: 500
+		}
+		color: 9607578
+		item_name: "普通戰利品箱"
+		string_id: "common"
+	}
+}
