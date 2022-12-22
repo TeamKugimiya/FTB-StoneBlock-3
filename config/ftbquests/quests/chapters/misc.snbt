@@ -863,5 +863,65 @@
 				xp_levels: 5
 			}]
 		}
+		{
+			title: "{sb3.misc.automation_station.title}"
+			icon: "ftbsbc:iron_auto_hammer"
+			x: -7.5d
+			y: -2.0d
+			subtitle: "{sb3.misc.automation_station.subtitle}"
+			description: [
+				"{sb3.misc.automation_station.desc1}"
+				""
+				"{sb3.misc.automation_station.desc2}"
+				""
+				"{sb3.misc.automation_station.desc3}"
+			]
+			dependencies: ["37FEF989403B06BE"]
+			hide: true
+			id: "2AA5F0D75BA53141"
+			tasks: [
+				{
+					id: "6153D195605B030A"
+					type: "item"
+					title: "{sb3.misc.automation_station.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ftbsbc:iron_auto_hammer"
+									Count: 1b
+								}
+								{
+									id: "ftbsbc:gold_auto_hammer"
+									Count: 1b
+								}
+								{
+									id: "ftbsbc:diamond_auto_hammer"
+									Count: 1b
+								}
+								{
+									id: "ftbsbc:netherite_auto_hammer"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "038CCBF1FACDA14D"
+					type: "item"
+					item: "autosmithingtable:auto_smithing_table"
+				}
+			]
+			rewards: [{
+				id: "30E804245062B2D0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 949560038769538179L
+			}]
+		}
 	]
+	quest_links: [ ]
 }
