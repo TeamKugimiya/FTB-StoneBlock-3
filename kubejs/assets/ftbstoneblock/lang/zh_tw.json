@@ -651,6 +651,12 @@
 
   "sb3.tech.mekanism.title": "通用機械",
 
+  "sb3.mek.heat.title":"火熱的東西",
+  "sb3.mek.heat.subtitle":"製作電阻加熱器",
+  "sb3.mek.heat.desc1":"在&e通用機械&r中，&6熱量&r是一種相當不常使用的機制。有些機器可以產生熱量，並可以透過&6導熱線纜&r傳導，有些機器必須使用熱量來進行作業。",
+  "sb3.mek.heat.desc2":"你會想使用熱量的主要原因會是&6熱力蒸餾塔&r。通常你會在塔頂上使用4台太陽能發電機產熱，但是……在這只有石頭的世界中並不存在陽光。",
+  "sb3.mek.heat.desc3":"熱力蒸餾塔必須使用熱量來驅動，這熱量可以由生態域提供，或是透過&6熱力蒸餾閥門&r供應。&b電阻加熱器&r可以將FE能量轉換成熱量，這可以為熱力蒸餾塔提供動力，使其得以運作。",
+
   "sb3.mek.vapor.title": "水蒸氣",
   "sb3.mek.vapor.subtitle": "製作迴旋式氣液轉換機",
   "sb3.mek.vapor.desc1": "&6釙&r需要核廢料，這表示你需要打造&6核分裂反應爐&r。",
@@ -973,15 +979,16 @@
   "sb3.ae2.c.desc": "&b控制器&r是&eAE2&r網路的核心，為其他設備提供頻道。",
 
   "sb3.ae2.d.subtitle": "製作一個 ME 驅動器",
-  "sb3.ae2.d.desc": "&bME 驅動器&r能存放&6儲存元件&r。",
+  "sb3.ae2.d.desc": "&bME 驅動器&r能存放&6儲存單元&r。",
 
-  "sb3.ae2.ic.title": "物品儲存元件",
-  "sb3.ae2.ic.subtitle": "製作物品儲存元件",
-  "sb3.ae2.ic.desc": "&b物品儲存元件&r能儲存物品。",
+  "sb3.ae2.ic.title": "物品儲存單元",
+  "sb3.ae2.ic.subtitle": "製作物品儲存單元",
+  "sb3.ae2.ic.desc1": "&b物品儲存單元&r能儲存物品。單元等級越高，所能儲存的物品數就越多，但每個等級都只能存放 63 種類型的物品。",
+  "sb3.ae2.ic.desc2": "至於來自 &eAE2 事物&r的 &bME 磁碟驅動器&r， 就沒有物品類型的限制。",
 
-  "sb3.ae2.fc.title": "流體儲存元件",
-  "sb3.ae2.fc.subtitle": "製作流體儲存元件",
-  "sb3.ae2.fc.desc": "&b流體儲存元件&r能儲存流體。",
+  "sb3.ae2.fc.title": "流體儲存單元",
+  "sb3.ae2.fc.subtitle": "製作流體儲存單元",
+  "sb3.ae2.fc.desc": "&b流體儲存單元&r能儲存流體。",
 
   "sb3.ae2.t.subtitle": "製作 ME 終端機",
   "sb3.ae2.t.desc": "&bME 終端機&r讓你能存取網路中的物品和流體。",
@@ -1161,6 +1168,13 @@
   "sb3.misc.compact.desc1": "&b壓縮空間機械&r內含一個小空間，你能使用&b個人縮放裝置&r進入。",
   "sb3.misc.compact.desc2": "每個等級比前一個等級有更大的空間。可以使用&6通道&r輸入或輸出物品、流體和能量。",
   "sb3.misc.compact.task": "壓縮空間機械",
+
+  "sb3.misc.automation_station.title":"自動化工作站",
+  "sb3.misc.automation_station.subtitle":"製作自動鎚和自動鍛造台",
+  "sb3.misc.automation_station.desc1":"&b自動鎚&r將會&6免費且自動地粉碎&r輸入進機器的物品。",
+  "sb3.misc.automation_station.desc2":"物品必須由藍色那一側輸入，並自動從紅色那一側輸出產物。",
+  "sb3.misc.automation_station.desc3":"&b自動鍛造台&r使用FE能量自動化進行鍛造台合成。潛行並右鍵點擊方塊任一側， 以設定物品要由方塊哪一面輸入及輸出。",
+  "sb3.misc.automation_station.task":"自動鎚",
 
   "sb3.misc.pp.title": "漂亮管道",
   "sb3.misc.pp.subtitle": "製作物品管道",

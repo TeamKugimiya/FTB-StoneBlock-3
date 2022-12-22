@@ -317,10 +317,27 @@ onEvent("rei.hide.items", (event) => {
     "tcintegrations:bronze_block",
     "tcintegrations:bronze_ingot",
     "tcintegrations:bronze_nugget",
+    "create:honey_bucket",
   ];
 
   // hides items without disabling their recipes from showing in REI
   const hideNoFilter = ["ae2:inscriber", "ae2things:advanced_inscriber"];
+
+  hide.forEach((id) => {
+    event.hide(id);
+  });
+
+  hideNoFilter.forEach((id) => {
+    event.hideNoFilter(id);
+  });
+});
+
+onEvent("rei.hide.fluids", (event) => {
+  const hide = ["cofh_core:honey", "create:honey", "thermal:creosote"];
+
+  const hideNoFilter = [
+    "cofh_core:experience", // hidden without filtering because it can still be obtained
+  ];
 
   hide.forEach((id) => {
     event.hide(id);
