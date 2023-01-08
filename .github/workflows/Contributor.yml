@@ -1,0 +1,12 @@
+name: 貢獻者清單流程
+
+on:
+  push:
+    branches:
+    - "main"
+  workflow_dispatch: {}
+
+jobs:
+  Contributors:
+    name: 貢獻者清單
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/Contributors.yml@main

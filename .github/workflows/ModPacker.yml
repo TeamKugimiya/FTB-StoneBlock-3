@@ -1,151 +1,54 @@
-name: ModPacker
+name: 模組翻譯打包流程
 
 on:
   workflow_dispatch:
     inputs:
       modpack_version:
-        description: "模組包版本"
+        description: "模組包當前版本（預設為 v1.0）"
         required: false
         default: "v1.0"
       tag:
-        description: "發布版本，例如 v1.0（如果為空，將只會生成開發版）"
+        description: "發布版本，例如 v1.0（預設為 alpha）"
         required: false
-        default: "開發版"
+        default: "alpha"
       per_release:
         description: "預先發布版"
-        required: false
-        default: "false"
-
-permissions:
-  contents: write
+        type: boolean
+      no_release:
+        description: "停用發布，將只會產生工作流程成品，並忽略掉發布階段"
+        type: boolean
 
 jobs:
-  ModPack-Setup:
-    name: 設置環境
-    runs-on: ubuntu-latest
+  Environment-Setup:
+    name: 環境階段
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-environment.yml@main
 
-    outputs:
-      modpack_name: ${{ steps.script_env.outputs.modpack_name }}
-      mods_gen: ${{ steps.script_env.outputs.mods_gen }}
+  Resourcepack-Maker:
+    name: 資源包階段
+    needs: Environment-Setup
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-resourcepack.yml@main
+    with:
+      modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
+      resourcepack-generate: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
+      force_include_files: "LICENSE"
 
-    steps:
-      - name: 查看專案
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      
-      - name: 設置環境
-        id: script_env
-        run: bash .github/scripts/ModPacker.sh 1
+  Patch-Maker:
+    name: 補丁階段
+    if: always()
+    needs: [ Environment-Setup, Resourcepack-Maker ]
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-patch.yml@main
+    with:
+      modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
+      modpack-version: ${{ github.event.inputs.tag }}
+      modpack-resourcepack: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
 
-  ModPack-Path:
-    name: 製作模組包補丁
-    runs-on: ubuntu-latest
-    needs: [ ModPack-Setup ]
-
-    steps:
-      - name: 查看專案
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: 執行製作補丁的腳本
-        env: 
-          VERSION: ${{ github.event.inputs.tag }}
-        run: bash .github/scripts/ModPacker.sh 2
-
-      - name: 上傳模組包補丁壓縮檔
-        uses: actions/upload-artifact@v3
-        with:
-          name: 模組包補丁壓縮檔
-          path: "*.zip"
-
-  Mods-ResourcePack:
-    name: 製作模組資源包
-    runs-on: ubuntu-latest
-    needs: [ ModPack-Setup ]
-
-    steps:
-      - name: 查看專案
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        uses: actions/checkout@v3
-        with:
-          ref: resoucepack
-          fetch-depth: 0
-      
-      - name: 自動更新版本
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        run: |
-          sed -i 's/$VERSION/'${{ github.event.inputs.tag }}'/1' pack.mcmeta
-
-      - name: 製作模組中文化資源包
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        uses: ComunidadAylas/PackSquash-action@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          force_include_files: |
-            LICENSE
-          never_store_squash_times: true
-          path: ./
-
-      - name: 下載壓縮檔
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        uses: actions/download-artifact@v2
-        with:
-          name: Optimized pack
-          path: ./
-
-      - name: 刪除 Artifact
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        uses: geekyeggo/delete-artifact@v1
-        with:
-          name: |
-            Optimized pack
-
-      - name: 重新命名壓縮檔
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        run: |
-          mv ./pack.zip ${{ needs.ModPack-Setup.outputs.modpack_name }}-Mods-Localization-${{ github.event.inputs.tag }}.zip
-
-      - name: 上傳模組中文化資源包
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        uses: actions/upload-artifact@v3
-        with:
-          name: 模組中文化資源包
-          path: "*.zip"
-
-  ModPack-Release:
-    needs: [ ModPack-Setup, ModPack-Path, Mods-ResourcePack ]
-    if: "${{ github.event.inputs.tag != '開發版' }}"
-    name: 發布模組包
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: 查看專案
-        uses: actions/checkout@v3
-
-      - name: 變數替換
-        run: |
-          sed -i 's/$ModPack_Name_VAR/${{ needs.ModPack-Setup.outputs.modpack_name }}/g' .github/configs/release_body.md
-          sed -i 's/$ModPack_Version_VAR/${{ github.event.inputs.modpack_version }}/g' .github/configs/release_body.md
-
-      - name: 下載所有壓縮檔
-        uses: actions/download-artifact@v3
-
-      - name: 移動檔案到主工作資料夾 (補丁)
-        run: |
-          mv 模組包補丁壓縮檔/*.zip .
-
-      - name: 移動檔案到主工作資料夾 (資源包)
-        if: "${{ needs.ModPack-Setup.outputs.mods_gen != 'false' }}"
-        run: |
-          mv 模組中文化資源包/*.zip .
-
-      - name: 創建發布
-        uses: softprops/action-gh-release@v1
-        with:
-          name: ${{ needs.ModPack-Setup.outputs.modpack_name }} 中文化翻譯 ${{ github.event.inputs.tag }}
-          tag_name: ${{ github.event.inputs.tag }}
-          prerelease: ${{ github.event.inputs.per_release }}
-          files: "*.zip"
-          body_path: ".github/configs/release_body.md"
+  Release-It:
+    name: 發布階段
+    if: always()
+    needs: [ Environment-Setup, Resourcepack-Maker, Patch-Maker ]
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/modpack-release.yml@main
+    with:
+      modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
+      modpack-version: ${{ github.event.inputs.tag }}
+      modpack-per-release: ${{ github.event.inputs.per_release }}
+      modpack-release-ignore: ${{ github.event.inputs.no_release }}

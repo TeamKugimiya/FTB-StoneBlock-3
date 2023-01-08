@@ -41,6 +41,8 @@
     <li>Tinkers' Construct</li>
 </details>
 
+<!-- readme contributors -->
+
 ## **授權許可**
 
 本著作係採用 [創用 CC 姓名標示-非商業性-禁止改作 4.0 國際 授權條款][license]（[正體中文]）授權。

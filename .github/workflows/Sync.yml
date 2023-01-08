@@ -1,0 +1,18 @@
+name: 同步流程
+
+on:
+  push:
+    branches:
+    - "main"
+    paths:
+    - "Resourcepack/**"
+  workflow_dispatch: {}
+
+jobs:
+  sync-folder:
+    name: 同步資料
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/sync-branch.yml@main
+    with:
+      branch_name: resourcepack
+      path: Resourcepack
+      license_inculde: true
