@@ -15,3 +15,4 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
+key_keybind.luggage.call:key.keyboard.unknown
