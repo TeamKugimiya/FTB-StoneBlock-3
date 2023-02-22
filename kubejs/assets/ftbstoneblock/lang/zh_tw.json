@@ -581,8 +581,8 @@
   "sb3.thermal.mc.subtitle": "製作熔岩爐",
   "sb3.thermal.mc.desc": "&b熔岩爐&r將物品熔融成流體。",
 
-  "sb3.thermal.bc.subtitle": "製作急速冷凍機",
-  "sb3.thermal.bc.desc": "&b急速冷凍機&r將流體轉換成物品。",
+  "sb3.thermal.bc.subtitle": "製作急速冷凝機",
+  "sb3.thermal.bc.desc": "&b急速冷凝機&r將流體轉換成物品。",
 
   "sb3.thermal.rf.subtitle": "製作通量熔煉爐",
   "sb3.thermal.rf.desc": "&b通量熔煉爐&r能燒製物品。",
@@ -598,9 +598,9 @@
   "sb3.thermal.dynamo.subtitle": "製作能源爐",
   "sb3.thermal.dynamo.desc": "&b能源爐&r用來發電。",
 
-  "sb3.thermal.ic.title": "整合組件",
-  "sb3.thermal.ic.subtitle": "製作任何整合組件",
-  "sb3.thermal.ic.desc": "&b整合組件&r增加機器的等級，改進基礎數值。",
+  "sb3.thermal.ic.title": "整合元件",
+  "sb3.thermal.ic.subtitle": "製作任何整合元件",
+  "sb3.thermal.ic.desc": "&b整合元件&r增加機器的等級，改進基礎數值。",
 
   "sb3.thermal.msp.subtitle": "製作多驅衝壓機",
   "sb3.thermal.msp.desc": "&b多驅衝壓機&r把物品合在一起。",
@@ -608,14 +608,14 @@
   "sb3.thermal.rfc.subtitle": "製作紅石通量單元",
   "sb3.thermal.rfc.desc": "&b紅石通量單元&r能儲電。能用升級和附魔增加儲量。",
 
-  "sb3.thermal.is.subtitle": "製作感應爐",
-  "sb3.thermal.is.desc": "&b感應爐&r將物品合併製作成新的物品。",
+  "sb3.thermal.is.subtitle": "製作感應精煉爐",
+  "sb3.thermal.is.desc": "&b感應精煉爐&r將物品合併製作成新的物品。",
 
   "sb3.thermal.pi.subtitle": "製作有機灌注機",
   "sb3.thermal.pi.desc": "&b有機灌注機&r能種植作物、花和樹。",
 
-  "sb3.thermal.ie.subtitle": "製作造石機",
-  "sb3.thermal.ie.desc": "&b造石機&r能合併水和岩漿產出各種不同的方塊，像是石頭或深板岩。",
+  "sb3.thermal.ie.subtitle": "製作岩石擠製機",
+  "sb3.thermal.ie.desc": "&b岩石擠製機&r能合併水和岩漿產出各種不同的方塊，像是石頭或深板岩。",
 
   "sb3.tech.immersive_eng.title": "沉浸工程",
 
@@ -936,37 +936,37 @@
   "sb3.rs.c.subtitle": "製作控制器",
   "sb3.rs.c.desc": "&b控制器&r是&e《精緻儲存》&r網路的核心。",
 
-  "sb3.rs.dd.subtitle": "製作硬碟驅動器",
-  "sb3.rs.dd.desc": "&b硬碟驅動器&r能儲存硬碟，硬碟能儲存物品或流體。",
+  "sb3.rs.dd.subtitle": "製作磁碟驅動器",
+  "sb3.rs.dd.desc": "&b磁碟驅動器&r能儲存磁碟，磁碟能儲存物品或流體。",
 
-  "sb3.rs.id.title": "物品硬碟",
-  "sb3.rs.id.subtitle": "製作一個物品硬碟",
-  "sb3.rs.id.desc": "&b物品硬碟&r能儲存物品。內容物透過終端存取。",
+  "sb3.rs.id.title": "物品磁碟",
+  "sb3.rs.id.subtitle": "製作一個物品磁碟",
+  "sb3.rs.id.desc": "&b物品磁碟&r能儲存物品。內容物透過終端機存取。",
 
-  "sb3.rs.fd.title": "液體硬碟",
-  "sb3.rs.fd.subtitle": "製作液體硬碟",
-  "sb3.rs.fd.desc": "&b液體硬碟&r能儲存液體。內容物透過流體終端存取。",
+  "sb3.rs.fd.title": "流體磁碟",
+  "sb3.rs.fd.subtitle": "製作流體磁碟",
+  "sb3.rs.fd.desc": "&b流體磁碟&r能儲存流體。內容物透過流體終端機存取。",
 
-  "sb3.rs.g.subtitle": "製作終端",
-  "sb3.rs.g.desc": "&b終端&r讓你能存取網路中硬碟的內容物。",
+  "sb3.rs.g.subtitle": "製作終端機",
+  "sb3.rs.g.desc": "&b終端機&r讓你能存取網路中磁碟的內容物。",
 
-  "sb3.rs.cg.subtitle": "製作合成終端",
-  "sb3.rs.cg.desc": "&b合成終端&r有 3x3 的合成介面。",
+  "sb3.rs.cg.subtitle": "製作合成終端機",
+  "sb3.rs.cg.desc": "&b合成終端機&r有 3x3 的合成介面。",
 
-  "sb3.rs.wg.subtitle": "製作無線終端",
-  "sb3.rs.wg.desc": "&b無線終端&r能無線存取網路。",
+  "sb3.rs.wg.subtitle": "製作無線終端機",
+  "sb3.rs.wg.desc": "&b無線終端機&r能無線存取網路。",
 
-  "sb3.rs.wcg.subtitle": "製作無線合成終端",
-  "sb3.rs.wcg.desc": "&b無線合成終端&r能無線存取網路。",
+  "sb3.rs.wcg.subtitle": "製作無線合成終端機",
+  "sb3.rs.wcg.desc": "&b無線合成終端機&r能無線存取網路。",
 
-  "sb3.rs.pg.subtitle": "製作樣板終端",
-  "sb3.rs.pg.desc": "&b樣板終端&r能編寫&6樣板&r，這是自動合成的必需品。",
+  "sb3.rs.pg.subtitle": "製作樣板終端機",
+  "sb3.rs.pg.desc": "&b樣板終端機&r能編寫&6樣板&r，這是自動合成的必需品。",
 
-  "sb3.rs.cr.subtitle": "製作裝配室",
-  "sb3.rs.cr.desc": "&b裝配室&r根據樣板進行合成。",
+  "sb3.rs.cr.subtitle": "製作合成器",
+  "sb3.rs.cr.desc": "&b合成器&r根據樣板進行合成。",
 
-  "sb3.rs.fg.subtitle": "製作液體終端",
-  "sb3.rs.fg.desc": "&b液體終端&r能存取網路中液體硬碟的內容物。",
+  "sb3.rs.fg.subtitle": "製作流體終端機",
+  "sb3.rs.fg.desc": "&b流體終端機&r能存取網路中流體磁碟的內容物。",
 
   "sb3.rs.r.subtitle": "製作請求器",
   "sb3.rs.r.desc": "&b請求器&r當網路中特定物品少於特定數量時，自動發出自動合成請求。",

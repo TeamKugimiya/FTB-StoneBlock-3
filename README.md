@@ -79,7 +79,7 @@
 [version_link]: https://github.com/TeamKugimiya/FTB-StoneBlock-3/releases/latest
 [download_total]: https://img.shields.io/github/downloads/TeamKugimiya/FTB-StoneBlock-3/total
 [license_badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-orange
-[discord_badge]:https://img.shields.io/discord/947630690315411476?logo=discord
+[discord_badge]: https://img.shields.io/discord/947630690315411476?logo=discord
 
 <!-- Links -->
 [ftbstoneblock3]: https://www.feed-the-beast.com/modpacks/100-ftb-stoneblock-3
