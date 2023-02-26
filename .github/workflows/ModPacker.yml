@@ -31,6 +31,7 @@ jobs:
       modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
       resourcepack-generate: ${{ needs.Environment-Setup.outputs.resourcepack_patch_generate }}
       force_include_files: "LICENSE"
+      version: ${{ github.event.inputs.tag }}
 
   Patch-Maker:
     name: 補丁階段
@@ -50,5 +51,6 @@ jobs:
     with:
       modpack-name: ${{ needs.Environment-Setup.outputs.modpack_name }}
       modpack-version: ${{ github.event.inputs.tag }}
+      modpack-official-version: ${{ github.event.inputs.modpack_version }}
       modpack-per-release: ${{ github.event.inputs.per_release }}
       modpack-release-ignore: ${{ github.event.inputs.no_release }}
