@@ -1,0 +1,18 @@
+autoJump:false
+mipmapLevels:1
+enableVsync:false
+darkMojangStudiosBackground:true
+gamma:1.0
+resourcePacks:["vanilla","mod_resources","file/Slightly-Improved-Font.zip","file/1.18 BloodMagic-zh_tw-v2.zip","file/ModsTranslationPack-1.18.x.zip","file/FTB-StoneBlock-3-Patches.zip"]
+lang:zh_tw
+soundCategory_master:0.5
+soundCategory_music:0.2
+soundCategory_record:1.0
+soundCategory_weather:0.3
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
+key_keybind.luggage.call:key.keyboard.unknown
